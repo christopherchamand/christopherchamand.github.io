@@ -1,17 +1,12 @@
-# Welcome to MkDocs
+# Ressources en STI2D option SIN et en NSI
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+Site en cours de construction.
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+## STI2D SIN
 
-## Project layout
+[Lien vers la page STI2D](sti2d.md)
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## NSI
+
+[Lien vers la page NSI](nsi.md)
