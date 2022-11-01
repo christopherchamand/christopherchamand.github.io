@@ -1,0 +1,10 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+site_name: My Docs
+theme:
+        name: material
+        palette:
+                scheme: default
+                primary: brown
+                accent: orange
+        language: fr
+        logo: assets/logo.png
