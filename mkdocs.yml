@@ -1,0 +1,34 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: Ressources STI2D SIN et NSI
+site_description: Cours de STI2D SIN et de NSI
+site_author: Christopher CHAMAND
+
+docs_dir: docs
+
+nav:
+    - "Accueil": index.md
+    - "STI2D": 
+        - "Présentation": sti2d.md 
+        - "Thème N°1: L’environnement de prototypage Arduino": 
+            - "Présentation": STI2D/SIN/theme1.md
+            - "Partie 1": STI2D/SIN/theme1-part1.md
+            - "Partie 1 (suite)": STI2D/SIN/theme1-part1(suite).md
+            - "Partie 1 (suite 2)": STI2D/SIN/theme1-part1(suite2).md
+            - "Partie 2": STI2D/SIN/theme1-part2.md
+            - "Partie 3": STI2D/SIN/theme1-part3.md
+        - "Thème N°2 : réseaux et communications informatiques": 
+            - "Présentation": STI2D/SIN/theme2.md
+            - "Introduction": STI2D/SIN/theme2-intro.md
+            - "II. Réseaux informatiques": 
+                - "1. Principes généraux": STI2D/SIN/theme2-1.md
+    - "NSI": nsi.md
+
+theme:
+    name: material
+    language: fr                    # français
+
+    palette:
+        scheme: default
+        primary: brown
+        accent: orange
