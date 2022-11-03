@@ -1,0 +1,1144 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Cours de STI2D SIN et de NSI">
+      
+      
+        <meta name="author" content="Christopher CHAMAND">
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-8.5.7">
+    
+    
+      
+        <title>Partie 2 - Ressources STI2D SIN et NSI</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.20d9efc8.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.cbb835fc.min.css">
+        
+          
+          
+          <meta name="theme-color" content="#795649">
+        
+      
+      
+
+    
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="brown" data-md-color-accent="orange">
+  
+    
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#partie-n2-exercices-sur-prototypes-a-base-darduino" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../../.." title="Ressources STI2D SIN et NSI" class="md-header__button md-logo" aria-label="Ressources STI2D SIN et NSI" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Ressources STI2D SIN et NSI
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Partie 2
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="Ressources STI2D SIN et NSI" class="md-nav__button md-logo" aria-label="Ressources STI2D SIN et NSI" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
+
+    </a>
+    Ressources STI2D SIN et NSI
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        Accueil
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          STI2D
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="STI2D" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          STI2D
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../sti2d/" class="md-nav__link">
+        Présentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_2" type="checkbox" id="__nav_2_2" checked>
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_2">
+          Thème N°1: L’environnement de prototypage Arduino
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Thème N°1: L’environnement de prototypage Arduino" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_2">
+          <span class="md-nav__icon md-icon"></span>
+          Thème N°1: L’environnement de prototypage Arduino
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../theme1/" class="md-nav__link">
+        Présentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../theme1-part1/" class="md-nav__link">
+        Partie 1
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../theme1-part1%28suite%29/" class="md-nav__link">
+        Partie 1 (suite)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../theme1-part1%28suite2%29/" class="md-nav__link">
+        Partie 1 (suite 2)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+    
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Partie 2
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        Partie 2
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-2-revision-des-differents-types-de-variables" class="md-nav__link">
+    Exercice 2 : révision des différents types de variables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-3-choix-des-broches-pin-dun-arduino-uno" class="md-nav__link">
+    Exercice 3 :  choix des broches (pin) d'un arduino Uno
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentations-techniques" class="md-nav__link">
+    Documentations techniques :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-4-allumage-de-plusieurs-leds-revision-de-la-boucle-for-et-decouverte-de-la-notion-darray" class="md-nav__link">
+    Exercice 4 : allumage de plusieurs leds (révision de la boucle For et découverte de la notion d'array)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../theme1-part3/" class="md-nav__link">
+        Partie 3
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3" type="checkbox" id="__nav_2_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3">
+          Thème N°2 : réseaux et communications informatiques
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Thème N°2 : réseaux et communications informatiques" data-md-level="2">
+        <label class="md-nav__title" for="__nav_2_3">
+          <span class="md-nav__icon md-icon"></span>
+          Thème N°2 : réseaux et communications informatiques
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../theme2/" class="md-nav__link">
+        Présentation
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../theme2-intro/" class="md-nav__link">
+        Introduction
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2_3_3" type="checkbox" id="__nav_2_3_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2_3_3">
+          II. Réseaux informatiques
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="II. Réseaux informatiques" data-md-level="3">
+        <label class="md-nav__title" for="__nav_2_3_3">
+          <span class="md-nav__icon md-icon"></span>
+          II. Réseaux informatiques
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../theme2-1/" class="md-nav__link">
+        1. Principes généraux
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../nsi/" class="md-nav__link">
+        NSI
+      </a>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-2-revision-des-differents-types-de-variables" class="md-nav__link">
+    Exercice 2 : révision des différents types de variables
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-3-choix-des-broches-pin-dun-arduino-uno" class="md-nav__link">
+    Exercice 3 :  choix des broches (pin) d'un arduino Uno
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#documentations-techniques" class="md-nav__link">
+    Documentations techniques :
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-4-allumage-de-plusieurs-leds-revision-de-la-boucle-for-et-decouverte-de-la-notion-darray" class="md-nav__link">
+    Exercice 4 : allumage de plusieurs leds (révision de la boucle For et découverte de la notion d'array)
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+<h1 id="partie-n2-exercices-sur-prototypes-a-base-darduino">Partie N°2 : exercices sur prototypes à base d’Arduino</h1>
+<p>Révisions (et compléments) sur la programmation en C (structures algorithmiques, variables, …) et sur l’environnement Arduino</p>
+<p>Nous allons travailler à  partir de programmes Arduino comme ceux que l'on a vu en 1ère STI 2D (I2D)</p>
+<p>Exercice 1 : allumage d'une led</p>
+<p>soit le montage suivant :</p>
+<p><img alt="" src="https://web.archive.org/web/20211025044924im_/https%3A//sti2d.ecolelamache.org/arduino_exo1.png" /></p>
+<p>Le programme proposé :</p>
+<pre><code>// définition des variables
+int led_pin = ……. ; // …………….
+int i=1 ;
+int temps ;
+
+
+void setup()
+{
+pinMode(led_pin, OUTPUT); // Pin 13 has an LED connected on Arduino boards:
+temps = 1000;
+}
+
+void loop()
+{
+digitalWrite(led_pin, HIGH); // ……………..
+delay(temps); // ……………...
+digitalWrite(led_pin, LOW); // …………………...
+delay(temps); // ………………...
+temps = temps + (i*500) ;
+i = i + 1 ;
+if (temps &gt; 50000)
+{
+    temps = 1000 ;
+    i=1;
+}
+}
+</code></pre>
+<p>Données techniques :
+digitalWrite()            Write a HIGH or a LOW value to a digital pin.
+If the pin has been configured as an OUTPUT with pinMode(), its voltage will be set to the corresponding value: 5V for HIGH, 0V (ground) for LOW.</p>
+<p>PinMode()     Configures the specified pin to behave either as an input or an output</p>
+<p>Petit rappel et complément sur le codage binaire des entiers</p>
+<ol>
+<li>Représentation d'un entier naturel :</li>
+</ol>
+<p>Un entier naturel est un entier positif ou nul. Pour coder des nombres entiers naturels compris entre 0 et 15, il nous suffira de 4 bits (un octet) car 24=16. D'une manière générale un codage sur n bits pourra permettre de représenter des nombres entiers naturels compris entre 0 et 2n-1.</p>
+<ol>
+<li>Représentation d'un entier relatif</li>
+</ol>
+<p>Un entier relatif est un entier pouvant être négatif. Il faut donc coder le nombre de telle façon que l'on puisse savoir s'il s'agit d'un nombre positif ou d'un nombre négatif, et il faut de plus que les règles d'addition soient conservées (ex : 5 + (-5) = 0). L'astuce consiste à utiliser un codage que l'on appelle complément à deux (on complémente et on ajoute 1).
+Un entier relatif positif ou nul sera représenté en binaire comme un entier naturel, à la seule différence que le bit de poids fort (le bit situé le plus à gauche) représente le signe. Il faut donc s'assurer pour un entier positif ou nul qu'il est à zéro (0 correspond à un signe positif, 1 à un signe négatif). Ainsi si on code un entier naturel sur 4 bits, le nombre le plus grand sera 0111 (c'est-à-dire 7 en base décimale). On pourra coder de -8 à +7 (16 valeurs)</p>
+<p>Exemple : on désire coder la valeur -5 sur 4 bits. Pour cela il suffit
+• d'écrire 5 en binaire : 0101
+• de complémenter à 1 : 1010
+• d'ajouter 1 : 1011
+• la représentation binaire de -5 sur 4 bits est 1011</p>
+<p>Et ça fonctionne aussi dans l’autre sens : On cherche le chiffre représenté par 1010 ?:
+• le 1 de poids fort signifie que l’on a un chiffre négatif : 1010
+• on complémente à 1 : 101
+• on ajoute 1 : 110
+• 1010 représente donc - 6</p>
+<p>Questions:
+1. Rajoutez les commentaires manquants (pointillés) dans le programme
+2. Quel est le rôle de la fonction pinMode ?
+3. Expliquez, en détail, ce que va faire le programme (n'hésitez pas à faire un tableau mettant en évidence le contenu des variables)</p>
+<p>Exemple de tableau :</p>
+<p>N° de la boucle</p>
+<p>Variable i</p>
+<p>Calcul de i*500</p>
+<p>Variable temps</p>
+<p>départ</p>
+<p>1</p>
+<p>1000</p>
+<p>Fin de la boucle 1</p>
+<p>1</p>
+<p>500</p>
+<p>1500</p>
+<p>2</p>
+<p>2</p>
+<p>1000</p>
+<p>2500</p>
+<p>…..</p>
+<p>….</p>
+<p>…..</p>
+<p>…..</p>
+<ol>
+<li>Faire l'algorithme (sous forme d'algorigrammes) du programme</li>
+<li>Quand on essaie le programme, lors du 11ème passage dans la boucle Loop, le résultat obtenu est alors -31536. Expliquez en détail ce qui s’est passé (n’hésitez pas à poser l’addition binaire de cette boucle)</li>
+</ol>
+<h2 id="exercice-2-revision-des-differents-types-de-variables">Exercice 2 : révision des différents types de variables</h2>
+<p>Données techniques :
+Some arduino data Type :</p>
+<p>Arduino data type</p>
+<p>Value assigned</p>
+<p>Values ranges</p>
+<p>Description or example</p>
+<p>boolean</p>
+<p>8 bit</p>
+<p>True or False (1/0)</p>
+<p>A data type that takes up 1 byte of memory that stores a character value. Character literals are written in single quotes, like this: 'A'</p>
+<p>ex : boolean test = false;</p>
+<p>byte</p>
+<p>8 bit</p>
+<p>0 to 255</p>
+<p>unsigned number</p>
+<p>char</p>
+<p>8 bit</p>
+<p>-127 to 128</p>
+<p>A data type that takes up 1 byte of memory that stores a character value. Character literals are written in single quotes, like this: 'A'</p>
+<p>ex : char myChar = 'A';</p>
+<p>char myChar = 65; // both are equivalent</p>
+<p>word</p>
+<p>16 bit</p>
+<p>0 to 65535</p>
+<p>unsigned number</p>
+<p>int</p>
+<p>16 bit</p>
+<p>-32768 to 32767</p>
+<p>Integers numbers</p>
+<p>Unsigned int</p>
+<p>16 bit</p>
+<p>0 to 65535</p>
+<p>unsigned integers</p>
+<p>long</p>
+<p>32 bit</p>
+<p>-2147483648 to 2147483647</p>
+<p>Integers numbers</p>
+<p>float</p>
+<p>32 bit</p>
+<p>-3,428235.1038 to 3,4028235.1038</p>
+<p>floating-point numbers</p>
+<p>digitalRead()            Reads the value from a specified digital pin, either HIGH or LOW.
+the pin must have been configured as an INPUT with pinMode() in the Setup()</p>
+<p>Soit le montage suivant :</p>
+<p>bouton poussoir
+résistance de 5kΩ (pull up)
+<img alt="" src="https://web.archive.org/web/20211025044924im_/https%3A//sti2d.ecolelamache.org/arduino_bp.jpg" /></p>
+<p>soit le programme suivant :</p>
+<pre><code>//**** début du programme *********//
+
+#define boutonPin 2
+
+// définition des variables
+int etat_bouton = 0;     // variable de l'état du bouton poussoir
+int resultat1 ;
+int valeur = 21 ;
+float resultat2 ;
+float valeur_f=21 ;
+
+void setup() {
+pinMode(boutonPin, INPUT); // définition de l'entrée du bouton (pin 2)
+}
+
+void loop(){
+
+etat_bouton = digitalRead(boutonPin);  // ………………………….
+if (etat_bouton == HIGH)  // ……………………….
+    {     
+        resultat1 = (valeur+11)/3 ;
+    }
+else    // ………………………………..
+    {
+        resultat2 = (valeur_f+11)/3 ;
+    }
+}
+//**** fin du programme *********//
+</code></pre>
+<ol>
+<li>Rajoutez les commentaires manquants (pointillés) dans le programme</li>
+<li>Expliquez, en détail, ce que va faire le programme</li>
+<li>Que faut résultat1 ?</li>
+<li>Que vaut résultat2 ?</li>
+<li>Quelles sont les valeurs que peut avoir la variable «  etat_bouton » ?</li>
+<li>Trouver le type le plus approprié pour la variable «  etat_bouton »</li>
+</ol>
+<p>On a maintenant:
+    unsigned int toto ;  // déclaration de la variable toto
+    toto=65535 ;
+    toto=toto+1 ;
+7. Quelle est la valeur finale de la variable « toto » ?</p>
+<p>On a maintenant :
+    int toto ;    // déclaration de la variable toto
+    toto=1 ;
+    toto=toto-2 ;</p>
+<ol>
+<li>Quelle est la valeur finale de la variable « toto » ?</li>
+</ol>
+<p>On a maintenant :
+    unsigned int toto ;    // déclaration de la variable toto
+    toto=1 ;
+    toto=toto-2 ;</p>
+<ol>
+<li>Quelle est la valeur finale de la variable « toto » ?</li>
+</ol>
+<h2 id="exercice-3-choix-des-broches-pin-dun-arduino-uno">Exercice 3 :  choix des broches (pin) d'un arduino Uno</h2>
+<p>rappel : voici le rôle des broches (pin) d'une carte Arduino Uno :
+<img alt="" src="https://web.archive.org/web/20211025044924im_/https%3A//sti2d.ecolelamache.org/arduino_uno_pinout.jpg" /></p>
+<p>rappel N°2: le terme « digital » caractérise un signal binaire, c'est à dire un signal qui vaut 0 ou 1 (en général 0V ou 5V sur Arduino). On peut aussi dire Tout Ou Rien (TOR).</p>
+<p>Notre réalisation contient :</p>
+<pre><code>une led (et sa résistance) commandée par la carte Arduino
+un bouton poussoir (et sa résistance de pull up)
+un capteur de distance SEN0042
+un capteur de température TMP36
+un accéléromètre ADXL345
+</code></pre>
+<h2 id="documentations-techniques">Documentations techniques :</h2>
+<p>TMP36 :  <img alt="" src="https://web.archive.org/web/20211025044924im_/https%3A//sti2d.ecolelamache.org/temperature_tmp36pinout.gif" />
+These sensors use a solid-state technique to determine the temperature. That is to say, they don't use mercury (like old thermometers), bimetalic strips (like in some home thermometers or stoves), nor do they use thermistors (temperature sensitive resistors). Instead, they use the fact as temperature increases, the voltage across a diode increases at a known rate. (Technically, this is actually the voltage drop between the base and emitter - the Vbe - of a transistor.) By precisely amplifying the voltage change, it is easy to generate an analog signal that is directly proportional to temperature (0-5V). There have been some improvements on the technique but, essentially that is how temperature is measured. To convert the voltage to temperature, simply use the formula: Temp in °C =[(Vout in mV)- 500]/10</p>
+<p>Triple Axis Accelerometer Breakout - ADXL345  <img alt="" src="https://web.archive.org/web/20211025044924im_/https%3A//sti2d.ecolelamache.org/accelerometre.jpg" />
+This new version adds 2 standoff holes as well as an extra decoupling capacitor. The ADXL345 is a small, thin, low power, 3-axis MEMS accelerometer with high resolution (13-bit) measurement at up to +-16 g. Digital output data is formatted as 16-bit twos complement and is accessible through I2C digital interface (SDA, SCL).</p>
+<p>The ADXL345 is well suited to measures the static acceleration of gravity in tilt-sensing applications, as well as dynamic acceleration resulting from motion or shock. Its high resolution (4 mg/LSB) enables measurement of inclination changes less than 1.0 degrees;</p>
+<p>Simplest wiring : VCC, GND, SCL and SDA</p>
+<p>SEN0042
+This is an edge detection sensor from DFRobot. It will help your robot detect the edge of a precipice, preventing it from falling off a table or down the stairs to it's certain demise! This IR distance sensor is connected to an arduino digital pin.
+<img alt="" src="https://web.archive.org/web/20211025044924im_/https%3A//sti2d.ecolelamache.org/infrared.jpg" />
+Specification:</p>
+<pre><code>Supply Voltage: 2.7~6.2v
+Current: &lt; 10mA
+Range distance: 2~10cm (Low), &lt;2cm or &gt;10cm (High)
+Interface:1 digital pin
+Signal Voltage: Vcc-0.6V(High), 0.6V(Low)
+</code></pre>
+<ol>
+<li>La led doit-elle être reliée à une sortie ou à une entrée arduino ? Justifiez votre réponse.</li>
+<li>Cette entrée ou sortie doit-elle être analogique ou TOR (digital en anglais) ? Justifiez votre réponse.</li>
+<li>Le bouton poussoir doit-il être reliée à une sortie ou à une entrée arduino ? Justifiez votre réponse.</li>
+<li>Cette entrée ou sortie doit-elle être analogique ou TOR (digital en anglais) ? Justifiez votre réponse.</li>
+<li>Quelle est le double rôle des pins 0 à 13 ? Où et comment cela est-il paramétré dans un programme Arduino ? Donner un exemple pour les 2 cas.</li>
+<li>Proposez un câblage pour notre montage :
+<img alt="" src="https://web.archive.org/web/20211025044924im_/https%3A//sti2d.ecolelamache.org/exo_pin_vers2020_bb.png" /></li>
+</ol>
+<h2 id="exercice-4-allumage-de-plusieurs-leds-revision-de-la-boucle-for-et-decouverte-de-la-notion-darray">Exercice 4 : allumage de plusieurs leds (révision de la boucle For et découverte de la notion d'array)</h2>
+<p>soit le programme suivant :</p>
+<pre><code>// définition des variables
+const int nombre_Pins = 3;  // ……………………………..
+const int ledPin [] =  {11,12,13};   // the LED pins
+
+int interval = 100;    //  ……………….
+
+void setup()
+{
+for(int i=0 ; i&lt;nombre_Pins ; i++)
+{
+    pinMode(ledPin[i], OUTPUT);
+}
+}
+
+void loop()
+{
+for(int i=0 ; i&lt;nombre_Pins ; i++)
+{
+    digitalWrite(ledPin[i],HIGH);
+    delay(interval);
+    digitalWrite(ledPin[i],LOW);
+    delay(interval);
+}
+}
+</code></pre>
+<p><strong>Données techniques :</strong> for statements
+The for statement is used to repeat a block of statements enclosed in curly braces. An increment counter is usually used to increment and terminate the loop. The for statement is useful for any repetitive operation, and is often used in combination with arrays to operate on collections of data/pins.<img alt="" src="https://web.archive.org/web/20211025044924im_/https%3A//sti2d.ecolelamache.org/boucle_for.png" /></p>
+<p>There are three parts to the for loop header:</p>
+<pre><code>for (initialization; condition; increment)
+{
+//statement(s);
+}
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>-</th>
+<th align="center">-</th>
+<th align="right">-</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>array</td>
+<td align="center">An array is a collection of variables that are accessed with an index number</td>
+<td align="right">Use :</td>
+</tr>
+<tr>
+<td></td>
+<td align="center">Examples to declare an array :</td>
+<td align="right">int myPins[] = {2, 4, 8, 3, 6};</td>
+</tr>
+<tr>
+<td></td>
+<td align="center">int myInts[6];</td>
+<td align="right">if you use myPins[2], you go to the third “box”, that is to say 8</td>
+</tr>
+<tr>
+<td></td>
+<td align="center">int myPins[] = {2, 4, 8, 3, 6};</td>
+<td align="right">if you use myPins[5], you go to the fifth “box”, that is to say 6</td>
+</tr>
+<tr>
+<td></td>
+<td align="center">int mySensVals[6] = {2, 4, -8, 3, 2};</td>
+<td align="right">The index number can be a value (as above 2 or 5) or a variable. For example:</td>
+</tr>
+<tr>
+<td></td>
+<td align="center">char message[6] = "hello";</td>
+<td align="right">i=2;</td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+<td align="right">myPins[i];</td>
+</tr>
+<tr>
+<td></td>
+<td align="center"></td>
+<td align="right">The result is 4</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Analysez le programme précédent et rajoutez les connexions sur le schéma suivant :
+<img alt="" src="https://web.archive.org/web/20211025044924im_/https%3A//sti2d.ecolelamache.org/arduino_exo2.png" /></li>
+</ol>
+<p>La variable ledPin est un tableau (array) de variables (une sorte de variable en 2 dimensions!)
+2. Combien de données (cases mémoires) contient la variable ledPin ?
+3. Complétez le tableau suivant représentant la variable ledPin[] :</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th>i = 0</th>
+<th>i = 1</th>
+<th>i = 2</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Contenu de ledPin[i]</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Expliquez, en détail, ce que va faire le programme et comment il le fait.</li>
+<li>Quels sont le ou les avantages à utiliser un tableau de variables à la place de variables simples notamment dans le programme précédent?</li>
+</ol>
+<p>Exercice 5 : allumage de plusieurs leds et gestion d'une entrée analogique</p>
+<p>Soit le programme Arduino suivant :</p>
+<pre><code>// définition des variables
+const int nombre_leds = 5;  // ……………………………..
+const int ledPin [ ] =  {9,10,11,12,13};   // …………………………...
+int mon_entree = A0 ; // ………………………...
+
+void setup()
+{
+// déclaration des pins arduino en sorties (leds)
+……………………………
+………………………………
+………………………………
+………………………………
+}
+
+void loop()
+{
+if(analogRead(mon_entree) == 0) // ………………………...
+{ digitalWrite(ledPin [0], LOW);
+digitalWrite(ledPin [1], LOW);
+digitalWrite(ledPin [2], LOW);
+digitalWrite(ledPin [3], LOW);
+digitalWrite(ledPin [4], LOW);
+}
+
+if(analogRead(mon_entree) &gt;= 1 &amp;&amp; analogRead(mon_entree) &lt; 200) //………………………...
+{ digitalWrite(ledPin [0], HIGH);
+digitalWrite(ledPin [1], LOW);
+digitalWrite(ledPin [2], LOW);
+digitalWrite(ledPin [3], LOW);
+digitalWrite(ledPin [4], LOW);
+}
+
+if(analogRead(mon_entree) &gt;= 200 &amp;&amp; analogRead(mon_entree) &lt; 400 ) //………………………...
+{ digitalWrite(ledPin [0], HIGH);
+digitalWrite(ledPin [1], HIGH);
+digitalWrite(ledPin [2], LOW);
+digitalWrite(ledPin [3], LOW);
+digitalWrite(ledPin [4], LOW);
+}
+
+if(analogRead(mon_entree) &gt;= 400 &amp;&amp; analogRead(mon_entree) &lt; 800) //………………………...
+{ digitalWrite(ledPin [0], HIGH);
+digitalWrite(ledPin [1], HIGH);
+digitalWrite(ledPin [2], HIGH);
+digitalWrite(ledPin [3], LOW);
+digitalWrite(ledPin [4], LOW);
+}
+
+if(analogRead(mon_entree) &gt;= 800 &amp;&amp; analogRead(mon_entree) &lt; 1000) //………………………...
+{ digitalWrite(ledPin [0], HIGH);
+digitalWrite(ledPin [1], HIGH);
+digitalWrite(ledPin [2], HIGH);
+digitalWrite(ledPin [3], HIGH);
+digitalWrite(ledPin [4], LOW);
+}
+
+if(analogRead(mon_entree) &gt;= 1000) //………………………...
+{ digitalWrite(ledPin [0], HIGH);
+digitalWrite(ledPin [1], HIGH);
+digitalWrite(ledPin [2], HIGH);
+digitalWrite(ledPin [3], HIGH);
+digitalWrite(ledPin [4], HIGH);
+}
+}
+</code></pre>
+<p>Données techniques :
+analogRead()
+Reads the value from the specified analog pin. The Arduino board contains a 6 channel (8 channels on the Mini and Nano, 16 on the Mega), 10-bit analog to digital converter. This means that it will map input voltages between 0 and 5 volts into integer values between 0 and 1023 (10 bits). This yields a resolution between readings of: 5 volts / 1024 units or, .0049 volts (4.9 mV) per unit. The input range and resolution can be changed using analogReference().
+Syntax  :     analogRead(pin)
+Returns  :    int (0 to 1023)</p>
+<ol>
+<li>Analysez le programme précédent et rajoutez les connexions sur le schéma suivant :</li>
+</ol>
+<p><img alt="" src="https://web.archive.org/web/20211025044924im_/https%3A//sti2d.ecolelamache.org/arduino_exo3.png" /></p>
+<ol>
+<li>Rajoutez les commentaires manquants dans le programme</li>
+<li>Dans la partie 'Void setup' et à l'aide d'une boucle 'For', faites la déclaration des sorties Arduino reliées aux leds</li>
+<li>
+<p>Faire l'algorithme (sous forme d'algorigrammes) du programme</p>
+</li>
+<li>
+<p>Retrouver à quelles valeurs de tensions correspondent les valeurs 200, 400, 800 et 1000 que l'on trouve dans le programme</p>
+</li>
+<li>
+<p>Proposez une amélioration (écriture plus concise et plus claire) de la partie 'Void Loop' à l'aide de boucles « for » et d'une variable (appelée « potentiom ») contenant la valeur du potentiomètre (la fonction « analogRead » ne doit apparaître plus qu'une seule fois dans le programme).</p>
+</li>
+<li>
+<p>A l’aide de la documentation technique sur l’instruction analogRead() et de nos connaissances nous allons chercher les caractéristiques du CAN intégré à la carte Arduino:</p>
+<ol>
+<li>Que signifie l’acronyme CAN ?</li>
+<li>Quelle est la fonction de ce CNA ?</li>
+<li>Sur combien de bits ce CNA fonctionne-t-il ?</li>
+<li>Quelle est sa résolution (précision : 3 chiffres significatifs)?</li>
+<li>La variable « mesure_volt » est la variable qui va contenir la valeur en volts de notre entrée analogique. Modifiez le programme pour intégrer cette variable et lui affecter sa valeur</li>
+</ol>
+</li>
+</ol>
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+    <nav class="md-footer__inner md-grid" aria-label="Pied de page" >
+      
+        
+        <a href="../theme1-part1%28suite2%29/" class="md-footer__link md-footer__link--prev" aria-label="Précédent: Partie 1 (suite 2)" rel="prev">
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+          </div>
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Précédent
+              </span>
+              Partie 1 (suite 2)
+            </div>
+          </div>
+        </a>
+      
+      
+        
+        <a href="../theme1-part3/" class="md-footer__link md-footer__link--next" aria-label="Suivant: Partie 3" rel="next">
+          <div class="md-footer__title">
+            <div class="md-ellipsis">
+              <span class="md-footer__direction">
+                Suivant
+              </span>
+              Partie 3
+            </div>
+          </div>
+          <div class="md-footer__button md-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+          </div>
+        </a>
+      
+    </nav>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.16e2a7d4.min.js", "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.config.lang": "fr", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Rechercher", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version.title": "S\u00e9lectionner la version"}}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8492ddcf.min.js"></script>
+      
+    
+  </body>
+</html>
