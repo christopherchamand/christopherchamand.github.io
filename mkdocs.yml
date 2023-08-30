@@ -39,7 +39,10 @@ nav:
 theme:
   favicon: images/favicon.ico
   icon:
-    logo: fontawesome/solid/jedi
+    #logo: fontawesome/brands/debian
+    logo: fontawesome/solid/circle-radiation
+    #logo: fontawesome/brands/d-and-d
+    #logo: fontawesome/solid/jedi
     #logo: fontawesome/brands/mandalorian
     #logo: fontawesome/solid/dragon
   
