@@ -39,7 +39,7 @@ nav:
 theme:
   favicon: images/favicon.ico
   icon:
-    logo: fontawesome/fa-brands/fa-mandalorian
+    logo: fontawesome/brands/mandalorian
     #logo: fontawesome/solid/dragon
   
   name: material
@@ -98,11 +98,10 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true          # Volets glissants.  === "Mon volet"
   - pymdownx.tasklist:            # Cases à cocher  - [ ]  et - [x]
-        custom_checkbox:    true   #   avec cases d'origine
+        custom_checkbox: true   #   avec cases d'origine
         clickable_checkbox: true    #   et cliquables.
   - pymdownx.keys:
       strict: false
-
 
   - footnotes
   - attr_list
