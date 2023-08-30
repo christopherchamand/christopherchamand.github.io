@@ -7,13 +7,16 @@ docs_dir: docs
 nav:
 - "<img src='https://fabricenativel.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil" :
     - index.md
-- "<img src='https://fabricenativel.github.io/icones/checklist-16.svg' width=16px height=16px>&thinsp; Cours de première" :
-      - "Index" : Premiere/progression.md
-      - "C1-Systèmes d'exploitation" : Premiere/os.md  
-- "<img src='https://fabricenativel.github.io/icones/list-ordered-16.svg' width=16px height=16px>&thinsp; Cours de terminale" :
-      - "Index" : Terminale/progression.md
-- "<img src='https://fabricenativel.github.io/icones/file-badge-16.svg' width=16px height=16px>&thinsp; Documents officiels" :
-    - officiels.md
+- "<img src='https://fabricenativel.github.io/icones/checklist-16.svg' width=16px height=16px>&thinsp; STI2D_I2D" :
+      - "Index" : STI2D/i2d.md
+- "<img src='https://fabricenativel.github.io/icones/checklist-16.svg' width=16px height=16px>&thinsp; STI2D_2I2D" :
+      - "Index" : STI2D/2i2d.md
+- "<img src='https://fabricenativel.github.io/icones/checklist-16.svg' width=16px height=16px>&thinsp; STI2D_SIN" :
+      - "Index" : STI2D/sin.md
+- "<img src='https://fabricenativel.github.io/icones/checklist-16.svg' width=16px height=16px>&thinsp; STI2D_AC" :
+      - "Index" : STI2D/ac.md
+- "<img src='https://fabricenativel.github.io/icones/file-badge-16.svg' width=16px height=16px>&thinsp; STI2D_Documents_officiels" :
+    - "Index" : STI2D/officiels.md
 - "<img src='https://fabricenativel.github.io/icones/graduation-cap.svg' width=16px height=16px>&thinsp; Annales du Bac" :
     - index_annales.md
     - '2021': 
