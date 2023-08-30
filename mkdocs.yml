@@ -39,7 +39,8 @@ nav:
 theme:
   favicon: images/favicon.ico
   icon:
-    logo: fontawesome/solid/dragon
+    logo: fontawesome/fa-brands/fa-mandalorian
+    #logo: fontawesome/solid/dragon
   
   name: material
   language: fr
