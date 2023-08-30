@@ -39,7 +39,8 @@ nav:
 theme:
   favicon: images/favicon.ico
   icon:
-    logo: fontawesome/brands/mandalorian
+    logo: fontawesome/solid/crow
+    #logo: fontawesome/brands/mandalorian
     #logo: fontawesome/solid/dragon
   
   name: material
