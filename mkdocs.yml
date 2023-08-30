@@ -39,7 +39,7 @@ nav:
 theme:
   favicon: images/favicon.ico
   icon:
-    logo: fontawesome/solid/crow
+    logo: fontawesome/solid/jedi
     #logo: fontawesome/brands/mandalorian
     #logo: fontawesome/solid/dragon
   
