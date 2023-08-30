@@ -1,6 +1,17 @@
 site_name: LAB's Cr0wth
+site_description: Cours de STI2D
+site_author: Christopher CHAMAND
+
+docs_dir: docs
+
 theme:
+  favicon: images/favicon.ico
+  icon:
+    logo: fontawesome/solid/dragon
+  
   name: material
+  language: fr
+
   features:
     - navigation.tabs
     - navigation.sections
@@ -11,7 +22,7 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  language: fr
+
   palette:
     - scheme: default
       toggle:
@@ -32,21 +43,46 @@ extra:
       link: https://github.com/cr0wth/
 
 markdown_extensions:
+  - pymdownx.inlinehilite
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.caret
+  - pymdownx.snippets
+  - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - admonition
   - pymdownx.arithmatex:
       generic: true
-  - footnotes
-  - pymdownx.details
-  - pymdownx.superfences
-  - pymdownx.mark
-  - attr_list
+  - pymdownx.superfences:
+    # Exception pour code highlight (de façon à faire fonctionner mermaid)
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.emoji:
       emoji_index: !!python/name:materialx.emoji.twemoji
       emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true          # Volets glissants.  === "Mon volet"
+  - pymdownx.tasklist:            # Cases à cocher  - [ ]  et - [x]
+        custom_checkbox:    true   #   avec cases d'origine
+        clickable_checkbox: true    #   et cliquables.
+  - pymdownx.keys:
+      strict: false
+
+
+  - footnotes
+  - attr_list
+  # Permet l'utilisation d'abbréviation dans le fichier syntaxe *[abbr]: description (voir glossaire.md)
+  - abbr
+  # Permet l'insertion de fichiers dans le document à l'aide de la syntaxe --8<-- "includes/glossaire.md"
+  - pymdownx.snippets
+  # Admonitions et variantes (details : repliable, superfences : avec onglet)
+  - admonition
+
+plugins:
+  - search
+#  - macros
 
 copyright: |
   &copy; 2023 <a href="" target="_blank" rel="noopener">Christopher CHAMAND</a>
