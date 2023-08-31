@@ -74,8 +74,9 @@ On peut citer :
 
 Afin de dimensionner correctement une fondation superficielle, on utilisera les relations suivantes.  
 Il convient d'appliquer un __coefficient de sécurité__ à la contrainte de sol.  
-|   |   |
-$$\sigma_{sol}   \geq  \frac{F}{S}$$  
+| Contrainte du sol  | Contrainte admissible  |
+|___|___|
+| $$\sigma_{sol}   \geq  \frac{F}{S}$$  |   _A FAIRE_ |
 
 avec:   
 $$\sigma_{sol}$$ : contrainte de calcul du sol [MPa]  
