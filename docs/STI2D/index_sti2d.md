@@ -1,8 +1,8 @@
 # STI2D
 
-## Voici les matières:
-- [I2D](./i2d.md)
-- [AC](./ac.md)
-<!-- - [2I2D](./2i2d.md)
-- [SIN](./sin.md)-->
+__Sélectionnez votre matières:__  
+- [I2D](./I2D/index_i2d.md)  
+- [AC](./AC/index_ac.md)  
+
+
 

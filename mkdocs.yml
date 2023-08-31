@@ -7,32 +7,32 @@ docs_dir: docs
 nav:
 - "<img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil" :
     - index.md
-- "STI2D":
-    - "Index" : STI2D/index_sti2d.md 
-    - "Première I2D" : STI2D/i2d.md
-    - "Terminale 2I2D" : STI2D/2i2d.md
-    - "Spécialité SIN" : STI2D/sin.md
-    - "Spécialité AC" : STI2D/ac.md
-- "<img src='https://christopherchamand.github.io/icones/file-badge-16.svg' width=16px height=16px>&thinsp; STI2D_Documents_officiels" :
-    - "Index" : officiels_sti2d.md
-- "<img src='https://christopherchamand.github.io/icones/graduation-cap.svg' width=16px height=16px>&thinsp; Annales du Bac" :
-    - index_annales.md
-    - '2021': 
-      - "Epreuves écrites" : Terminale/Annales/2021/EE.md
-      - "Epreuves pratiques" : Terminale/Annales/2021/EP.md
-    - '2022': 
-      - "Epreuves écrites" : Terminale/Annales/2022/EE.md
-      - "Epreuves pratiques" : Terminale/Annales/2022/EP.md
-- "<img src='https://christopherchamand.github.io/icones/lightbulb.svg' width=16px height=16px>&thinsp; Projets" :
-    - projets.md
-    - "Projets de Première" : projets_prem.md
-    - "Projets de Terminale" : projets_term.md
-- "<img src='https://christopherchamand.github.io/icones/links.svg' width=16px height=16px>&thinsp; Liens" :
-    - liens.md
-- "<img src='https://christopherchamand.github.io/icones/python.svg' width=16px height=16px>&thinsp; Python" :
-    - python.md
-- "<img src='https://christopherchamand.github.io/icones/information.svg' width=16px height=16px>&thinsp; A propos" :
-    - apropos.md          
+- "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D":
+    - "Accueil STI2D" : STI2D/index_sti2d.md 
+    - "Première I2D" : STI2D/I2D/index_i2d.md
+    - "Spécialité AC" : STI2D/AC/index_ac.md
+- "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT" : 
+    - SNT/index_snt.md
+#- "<img src='https://christopherchamand.github.io/icones/file-badge-16.svg' width=16px height=16px>&thinsp; STI2D_Documents_officiels" :
+#    - "Index" : officiels_sti2d.md
+#- "<img src='https://christopherchamand.github.io/icones/graduation-cap.svg' width=16px height=16px>&thinsp; Annales du Bac" :
+    # - index_annales.md
+    # - '2021': 
+    #   - "Epreuves écrites" : Terminale/Annales/2021/EE.md
+    #   - "Epreuves pratiques" : Terminale/Annales/2021/EP.md
+    # - '2022': 
+    #   - "Epreuves écrites" : Terminale/Annales/2022/EE.md
+    #   - "Epreuves pratiques" : Terminale/Annales/2022/EP.md
+# - "<img src='https://christopherchamand.github.io/icones/lightbulb.svg' width=16px height=16px>&thinsp; Projets" :
+#     - projets.md
+#     - "Projets de Première" : projets_prem.md
+#     - "Projets de Terminale" : projets_term.md
+# - "<img src='https://christopherchamand.github.io/icones/links.svg' width=16px height=16px>&thinsp; Liens" :
+#     - liens.md
+# - "<img src='https://christopherchamand.github.io/icones/python.svg' width=16px height=16px>&thinsp; Python" :
+#     - python.md
+# - "<img src='https://christopherchamand.github.io/icones/information.svg' width=16px height=16px>&thinsp; A propos" :
+#     - apropos.md          
 
 theme:
   favicon: images/favicon.ico
