@@ -72,14 +72,22 @@ On peut citer :
 
 ## 5. LE DIMENSIONNEMENT
 
+### 5.1 LA CONTRAINTE
+
 Afin de dimensionner correctement une fondation superficielle, on utilisera les relations suivantes.  
 Il convient d'appliquer un __coefficient de sécurité__ à la contrainte de sol.  
 
 | Contrainte du sol  | Contrainte admissible  |  
-| __ | __ |  
-| $$\sigma_{sol}   \geq  \frac{F}{S}$$  |   _A FAIRE_ |  
+| :-: | :-: |  
+| $\sigma_{sol} \geq \frac{F}{S}$  | $\sigma_{adm} = \frac{\sigma_{sol}}{C_{s}}$ | 
+| $\sigma_{sol}$ : contrainte de calcul du sol [MPa] | $\sigma_{adm}$ : contrainte admissible du sol [MPa] |
+| F : effort appliqué sur la fondation [N] | $\sigma_{sol}$ : contrainte mesuré du sol [MPa] |
+| S : section de la semelle $mm^2$ | ${C_{s}}$ : coefficient de sécurité |   
 
-avec:   
-$sigma_{sol}$ : contrainte de calcul du sol [MPa]  
-F : effort appliqué sur la fondation [N]  
-S : section de la semelle mm^2   
+### 5.2 LA GÉOMETRIE
+
+On dimensionne les fondations superficielles par __homothésie__ des dimensions du mur ou du poteau.  
+$\frac{A}{a} = \frac{B}{b}$  
+
+La hauteur est déterminée par les inégalités suivantes, qui se limitent à des paramètres de __proportionnalité__ pour éviter des semelles trop __aplaties__ ou trop __élancées__:  
+$\frac{A - a}{4} \leq h - 5[cm] \leq A - a$     $\mid$      $\frac{B - b}{4} \leq h - 5[cm] \leq B - b$    
