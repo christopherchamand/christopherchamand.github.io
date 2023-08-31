@@ -76,10 +76,10 @@ Afin de dimensionner correctement une fondation superficielle, on utilisera les 
 Il convient d'appliquer un __coefficient de sécurité__ à la contrainte de sol.  
 
 | Contrainte du sol  | Contrainte admissible  |  
-|___|___|  
+| __ | __ |  
 | $$\sigma_{sol}   \geq  \frac{F}{S}$$  |   _A FAIRE_ |  
 
 avec:   
-$$sigma_{sol}$$ : contrainte de calcul du sol [MPa]  
+$sigma_{sol}$ : contrainte de calcul du sol [MPa]  
 F : effort appliqué sur la fondation [N]  
-S : section de la semelle $$mm^2$$   
+S : section de la semelle mm^2   
