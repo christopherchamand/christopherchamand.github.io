@@ -72,4 +72,4 @@ On peut citer :
 
 ## 5. LE DIMENSIONNEMENT
 
-$$\sigma$$
+$$\sigma_{adm}   \geq  \frac{F}{S}$$
