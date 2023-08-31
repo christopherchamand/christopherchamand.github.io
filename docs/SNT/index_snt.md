@@ -3,9 +3,12 @@
 ## PROGRESSION
 
 __Chapitre 1: Le WEB__  
-- [Introduction au langage HTML](./pdf/web/Act1-introduction-au-html.pdf)  
+- [Introduction au langage HTML](./pdf/web/Act1-introduction-au-html.pdf)   
 - [Introduction aux feuille de style avec CSS](./pdf/web/Act2-feuille-de-style-CSS.pdf)  
 - [Découverte des tableaux en HTML](./pdf/web/Act3-HTML-tableau.pdf)  
+> Pour réaliser les activités de ce chapitre,  
+> veuillez utiliser ce [__lien__](https://codebetter.lucaswillems.com/) 
+
 
 __Chapitre 2: La géolocalisation__  
 - Présentation et principe  
