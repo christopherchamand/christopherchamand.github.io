@@ -7,16 +7,14 @@ docs_dir: docs
 nav:
 - "<img src='https://fabricenativel.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil" :
     - index.md
-- "<img src='https://fabricenativel.github.io/icones/checklist-16.svg' width=16px height=16px>&thinsp; STI2D_I2D" :
-      - "Index" : STI2D/i2d.md
-- "<img src='https://fabricenativel.github.io/icones/checklist-16.svg' width=16px height=16px>&thinsp; STI2D_2I2D" :
-      - "Index" : STI2D/2i2d.md
-- "<img src='https://fabricenativel.github.io/icones/checklist-16.svg' width=16px height=16px>&thinsp; STI2D_SIN" :
-      - "Index" : STI2D/sin.md
-- "<img src='https://fabricenativel.github.io/icones/checklist-16.svg' width=16px height=16px>&thinsp; STI2D_AC" :
-      - "Index" : STI2D/ac.md
+- "STI2D":
+    - "Index" : STI2D/index_sti2d.md 
+    - "Première I2D" : STI2D/i2d.md
+    - "Terminale 2I2D" : STI2D/2i2d.md
+    - "Spécialité SIN" : STI2D/sin.md
+    - "Spécialité AC" : STI2D/ac.md
 - "<img src='https://fabricenativel.github.io/icones/file-badge-16.svg' width=16px height=16px>&thinsp; STI2D_Documents_officiels" :
-    - "Index" : STI2D/officiels.md
+    - "Index" : officiels_sti2d.md
 - "<img src='https://fabricenativel.github.io/icones/graduation-cap.svg' width=16px height=16px>&thinsp; Annales du Bac" :
     - index_annales.md
     - '2021': 
@@ -118,7 +116,7 @@ markdown_extensions:
 
 plugins:
   - search
-#  - macros
+  - macros
 
 copyright: |
   &copy; 2023 <a href="" target="_blank" rel="noopener">Christopher CHAMAND</a>
