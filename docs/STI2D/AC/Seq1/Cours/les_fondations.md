@@ -9,8 +9,8 @@ Pour transmettre les efforts, il faut, au préalable, les déterminer, il s'agit
 Par la suite, il faut connaitre le __type de sol__ qui se trouvera sous l'ouvrage afin d'en connaitre la __portance__ ou __la contrainte admissible__.  
 
 Deux cas sont possibles :  
-- Soit la contrainte admissible de la couche superficielle du sol est __suffisante__, et dans ce cas, on utilisera des fondations dites __superficielles__.
-- Soit la contrainte admissible de la couche superficielle de sol est __insuffisante__ et dans ce cas, il faut aller lus profondément chercher le « __bon sol__ », on utilisera des fondations __profondes__.  
+* Soit la contrainte admissible de la couche superficielle du sol est __suffisante__, et dans ce cas, on utilisera des fondations dites __superficielles__.
+* Soit la contrainte admissible de la couche superficielle de sol est __insuffisante__ et dans ce cas, il faut aller lus profondément chercher le « __bon sol__ », on utilisera des fondations __profondes__.  
 
 La caractérisation du comportement du sol est très complexe, car il s'agit d'un matériau hétérogène dont les caractéristiques sont très variables : site, météo, profondeur. Plusieurs méthodes de calculs existent donc, on peut citer Rankine, Bousinesk, Coulomb. Cette science de l'étude du sol est appelée géotechnique.
 
@@ -22,15 +22,15 @@ Les fondations superficielles sont donc des fondations qui sont implantées dans
 
 Il existe 3 type de fondations superficielles :  
 
-- Le __radier__ est une dalle permettant la répartition de l'ensemble des charges au sol. Cet élément est utilisé essentiellement pour des maisons individuelles, car les charges doivent être faibles et assez homogènes pour ne pas déséquilibrer le radier.  
+* Le __radier__ est une dalle permettant la répartition de l'ensemble des charges au sol. Cet élément est utilisé essentiellement pour des maisons individuelles, car les charges doivent être faibles et assez homogènes pour ne pas déséquilibrer le radier.  
 ![Le radier](../images/fondations_radier.png){: .imgcentre width=200px}  
 
 
-- La __semelle filante__ est un élément long qui soutient les murs. Les charges reprises sont donc linéiques N/ml.  
+* La __semelle filante__ est un élément long qui soutient les murs. Les charges reprises sont donc linéiques N/ml.  
 ![Semelle filante](../images/fondation_semelle-filante.png){: .imgcentre width=150px}  
 
 
-- La __semelle isolée__ est un élément ponctuel, qui reprend les charges venant d'un poteau. Ces charges reprises sont donc ponctuelles [N].  
+* La __semelle isolée__ est un élément ponctuel, qui reprend les charges venant d'un poteau. Ces charges reprises sont donc ponctuelles [N].  
 ![Semelle isolée](../images/fondations_semelle-isolee.png){: .imgcentre width=100px}  
 
 ### 2.2 LES LONGRINES
@@ -63,11 +63,11 @@ On peut chercher à ancrer le pieu sur une couche de __sol dur__, comme de la __
 On peut également utiliser d'autres types de fondations, mai qui se rapproche davantage des ouvrages de soutènement.  
 
 On peut citer :  
-- Les __parois moulées__, généralement utilisées pour les parkings ou les ouvrages ayant une partie importante enterrée.  
+* Les __parois moulées__, généralement utilisées pour les parkings ou les ouvrages ayant une partie importante enterrée.  
 
-- Les __micropieux__ (même principe que les pieux mais on cherche à imiter les charges sur ceux-ci). Ils sont plus petits que des pieux ordinaires.  
+* Les __micropieux__ (même principe que les pieux mais on cherche à imiter les charges sur ceux-ci). Ils sont plus petits que des pieux ordinaires.  
 
-- Les __palplanches__ (surtout pour les ouvrages maritimes et fluviaux mais également comme ouvrage de soutènement).  
+* Les __palplanches__ (surtout pour les ouvrages maritimes et fluviaux mais également comme ouvrage de soutènement).  
 ![Palplanches](../images/fondations_palplanches.png){: .imgcentre width=200px} 
 
 ## 5. LE DIMENSIONNEMENT
@@ -87,7 +87,9 @@ Il convient d'appliquer un __coefficient de sécurité__ à la contrainte de sol
 ### 5.2 LA GÉOMETRIE
 
 On dimensionne les fondations superficielles par __homothésie__ des dimensions du mur ou du poteau.  
+
 $\frac{A}{a} = \frac{B}{b}$  
 
 La hauteur est déterminée par les inégalités suivantes, qui se limitent à des paramètres de __proportionnalité__ pour éviter des semelles trop __aplaties__ ou trop __élancées__:  
+
 $\frac{A - a}{4} \leq h - 5[cm] \leq A - a$     $\mid$      $\frac{B - b}{4} \leq h - 5[cm] \leq B - b$    
