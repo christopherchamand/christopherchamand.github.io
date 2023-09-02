@@ -55,7 +55,7 @@ Pour comprendre la __contrainte__, il faut imaginer un élément de matière, pa
 * Plus la force est importante, plus la contrainte à l'intérieur de la matière augmente.
 * Si vous poursuivez l'expérience, il arrivera un moment où le matériau ne sera plus assez résistant et arrivera à la rupture.
 
-Alors que la force est constante, la répartition de la __contrainte__ dans un solide soumis à cette force ne l'est pas. Certaines parties sont plus comprimées que d'autres. Dans le cas présent le __pied du poteau est la partie la plus contrainte__.  
+Alors que la force est constante, la répartition de la __contrainte__ dans un solide soumis à cette force ne l'est pas. Certaines parties sont plus comprimées que d'autres. Dans le cas présent, le __pied du poteau est la partie la plus contrainte__.  
 ![Force + charges](./images/rdm_force-charges.png){ width=400px }  
 
 La contrainte dans le matériau est notée __Sigma ("$\sigma$")__ et a pour unité le __Méga Pascal (MPa)__.  
@@ -68,7 +68,7 @@ avec:
 * F: la __force__ (ou __charge__) en Newton (N)
 * S: la __section__ en milimètre carré ($mm^2$)
 
-S représente l'__air de la section__. La __section__ est la _forme géométrique_ obtenue lorsque l'on coupe un élément de la structure __perpendiculairement__. Ici la __section__ du poteau est un carré de 15 cm par 15 cm.
+S représente l'__air de la section__. La __section__ est la _forme géométrique_ obtenue lorsque l'on coupe un élément de la structure __perpendiculairement__. Ici, la __section__ du poteau est un carré de 15 cm par 15 cm.
 ![La section](./images/rdm_la_section.png){ width=400px }   
 
 En reprenant la formule et en remplaçant les valeurs de l'essai de compression, on obtient:
