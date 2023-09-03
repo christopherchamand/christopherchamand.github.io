@@ -14,27 +14,7 @@ nav:
     - "ETLV 1ère" : STI2D/ETLV/index_ETLV-P.md
     - "ETLV Tle" : STI2D/ETLV/index_ETLV-T.md
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT" : 
-    - SNT/index_snt.md
-#- "<img src='https://christopherchamand.github.io/icones/file-badge-16.svg' width=16px height=16px>&thinsp; STI2D_Documents_officiels" :
-#    - "Index" : officiels_sti2d.md
-#- "<img src='https://christopherchamand.github.io/icones/graduation-cap.svg' width=16px height=16px>&thinsp; Annales du Bac" :
-    # - index_annales.md
-    # - '2021': 
-    #   - "Epreuves écrites" : Terminale/Annales/2021/EE.md
-    #   - "Epreuves pratiques" : Terminale/Annales/2021/EP.md
-    # - '2022': 
-    #   - "Epreuves écrites" : Terminale/Annales/2022/EE.md
-    #   - "Epreuves pratiques" : Terminale/Annales/2022/EP.md
-# - "<img src='https://christopherchamand.github.io/icones/lightbulb.svg' width=16px height=16px>&thinsp; Projets" :
-#     - projets.md
-#     - "Projets de Première" : projets_prem.md
-#     - "Projets de Terminale" : projets_term.md
-# - "<img src='https://christopherchamand.github.io/icones/links.svg' width=16px height=16px>&thinsp; Liens" :
-#     - liens.md
-# - "<img src='https://christopherchamand.github.io/icones/python.svg' width=16px height=16px>&thinsp; Python" :
-#     - python.md
-# - "<img src='https://christopherchamand.github.io/icones/information.svg' width=16px height=16px>&thinsp; A propos" :
-#     - apropos.md          
+    - SNT/index_snt.md        
 
 theme:
   #favicon: icones/icons8-cours-100.png
@@ -51,15 +31,29 @@ theme:
   language: fr
 
   features:
-    - navigation.tabs
-    - navigation.sections
-    - toc.integrate
-    - navigation.top
-    - search.suggest
-    - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
+      - navigation.tabs
+      - navigation.tabs.sticky
+      - navigation.sections
+      - navigation.top
+      #- navigation.expand
+      #- navigation.instant
+      #- navigation.instant.prefetch
+      #- navigation.tracking
+      - navigation.path
+      - navigation.indexes
+      - navigation.footer
+
+      #- toc.follow
+      #- toc.integrate
+
+      - search.suggest
+      - search.highlight
+      - search.share
+      
+      - content.tabs.link
+      - content.code.annotation
+      - content.code.copy
+      - content.code.annotate 
 
   palette:
     - scheme: default
@@ -67,7 +61,7 @@ theme:
         icon: material/toggle-switch-off-outline
         name: Darkmode
       primary: teal
-      accent: purple
+      accent: amber
     - scheme: slate
       toggle:
         icon: material/toggle-switch
@@ -76,6 +70,16 @@ theme:
       accent: lime
 
 extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - reject
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/cr0wth/

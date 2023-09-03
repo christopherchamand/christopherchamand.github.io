@@ -12,9 +12,9 @@ Sources [^nbp]
     | :-: |
     | $ \sigma = \frac{F}{S}$ |  
 
-## __COMPORTEMENT D'UN POTEAU EN COMPRESSION__
+## **COMPORTEMENT D'UN POTEAU EN COMPRESSION**
 
-__Cliquer sur l'image pour voir la vidéo !!__  
+**Cliquer sur l'image pour voir la vidéo !!**  
 [![Poteau en compression](./images/rdm_pot-compress.png){ width=200px }](./videos/Rupture%20en%20compression%20dun%20poteau%20en%20béton%20armé_1080p.mp4 "Rupture d'un poteau")  
 
 Ce que vous venez de voir est la rupture d'un poteau en béton armé soumis à de la compression.  
@@ -45,7 +45,7 @@ C'est bien le __pied de poteau__ qui reprend le plus de poids.
 Pour quantifier les efforts à l'intérieur de la matière, on utilise le concept de contrainte noté "$\sigma$".  
 
 La force appliquée en tête de poteau, c'est-à-dire en un point, occasionne des modifications dans la matière de tout le solide.  
-Ces modifications internes sont quantifiées par ce que l'on nomme la __contrainte__. Cette contrainte a pour effet de déformer la structure et potentiellement amener la rupture.  
+Ces modifications internes sont quantifiées par ce que l'on nomme la **contrainte**. Cette contrainte a pour effet de déformer la structure et potentiellement amener la rupture.  
 ![La contrainte](./images/rdm_contrainte.png){ width=400px }  
 
 Pour comprendre la __contrainte__, il faut imaginer un élément de matière, par exemple du béton, soumis à la compression.
