@@ -40,7 +40,7 @@ Les élèves devront au cours de ces activités, comprendre le fonctionnement du
 
     | Activité | Documents techniques | Ressources | Aide |
     | -- | -- | -- | -- |
-    | [Activité 1](./Seq2/Activité%201/S2_Act1.md) |  | [SysML_DrawIO](./Seq2/Activité%201/Ressources/sysML_BDD.drawio) </br> [Programme arduino](./Seq2/Activité%201/Ressources/S2A1.ino) | [SysML_Collège](./Seq2/Activité%201/Ressources/sysML_college.mp4){:target="_blank" } |
+    | [Activité 1](./Seq2/activite1/S2_Act1.md) |  | [SysML_DrawIO](./Seq2/activite1/Ressources/sysML_BDD.drawio) </br> [Programme arduino](./Seq2/activite1/Ressources/prog_act1.ino) </br> [Paramétrage du montage](./Seq2/activite1/Ressources/diagram.json) | [SysML_Collège](./Seq2/activite1/Ressources/sysML_college.mp4){:target="_blank" } |
 
 ???+ bug "EN COURS DE RÉDACTION..."
     ??? abstract "ACTIVITÉ 2: LES APPAREILS DE MESURE"
