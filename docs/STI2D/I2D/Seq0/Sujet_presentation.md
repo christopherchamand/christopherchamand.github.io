@@ -33,6 +33,9 @@
 * Originalité de la mise en forme,
 * Vocabulaire précis, expression orale.
 
+Vous serez évalué à partir du fichier suivant:  
+[Seq1_Évaluation](./Evaluation/Seq00_Evaluation_Oral.xlsx)
+
 ## LES SUJETS :
 
 1. La démarche zéro déchets : qu’est-ce que c’est ?

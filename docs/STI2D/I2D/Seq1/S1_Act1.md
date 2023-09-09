@@ -39,6 +39,9 @@ Au cours de cette activité, vous serez amené à présenter le fonctionnement d
 * Qualité du compte rendu
 * Respect du temps impartit
 
+Vous serez évalué à partir du fichier suivant:  
+[Seq1_Évaluation](./Evaluation/Seq01_Evaluation_Oral.xlsx)
+
 ## TRAVAIL DEMANDÉ
 
 ### Question 1: (identification des composants)
