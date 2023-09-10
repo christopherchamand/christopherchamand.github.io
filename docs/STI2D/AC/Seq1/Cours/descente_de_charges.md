@@ -21,7 +21,7 @@ Sur terre le calcul donne:
 et sur la lune :
 24 méga Newtons 
 
-Cela représente une force exercée sur le sol 6 fois moindre la tour de Pise penche de cette manière car le sol n'est pas assez résistant par rapport à la charge imposée par la tour on peut donc imaginer que sur la lune la tour de Pise serait droite des selfies auraient moins
+Cela représente une force exercée sur le sol 6 fois moindre la tour de Pise penche de cette manière car le sol n'est pas assez résistant par rapport à la charge imposée par la tour on peut donc imaginer que sur la lune la tour de Pise serait droite des selfies auraient moin
 d'intérêt maintenant que nous avons vu
 la différence entre la charge qui
 représente une force et la masse d'un
