@@ -1,6 +1,5 @@
 # (RE)DÉCOUVERTE DES CAPTEURS DANS UN SYSTÈME
 
-
 ## OBJECTIFS
 
 Dans cette activité, vous allez (re)découvrir l’usage des capteurs à l’aide un microcontrôleur type Arduino.  
@@ -22,7 +21,7 @@ Vous avez, à votre disposition :
 
 1. Regardez la [vidéo de « rappels »](./Ressources/sysML_college.mp4){:target="blank" } sur les diagrammes sysML.   
    _Vous pouvez vous limiter à la partie sur les diagrammes de définitions des blocs (à partir de 8:08 jusqu’à 9 :19)._   
-2. Complétez le diagramme de définition des blocs fourni (fichier « [sysML_BDD.drawio](./Ressources/sysML_BDD.drawio) ») avec les noms des composants du montage.
+2. Complétez le diagramme de définition des blocs fourni (À faire sur Draw.io) (fichier « [sysML_BDD.drawio](./Ressources/sysML_BDD.drawio) ») avec les noms des composants du montage.
 3. Créez un **fichier de traitement de texte** afin de rassembler vos réponses.  
    Insérez-y votre diagramme de définition des blocs.  
    _Inspirez-vous (ou réutilisez) l’exemple fourni dans l'activité 1 de la séquence 1: "[Ingénierie des systèmes](../../Seq1/S1_Act1.md)"._

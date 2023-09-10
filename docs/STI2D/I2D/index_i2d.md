@@ -47,7 +47,7 @@ Les élèves devront au cours de ces activités, comprendre le fonctionnement du
 
         | Activité | Documents techniques | Ressources | Aide |
         | -- | -- | -- | -- |
-        | [Activité 2]() |  | [Ressources 2.1]() </br> [Ressources 2.2]() | [aide2.1]() |
+        | [Activité 2](./Seq2/activite2/S2_Act2.md) |  | [Ressources 2.1]() </br> [Ressources 2.2]() | [aide2.1]() |
 
     ??? abstract "ACTIVITÉ 3: ANALYSE DE SIGNAUX"
 
