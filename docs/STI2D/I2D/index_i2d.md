@@ -26,7 +26,7 @@ Dans cette activité, nous allons tenter de comprendre le fonctionnement un syst
 
     | Activité | Documents techniques | Documents réponses | Aide |
     | -- | -- | -- | -- |
-    | <!--[Activité1](./Seq1/S1_Act1.md)-->[Activité1](./Seq1/Act1.md) | [DT Scootelec](./Seq1/Ressources/DT/DT%20Scootelec.pdf) | DR Scootelec: A faire vous même | [Fiche SysML](./Seq1/Ressources/Fiche%20sysml.pdf){:target="_blank" } |
+    | [Activité1](./Seq1/S1_Act1.md) | [DT Scootelec](./Seq1/Ressources/DT/DT%20Scootelec.pdf) | DR Scootelec: A faire vous même | [Fiche SysML](./Seq1/Ressources/Fiche%20sysml.pdf){:target="_blank" } |
     |  | [DT Sympact](./Seq1/Ressources/DT/DT%20sympact.pdf) | [DR Sympact](./Seq1/Ressources/DR/DR%20sympact.doc) | <!-- [Mode Opératoire](./Seq1/Ressources/Mode%20opératoire.docx)--> |
     |  | [DT Portail Automatisé](./Seq1/Ressources/DT/Portail_Automatisé.pdf) | [DR Portail Automatisé](./Seq1/Ressources/DR/DR%20portail.docx) |  |
 
