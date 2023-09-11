@@ -2,44 +2,40 @@
 
 Dans le cours précédente nous avons vu **comment vérifier la solidité d'un poteau soumis à de la compression par une charge F ?** 
 
-Toutefois, nous n'avons pas vu **comment déterminer cette charge** c'est l'objet de ce cours.
+Toutefois, nous n'avons pas vu **comment déterminer cette charge**.    
+C'est l'objet de ce cours.
 
-Pour comprendre la différence entre une masse en kg et une force en Newton prenons l'exemple suivant :
-* d'un côté nous construisons la tour de Pise sur terre. Celle-ci est une masse de 15000 tonnes soit 15 millions de kilogrammes.
-* nous la construisons également sur la lune. Elle possède également une masse de 15000 tonnes .
+# PROBLEMATIQUE
+**Comment déterminer la charge en compression sur un poteau ?**   
 
-Toutefois la force exercée sur le sol par la tour sera très différente entre
-les deux astres. 
-En effet, la force du haut-poit se calcule grâce à la relation:
-P = m . g 
-avec: 
-* M la masse en kg
-* g l'accélération de pesanteur exprimé en mètre/seconde au carré 
+Pour comprendre la différence entre une masse en **kg** et une force en **Newton** prenons l'exemple suivant :   
+* d'un côté nous construisons la tour de Pise sur Terre. Celle-ci est une masse de 15000 tonnes soit 15 millions de kilogrammes.   
+* nous la construisons également sur la Lune. Elle possède également une masse de 15000 tonnes.   
 
-Sur terre le calcul donne:
-147 méga Newton 
-et sur la lune :
-24 méga Newtons 
+Toutefois, la force exercée sur le sol par la tour sera très différente entre les **deux astres**.   
+En effet, _la force se calcule_ grâce à la relation:
+**$P = m \times g$**   
+avec:   
+* M la masse en **kg**   
+* g l'accélération de pesanteur exprimé en **m/s$^{2}$**   
 
-Cela représente une force exercée sur le sol 6 fois moindre la tour de Pise penche de cette manière car le sol n'est pas assez résistant par rapport à la charge imposée par la tour on peut donc imaginer que sur la lune la tour de Pise serait droite des selfies auraient moin
-d'intérêt maintenant que nous avons vu
-la différence entre la charge qui
-représente une force et la masse d'un
-objet nous allons voir comment les
-charges se répartissent dans une
-structure prenons un tabouret sur quatre
-pieds il possède une masse de 10 kg en
-prenant g = 10 m par seconde au carré et
-que l'on applique la formule P KMG on
-trouve que son poids propre et de son
-Newtons comme le tabouret et sur 4 pieds
-chaque pied reprend donc sans diviser
-par 4 soit 25 Newtons le poids propre
-est une charge permanente c'est-à-dire
-que peu importe les conditions les pieds
-supporteront toujours à minima cette
-charge les charges permanentes sont
-notées g majuscule on a donc g majuscule
+Sur Terre, le calcul donne:
+* $15000 \times 9.807$ = 147 MN  
+Sur la Lune, le calcul donne :   
+* $15000 \times 1.62$ = 24 MN  
+
+Cela représente une force exercée sur le sol 6 fois moindre.   
+La tour de Pise penche de cette manière car le sol n'est pas assez résistant par rapport à la charge imposée par la tour.      
+On peut donc imaginer que sur la lune, la tour de Pise serait droite.   
+Maintenant que nous avons vu la différence entre la charge qui représente une force et la masse d'un objet, nous allons voir comment les charges se répartissent dans une structure.   
+
+## EXEMPLE DU TABOURET
+Prenons un tabouret sur quatre pieds.   
+
+Il possède une masse de 10 kg en prenant g = 10 m/s$^{2}$ (arrondi) et que l'on applique la formule **P=MG**, on trouve que son poids propre est de 100 Newtons.   
+Comme le tabouret est sur 4 pieds chaque pied reprend la charge. Donc il faut la diviser par 4 soit 25 Newtons par pied.
+Le poids propre est une charge permanente c'est-à-dire que peu importe les conditions, les pieds supporteront toujours à minima cette charge.   
+Les charges permanentes sont notées g majuscule on a donc g majuscule
 où g = 25 Newtons maintenant il faut
 prendre en compte le poids d'une
 personne assise dessus les charges
