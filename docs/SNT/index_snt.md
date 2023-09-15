@@ -10,7 +10,7 @@ __Chapitre 1: Le WEB__
 > veuillez utiliser ce [__lien__](https://codebetter.lucaswillems.com/) 
 
 !!! info [Correction]
-  [PoemeMusset.html](./pdf/web/poemeMusset.html)
+  [PoemeMusset.html](./pdf/web/poemeMusset.html)   
   [Image Alfred de Musset](./pdf/web/ADM.png)
   
 __Chapitre 2: La géolocalisation__  
