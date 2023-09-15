@@ -9,7 +9,7 @@ __Chapitre 1: Le WEB__
 > Pour réaliser les activités de ce chapitre,  
 > veuillez utiliser ce [__lien__](https://codebetter.lucaswillems.com/) 
 
-!!! info [Correction]
+!!! info [Correction]   
   [PoemeMusset.html](./pdf/web/poemeMusset.html)   
   [Image Alfred de Musset](./pdf/web/ADM.png)
   
