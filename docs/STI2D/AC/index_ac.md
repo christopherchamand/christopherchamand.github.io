@@ -1,5 +1,4 @@
-[^nbp1]: [Les formules ](../les_formules.md)
-[^nbp2]: [Chaîne YouTube de Mathieu BONTE](https://www.youtube.com/@mathieubonte)
+[^nbp]: [Les formules ](../les_formules.md)
 
 # SCIENCES TECHNOLOGIQUE DE L'INDUSTRIE <br/> <center>__ARCHITECTURE ET CONSTRUCTION__</center>
 ## SÉQUENCE 0: __PRÉPARATION DE LA PARTIE 1 ET 2 D'UN PROJET STI2D__
@@ -17,7 +16,7 @@
 
 | Cours | Activité |
 | -- | -- |
-| [Descente de charges](./Seq1/Cours/) |  |
-| [Résistance des matériaux](./Seq1/Cours/) |  [Exercices](./Seq1/Cours/rdm_exercice.md) |
+| [Descente de charges](./Seq1/Cours/ddc_cours.md){:target="_blank" } | [Activité 1](./Seq1/Activités/activite1.md){:target="_blank" } |
+| [Résistance des matériaux](./Seq1/Cours/){:target="_blank" } |  [Exercices](./Seq1/Cours/rdm_exercice.md){:target="_blank" } |
 
 
