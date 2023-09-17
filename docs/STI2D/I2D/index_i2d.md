@@ -42,13 +42,13 @@ Les élèves devront au cours de ces activités, comprendre le fonctionnement du
     | -- | -- | -- | -- |
     | [Activité 1](./Seq2/activite1/S2_Act1.md) |  | [SysML_DrawIO](./Seq2/activite1/Ressources/sysML_BDD.drawio) </br> [Programme arduino](./Seq2/activite1/Ressources/prog_act1.ino) </br> [Paramétrage du montage](./Seq2/activite1/Ressources/diagram.json) | [SysML_Collège](./Seq2/activite1/Ressources/sysML_college.mp4){:target="_blank" } |
 
+??? abstract "ACTIVITÉ 2: LES APPAREILS DE MESURE"
+
+    | Activité | Documents techniques | Ressources | Aide |
+    | -- | -- | -- | -- |
+    | [Activité 2](./Seq2/activite2/S2_Act2.md) |  | [Lampe seule.DSN](./Seq2/activite2/Ressources/Lampe%20seule.DSN) </br> [Lampe Série.DSN](./Seq2/activite2/Ressources/Lampe%20Série.DSN) <br/> [Lampe parallèle.DSN](./Seq2/activite2/Ressources/Lampe%20parallèle.DSN) | [Guide proteus](./Seq2/activite2/Ressources/guide%20_proteusv7.pdf) |
+
 ???+ bug "EN COURS DE RÉDACTION..."
-    ??? abstract "ACTIVITÉ 2: LES APPAREILS DE MESURE"
-
-        | Activité | Documents techniques | Ressources | Aide |
-        | -- | -- | -- | -- |
-        | [Activité 2](./Seq2/activite2/S2_Act2.md) |  | [Ressources 2.1]() </br> [Ressources 2.2]() | [aide2.1]() |
-
     ??? abstract "ACTIVITÉ 3: ANALYSE DE SIGNAUX"
 
         | Activité | Documents techniques | Ressources | Aide |
