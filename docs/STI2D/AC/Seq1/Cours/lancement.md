@@ -9,4 +9,4 @@ Le 5 mai 1992 lors de la demi-finale de la Coupe de France opposant Bastia à l'
 
 ## **Problématique:** Comment peut-on alors assurer la stabilité des structures?
 
-<center>[<< Retour](../../index_ac.md) / [Suite du cours >>](./les_fondations.md)</center>
+

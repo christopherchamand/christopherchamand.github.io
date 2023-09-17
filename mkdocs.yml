@@ -8,11 +8,11 @@ nav:
 - "<img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil" :
     - index.md
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D":
-    - "STI2D" : STI2D/index_sti2d.md 
-    - "1ère I2D" : STI2D/I2D/index_i2d.md
-    - "Tle Spé AC" : STI2D/AC/index_ac.md
+    - "I2D" : STI2D/I2D/index_i2d.md
+    - "AC" : STI2D/AC/index_ac.md
     - "ETLV 1ère" : STI2D/ETLV/index_ETLV-P.md
     #- "ETLV Tle" : STI2D/ETLV/index_ETLV-T.md
+    - "Les formules" : STI2D/les_formules.md 
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT" : 
     - SNT/index_snt.md        
 
