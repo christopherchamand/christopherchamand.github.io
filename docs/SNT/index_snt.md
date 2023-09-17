@@ -9,7 +9,10 @@ __Chapitre 1: Le WEB__
 > Pour réaliser les activités de ce chapitre,  
 > veuillez utiliser ce [__lien__](https://codebetter.lucaswillems.com/) 
 
-
+??? abstract "Correction"   
+  [PoemeMusset.html](./pdf/web/poemeMusset.html)   
+  [Image Alfred de Musset](./pdf/web/ADM.png)
+  
 __Chapitre 2: La géolocalisation__  
 - Présentation et principe  
 - Trame NMEA  
