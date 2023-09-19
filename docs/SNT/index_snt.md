@@ -12,7 +12,8 @@ __Chapitre 1: Le WEB__
 ??? abstract "Correction"   
 
     [PoemeMusset.html](./pdf/web/poemeMusset.html)   
-    [Image Alfred de Musset](./pdf/web/ADM.png)
+    [style.css](./pdf/web/style.css)     
+    ![Image Alfred de Musset](./pdf/web/ADM.png)
   
 __Chapitre 2: La géolocalisation__  
 - Présentation et principe  
