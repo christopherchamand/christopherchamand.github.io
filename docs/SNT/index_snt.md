@@ -8,11 +8,12 @@ __Chapitre 1: Le WEB__
 - [Découverte des tableaux en HTML](./pdf/web/Act3-HTML-tableau.pdf)  
 > Pour réaliser les activités de ce chapitre,  
 > veuillez utiliser ce [__lien__](https://codebetter.lucaswillems.com/) 
-
+<!--
+    [style.css](./pdf/web/style.css)     
+    -->
 ??? abstract "Correction"   
 
     [PoemeMusset.html](./pdf/web/poemeMusset.html)   
-    [style.css](./pdf/web/style.css)     
     ![Image Alfred de Musset](./pdf/web/ADM.png)
   
 __Chapitre 2: La géolocalisation__  
