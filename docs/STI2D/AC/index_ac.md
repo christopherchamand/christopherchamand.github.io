@@ -20,7 +20,7 @@
 ### Séance 2
 | Cours | Activités | Ressources |
 | -- | -- | -- |
-| ^^Présentation AC^^ <br/> (En cours de réalisation) | [TD1_SKETCHUP_2D](./Seq0/activites/TD1_SKETCHUP_2D.pdf){:target="_blank"} <br/> [TD2_SKETCHUP_3D](./Seq0/activites/TD2_SKETCHUP_3D.pdf){:target="_blank"} <br/> [TD_RDM](./Seq0/activites/TD_RDM-eleve.pdf){:target="_blank"}|  |
+| ^^Présentation AC^^ <br/> (En cours de réalisation) | [TD1_SKETCHUP_2D](./Seq0/activites/TD1_SKETCHUP_2D.pdf){:target="_blank"} <br/> [TD2_SKETCHUP_3D](./Seq0/activites/TD2_SKETCHUP_3D.pdf){:target="_blank"} <br/> [TD_RDM](./Seq0/activites/TD_RDM-eleve.pdf){:target="_blank"}| [plan1.png](./Seq1/Cours/img/plan1.png){:target="_blank"} <br/> [plan2.jpg](./Seq1/Cours/img/plan2.jpg){:target="_blank"} |
 
 ## SÉQUENCE 1: **L'ANALYSE DES STRUCTURES**
 
