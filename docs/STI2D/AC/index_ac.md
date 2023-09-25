@@ -20,7 +20,7 @@
 ### Séance 2
 | Cours | Activités | Ressources |
 | -- | -- | -- |
-| ^^Présentation AC^^ <br/> (En cours de réalisation) | [TD1_SKETCHUP_2D](./Seq0/activites/TD1_SKETCHUP_2D.pdf){:target="_blank"} <br/> [TD2_SKETCHUP_3D](./Seq0/activites/TD2_SKETCHUP_3D.pdf){:target="_blank"} <br/> [TD3_SKETCHUP_Projet](./Seq0/activites/TD3_SKETCHUP_Projet.pdf){:target="_blank"}| [plan1.png](./Seq1/Cours/img/plan1.png){:target="_blank"} <br/> [plan2.jpg](./Seq1/Cours/img/plan2.jpg){:target="_blank"} |
+| ^^Présentation AC^^ <br/> (En cours de réalisation) | [TD1_SKETCHUP_2D](./Seq0/activites/TD1_SKETCHUP_2D.pdf){:target="_blank"} <br/> [TD2_SKETCHUP_3D](./Seq0/activites/TD2_SKETCHUP_3D.pdf){:target="_blank"} <br/> [TD3_SKETCHUP_Projet](./Seq0/activites/TD3_SKETCHUP_Projet.pdf){:target="_blank"}| [plan1.png](./Seq0/activites/plan1.png){:target="_blank"} <br/> [plan2.jpg](./Seq0/activites/plan2.jpg){:target="_blank"} |
 
 
 <!-- 
