@@ -33,7 +33,7 @@ Dans cette activité, nous allons tenter de comprendre le fonctionnement un syst
 ---
 ## SÉQUENCE 2: SIGNAUX ET INFORMATIONS
 
-### OBJECTIFS:
+### OBJECTIFS
 Les élèves devront au cours de ces activités, comprendre le fonctionnement du flux d'information dans un système.
 
 ??? abstract "ACTIVITÉ 1: LES CAPTEURS"
@@ -48,9 +48,27 @@ Les élèves devront au cours de ces activités, comprendre le fonctionnement du
     | -- | -- | -- | -- |
     | [Activité 2](./Seq2/activite2/S2_Act2.md) |  | [Lampe seule.DSN](./Seq2/activite2/Ressources/Lampe%20seule.DSN) </br> [Lampe Série.DSN](./Seq2/activite2/Ressources/Lampe%20Série.DSN) <br/> [Lampe parallèle.DSN](./Seq2/activite2/Ressources/Lampe%20parallèle.DSN) | [Guide proteus](./Seq2/activite2/Ressources/guide%20_proteusv7.pdf) |
 
+<!-- 
 ???+ bug "EN COURS DE RÉDACTION..."
     ??? abstract "ACTIVITÉ 3: ANALYSE DE SIGNAUX"
 
         | Activité | Documents techniques | Ressources | Aide |
         | -- | -- | -- | -- |
         | [Activité 3]() |  | [Ressources 3.1]() | [aide3.1]() |
+-->
+
+---
+## SÉQUENCE 3: COMMENT PRENDRE EN COMPTE LE DD DANS LA CONCEPTION D'UN OBJECT TECHNIQUE
+
+### OBJECTIFS
+
+L'objectif est de :
+
+* Réaliser une étude comparative d'agrafeuses,
+* Reconcevoir un produit.
+
+??? abstract "ACTIVITÉ 1: ACV AGRAFEUSES"
+
+    | Activité | Documents techniques | Ressources | Aide |
+    | -- | -- | -- | -- |
+    | [Activité 1: ACV Agrafeuse](./Seq3/acv_agrafeuses.md){:target="_blank"} |  | [Ressources 3.1]() | [aide3.1]() |
