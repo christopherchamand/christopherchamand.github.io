@@ -71,4 +71,4 @@ L'objectif est de :
 
     | Activité | Documents techniques | Ressources | Aide |
     | -- | -- | -- | -- |
-    | [Activité 1: ACV Agrafeuse](./Seq3/acv_agrafeuses.md){:target="_blank"} |  | []() | []() |
+    | [Activité 1: ACV Agrafeuse](./Seq3/activite1/acv_agrafeuses.md){:target="_blank"} |  | []() | []() |
