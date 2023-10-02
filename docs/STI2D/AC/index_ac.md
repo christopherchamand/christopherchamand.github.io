@@ -35,6 +35,6 @@ https://conseils-thermiques.org/contenu/maison-ossature-bois.php
 | Cours | Activités |
 | -- | -- |
 | [Descente de charges](./Seq1/Cours/ddc_cours.md){:target="_blank"} | [Activité 1](./Seq1/Activités/activite1.md){:target="_blank"} |
-| [Résistance des matériaux](./Seq1/Cours/rdm_cours.md){:target="_blank"} |  [Exercices](./Seq1/Cours/rdm_exercice.md){:target="_blank"} |
+| [Résistance des matériaux](./Seq1/Cours/rdm_cours.md){:target="_blank"} |  [Exercices](./Seq1/Activités/rdm_exercice.md){:target="_blank"} |
 
 
