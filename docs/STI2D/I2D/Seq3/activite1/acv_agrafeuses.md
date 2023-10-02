@@ -216,4 +216,7 @@
 
 ## **[COMPARAISON DES IMPACTS DES 4 AGRAFEUSES](./acv_agrafeuses_vs-4-agrafeuses.md)**
 
+## **[RECONCEPTION GREEN-EMMA](./acv_agrafeuses_reconception.md)**
+
+## **[VALIDATION DE LA RECONCEPTION](./acv_agrafeuses_valid-reconcept.md)**
 
