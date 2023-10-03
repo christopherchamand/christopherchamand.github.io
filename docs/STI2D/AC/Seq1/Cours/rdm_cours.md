@@ -16,4 +16,4 @@ avec :
 * (S$_{0}$) section origine,
 * (S$_{1}$) section extrémité,
 * (G$_{0}$ G$_{1}$) est la _**est 
-* **_
+* **__**
