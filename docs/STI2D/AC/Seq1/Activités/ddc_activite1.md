@@ -30,7 +30,7 @@ La solive est simplement appuyée à ses extrémités et a pour portée L = 5,18
 
 ![Plan](./img/ddc-app1.png){: width=1000}
 
-
+<!--
 ??? abstract "CORRECTION"
 
     $P = (G \times \frac{4}{3}) + (Q \times \frac{3}{2})$   
@@ -52,3 +52,5 @@ La solive est simplement appuyée à ses extrémités et a pour portée L = 5,18
     Ps = (Ptot / 4) / 20
     Ps = (826.682 / 4) / 20
     Ps = 0.0415 kN/
+
+-->

@@ -14,7 +14,7 @@
 
 ### MODALITÉS
 
-* Durée: 3 heures
+* Durée: 12 heures
 
 ### RESSOURCES
 
