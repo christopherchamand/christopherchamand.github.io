@@ -25,7 +25,30 @@ La charge à prendre en compte dans les calculs, sera donc égale à:
 
 ## ETUDE DE LA SOLIVE (A) : TYPE I 
 
-La solive est simplement appuyée à ses extrémités et a pour portée 1 = 5,185 m.
-**Déterminer** la charge p reprise par la solive.
+La solive est simplement appuyée à ses extrémités et a pour portée L = 5,185 m.
+**Déterminer** la charge P reprise par la solive A.
 
 ![Plan](./img/ddc-app1.png){: width=1000}
+
+
+??? abstract "CORRECTION"
+
+    $P = (G \times \frac{4}{3}) + (Q \times \frac{3}{2})$   
+    $P = (0.8 \times \frac{4}{3}) + (1.5 \times \frac{3}{2})$
+    $P = 3.32 kN/m^{2}$   
+
+    Surface = (5.2 * 4) * (12)
+    Surface = 249.6 m2
+
+    P = 3.32 / 249.6
+    Ptot = 0.013 kN/m2
+
+    Surface1 = 5.2 *12
+    Surface1 = 62.4 m2
+
+    Psurface1 = 0.013 * 62.4
+    Psurface1 = 0.8112 kN
+
+    Ps = (Ptot / 4) / 20
+    Ps = (826.682 / 4) / 20
+    Ps = 0.0415 kN/
