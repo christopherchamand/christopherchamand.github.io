@@ -1,40 +1,57 @@
-[^nbp]: [Les formules ](../les_formules.md)
-
 # SCIENCES TECHNOLOGIQUE DE L'INDUSTRIE <br/> <center>**ARCHITECTURE ET CONSTRUCTION**</center>
-## SÉQUENCE 0: **PRÉPARATION DE LA PARTIE 1 ET 2 D'UN PROJET STI2D**
 
-<!--
-* [Progression STI2D AC](./progression_ac.md)  
--->
-### Séance 1
-* L'objectif de cette séquence est de permettre aux élèves de faire appel à leurs connaissances acquises en 1ère et de les mettre en actions autour d'un projet. Les compétences misent en oeuvre sont:    
-    * le travail d'équipe, 
-    * l'analyse d'un cahier des charges, 
-    * la recherche d'information pertinente à la réalisation de leur projet.
-* Le but pour les élèves est de réaliser un compte rendu sur la phase 1 et la phase 2 du projet et d'établir des solutions viables à mettre en oeuvre :
-    * présentation de l'existant, 
-    * de l'emplacement de l'installation du système    
-    * le dimensionnement 
-    * choix de LA solution adaptée)
+## PRÉSENTATION DE LA SPÉCIALITÉ
 
-### Séance 2
-| Cours | Activités | Ressources |
-| -- | -- | -- |
-| ^^Présentation AC^^ <br/> (En cours de réalisation) | [TD1_SKETCHUP_2D](./Seq0/activites/TD1_SKETCHUP_2D.pdf){:target="_blank"} <br/> [TD2_SKETCHUP_3D](./Seq0/activites/TD2_SKETCHUP_3D.pdf){:target="_blank"} <br/> [TD3_SKETCHUP_Projet](./Seq0/activites/TD3_SKETCHUP_Projet.pdf){:target="_blank"}| [plan1.png](./Seq0/activites/plan1.png){:target="_blank"} <br/> [plan2.jpg](./Seq0/activites/plan2.jpg){:target="_blank"} <br/> [maison.zip](./Seq0/activites/maison.zip){:target="_blank"} |
+### I. Introduction :
+La filière "Architecture et Construction" en STI2D vise à préparer les étudiants à comprendre, concevoir et participer à la réalisation de projets architecturaux et de construction dans le contexte du développement durable. Elle offre aux étudiants une base solide en mathématiques, en sciences de l'ingénieur et en technologie de la construction.
+
+### II. Objectifs de la Filière :
+
+Comprendre les principes de base de l'architecture, de la construction et de la gestion de projet.
+Acquérir des compétences en conception architecturale et en dessin technique.
+Apprendre les normes et les réglementations liées à la construction.
+Explorer les technologies et les matériaux de construction durables.
+Comprendre les aspects liés à l'efficacité énergétique dans la construction.
+III. Matières Principales :
+Les matières enseignées dans la filière Architecture et Construction en STI2D peuvent inclure :
+
+1. **Mathématiques :** Les mathématiques sont essentielles pour résoudre des problèmes de conception, de calcul de structures et d'analyse de données dans le domaine de l'architecture et de la construction.
+
+2. **Sciences de l'Ingénieur :** Cette matière couvre les principes de base de l'ingénierie, y compris la mécanique, l'électricité, la thermique, et la mécanique des fluides, qui sont tous pertinents pour la conception de bâtiments et de systèmes de construction.
+
+3. **Technologie de Construction :** Les élèves apprennent les différentes techniques de construction, les matériaux de construction, les méthodes de travail sur chantier, et les normes de sécurité.
+
+4. **Dessin Technique et CAO (Conception Assistée par Ordinateur) :** Les élèves développent des compétences en dessin technique pour représenter des plans architecturaux et des maquettes numériques des bâtiments.
+
+5. **Gestion de Projet :** Les aspects de la gestion de projet, y compris la planification, le suivi des coûts et des délais, et la coordination des équipes de construction, sont abordés.
+
+### IV. Projets Pratiques :
+Un élément essentiel de la filière Architecture et Construction en STI2D est la réalisation de projets pratiques. Les élèves travaillent sur la conception de bâtiments, la modélisation en 3D, la planification de chantiers, et parfois même la construction réelle de maquettes ou de structures simples.
+
+### V. Applications Pratiques :
+Les compétences acquises dans cette filière peuvent être appliquées dans divers domaines, notamment :
+
+* La conception architecturale de bâtiments résidentiels ou commerciaux.
+* La gestion de projet dans le secteur de la construction.
+* L'analyse de l'efficacité énergétique des bâtiments.
+* La contribution à des projets de construction durables.
+
+### VI. Perspectives d'Études Supérieures :
+Après l'obtention du baccalauréat en STI2D option Architecture et Construction, les étudiants peuvent envisager diverses poursuites d'études, notamment :
+
+* Des études supérieures en architecture.
+* Des programmes d'ingénierie civile.
+* Des formations spécialisées en gestion de projet de construction.
+* Des cursus axés sur le développement durable et l'efficacité énergétique dans la construction.
+
+Dans ces études supérieures lié à cette spécialité, vous retrouverez :
+
+* Les écoles d'architecture
+* Les BTS en lien avec le génie civil (^^ex:^^ ERA, MEC...etc)
+* Les B.U.T en lien avec le génie civil
+* ...etc.
+
+Mais vous pouvez également inclure n'importe quelle formation qui n'a pas de lien avec le génie civil (ex: Informatique, traitement des eaux, énergétique, y comporis les CPGE (sur dossier)). En effet, vous serez diplômé d'un Bac STI2D qui vous permet de faire à peu près n'importe quelle formation dans le supérieur.
 
 
-<!-- 
-Lien vers la sources
-https://conseils-thermiques.org/contenu/maison-ossature-bois.php
--->
-
-## SÉQUENCE 1: **L'ANALYSE DES STRUCTURES**
-
-[**C'est quoi le problème?**](./Seq1/Cours/lancement.md){:target="_blank"}
-
-| Cours | Activités |
-| -- | -- |
-| [Descente de charges](./Seq1/Cours/ddc_cours.md){:target="_blank"} | [Activité 1](./Seq1/Activités/ddc_activite1.md){:target="_blank"} |
-| [Résistance des matériaux](./Seq1/Cours/rdm_cours.md){:target="_blank"} |  [Exercices](./Seq1/Activités/rdm_exercice.md){:target="_blank"} |
-
-
+En résumé, la filière Architecture et Construction en STI2D offre aux étudiants une solide base en sciences, en technologie et en mathématiques tout en les préparant à des carrières dans le domaine de la conception architecturale, de la construction et de la gestion de projet, en mettant un accent particulier sur le développement durable.

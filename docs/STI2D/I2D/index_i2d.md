@@ -1,74 +1,40 @@
 # PREMIÈRE I2D (INGÉNIERIE ET DÉVELOPPEMENT DURABLE)
 
-## SÉQUENCE 0: À LA DÉCOUVERTE DU DÉVELOPPEMENT DURABLE
+## I. Introduction :
+La filière "Innovation et Développement Durable" (I2D) en première année de STI2D a pour objectif de sensibiliser les étudiants aux enjeux du développement durable et de l'innovation technologique. Elle vise à les préparer à comprendre, concevoir et développer des solutions techniques répondant aux besoins actuels tout en minimisant l'impact sur l'environnement.
 
-### OBJECTIFS
-* [Présentation des objectifs](./Seq0/Sujet_presentation.md)
+## II. Objectifs de la Filière :
 
-??? abstract "ACTIVITÉ: RECHERCHE SUR LE DD"
+* Sensibiliser les étudiants aux principes du développement durable et de la préservation de l'environnement.
+* Encourager l'innovation technologique pour résoudre des problèmes réels.
+* Développer des compétences en conception, en prototypage et en développement de solutions techniques.
+* Explorer les domaines de l'énergie, de la communication, de la mobilité et de l'habitat durables.
 
-    ### LES SUJETS
+## III. Matières Principales :
+Les matières enseignées dans la filière I2D en première année de STI2D peuvent inclure :
 
-    * [Sujet 1 - La démarche zéro déchets : qu’est-ce que c’est ?](./Seq0/Sujet1.md)
-    * [Sujet 2 - Est-il possible de n’utiliser que de l’électricité issue de sources renouvelables ?](./Seq0/Sujet2.md)
-    * [Sujet 3 - L’énergie photovoltaïque ou éolienne est-elle vraiment écologique ?](./Seq0/Sujet3.md)
-    * [Sujet 4 - Le tri du papier sert-il à quelque chose ?](./Seq0/Sujet4.md)
-    * [Sujet 5 - Qu’est-ce que l’obsolescence programmée ?](./Seq0/Sujet5.md)
+1. Mathématiques : Les mathématiques fournissent les outils nécessaires à la modélisation et à l'analyse des problèmes techniques.
+2. Sciences de l'Ingénieur : Cette matière couvre les principes de base de l'ingénierie, y compris la mécanique, l'électricité, la thermique et la mécanique des fluides.
+3. Technologies de l'Information et de la Communication (TIC) : Les étudiants apprennent à utiliser des outils informatiques pour la conception, la modélisation et la simulation.
+4. Énergie et Environnement : Cette matière aborde les concepts de l'énergie renouvelable, de la gestion de l'énergie, de l'efficacité énergétique et des problématiques environnementales.
+5. Innovation Technologique : Les étudiants explorent les processus d'innovation, de la conception au prototypage, et développent des compétences en résolution de problèmes techniques.
 
----
-## SÉQUENCE 1: INGÉNIERIE DES SYSTÈMES
+## IV. Projets Pratiques :
+Un élément essentiel de la filière I2D est la réalisation de projets pratiques axés sur l'innovation et le développement durable. Les étudiants travaillent en équipes pour concevoir, prototyper et tester des solutions techniques liées à des défis spécifiques.
 
-### OBJECTIFS
+## V. Applications Pratiques :
+Les compétences acquises dans cette filière peuvent être appliquées dans divers domaines, notamment :
 
-Dans cette activité, nous allons tenter de comprendre le fonctionnement un système pluritechnique à travers le language Sysml.
+* La conception de dispositifs d'économie d'énergie.
+* La création de systèmes de communication durables.
+* Le développement de solutions de mobilité respectueuses de l'environnement.
+* La recherche de nouvelles méthodes pour améliorer l'efficacité énergétique des bâtiments.
 
-??? abstract "ACTIVITÉ: DÉCOURVERTE DES SYSTÈMES"
+## VI. Perspectives d'Études Supérieures :
+Après la première année de STI2D option I2D, les étudiants peuvent envisager diverses poursuites d'études, notamment :
 
-    | Activité | Documents techniques | Documents réponses | Aide |
-    | -- | -- | -- | -- |
-    | [Activité1](./Seq1/S1_Act1.md) | [DT Scootelec](./Seq1/Ressources/DT/DT%20Scootelec.pdf) | DR Scootelec: A faire vous même | [Fiche SysML](./Seq1/Ressources/Fiche%20sysml.pdf){:target="_blank" } |
-    |  | [DT Sympact](./Seq1/Ressources/DT/DT%20sympact.pdf) | [DR Sympact](./Seq1/Ressources/DR/DR%20sympact.doc) | <!-- [Mode Opératoire](./Seq1/Ressources/Mode%20opératoire.docx)--> |
-    |  | [DT Portail Automatisé](./Seq1/Ressources/DT/Portail_Automatisé.pdf) | [DR Portail Automatisé](./Seq1/Ressources/DR/DR%20portail.docx) |  |
+* La poursuite en STI2D en deuxième année avec une spécialisation plus avancée.
+* Des études supérieures en ingénierie, en sciences de l'environnement, en énergie ou en technologie de l'information.
+* Des programmes universitaires axés sur la recherche en développement durable et en innovation technologique.
 
----
-## SÉQUENCE 2: SIGNAUX ET INFORMATIONS
-
-### OBJECTIFS
-Les élèves devront au cours de ces activités, comprendre le fonctionnement du flux d'information dans un système.
-
-??? abstract "ACTIVITÉ 1: LES CAPTEURS"
-
-    | Activité | Documents techniques | Ressources | Aide |
-    | -- | -- | -- | -- |
-    | [Activité 1](./Seq2/activite1/S2_Act1.md) |  | [SysML_DrawIO](./Seq2/activite1/Ressources/sysML_BDD.drawio) </br> [Programme arduino](./Seq2/activite1/Ressources/prog_act1.ino) </br> [Paramétrage du montage](./Seq2/activite1/Ressources/diagram.json) | [SysML_Collège](./Seq2/activite1/Ressources/sysML_college.mp4){:target="_blank" } |
-
-??? abstract "ACTIVITÉ 2: LES APPAREILS DE MESURE"
-
-    | Activité | Documents techniques | Ressources | Aide |
-    | -- | -- | -- | -- |
-    | [Activité 2](./Seq2/activite2/S2_Act2.md) |  | [Lampe seule.DSN](./Seq2/activite2/Ressources/Lampe%20seule.DSN) </br> [Lampe Série.DSN](./Seq2/activite2/Ressources/Lampe%20Série.DSN) <br/> [Lampe parallèle.DSN](./Seq2/activite2/Ressources/Lampe%20parallèle.DSN) | [Guide proteus](./Seq2/activite2/Ressources/guide%20_proteusv7.pdf) |
-
-<!-- 
-???+ bug "EN COURS DE RÉDACTION..."
-    ??? abstract "ACTIVITÉ 3: ANALYSE DE SIGNAUX"
-
-        | Activité | Documents techniques | Ressources | Aide |
-        | -- | -- | -- | -- |
-        | [Activité 3]() |  | [Ressources 3.1]() | [aide3.1]() |
--->
-
----
-## SÉQUENCE 3: COMMENT PRENDRE EN COMPTE LE DD DANS LA CONCEPTION D'UN OBJECT TECHNIQUE
-
-### OBJECTIFS
-
-L'objectif est de :
-
-* Réaliser une étude comparative d'agrafeuses,
-* Reconcevoir un produit.
-
-??? abstract "ACTIVITÉ 1: ACV AGRAFEUSES"
-
-    | Activité | Documents techniques | Ressources | Aide |
-    | -- | -- | -- | -- |
-    | [Activité 1: ACV Agrafeuse](./Seq3/activite1/acv_agrafeuses.md){:target="_blank"} |  | []() | []() |
+En résumé, la filière I2D en première année de STI2D vise à former les étudiants à concevoir des solutions techniques innovantes tout en tenant compte des enjeux du développement durable. Elle les prépare à des carrières dans des domaines liés à l'innovation, à l'énergie durable, à l'environnement et à la technologie de l'information.

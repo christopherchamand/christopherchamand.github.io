@@ -8,13 +8,27 @@ nav:
 - "<img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil" :
     - index.md
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D":
-    - "I2D" : STI2D/I2D/index_i2d.md
-    - "AC" : STI2D/AC/index_ac.md
-    - "ETLV 1ère" : STI2D/ETLV/index_ETLV-P.md
-    #- "ETLV Tle" : STI2D/ETLV/index_ETLV-T.md
+    - "Présentation" : STI2D/index_sti2d.md
     - "Les formules" : STI2D/les_formules.md 
+    - "Première" :
+      - "I2D" : 
+        - "Présentation" : STI2D/I2D/index_i2d.md
+        - "Séquence 0 : Découverte du Développement Durable" : STI2D/I2D/Seq0/i2d_seq0.md
+        - "Séquence 1 : Ingénierie système" : STI2D/I2D/Seq1/i2d_seq1.md
+        - "Séquence 2 : Signaux et Information" : STI2D/I2D/Seq2/i2d_seq2.md
+        - "Séquence 3 : Éco-Conception" : STI2D/I2D/Seq3/i2d_seq3.md
+      - "IT à venir..." : ..#
+    - "Terminale" :
+      - "2I2D à venir..." : ..#
+    - "ENS. SPÉCIFIQUE" :
+      - "AC" : 
+        - "Présentation" : STI2D/AC/index_ac.md
+        - "Séquence 0: Découverte" : STI2D/AC/Seq0/ac_seq0.md
+        - "Séquence 1: L'analyse des structures" : STI2D/AC/Seq1/ac_seq1.md
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT" : 
     - SNT/index_snt.md        
+    #- "ETLV 1ère" : STI2D/ETLV/index_ETLV-P.md
+    #- "ETLV Tle" : STI2D/ETLV/index_ETLV-T.md
 
 theme:
   #favicon: icones/icons8-cours-100.png
