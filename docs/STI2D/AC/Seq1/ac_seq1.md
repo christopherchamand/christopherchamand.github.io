@@ -1,9 +1,9 @@
 # SÉQUENCE 1: **L'ANALYSE DES STRUCTURES**
 
-[**C'est quoi le problème?**](./Seq1/Cours/lancement.md){:target="_blank"}
+[**C'est quoi le problème?**](./cours/lancement.md){:target="_blank"}
 
 | Cours | Activités |
 | -- | -- |
-| [Descente de charges](./Seq1/Cours/ddc_cours.md){:target="_blank"} | [Activité 1](./Seq1/Activités/ddc_activite1.md){:target="_blank"} |
-| [Résistance des matériaux](./Seq1/Cours/rdm_cours.md){:target="_blank"} |  [Exercices](./Seq1/Activités/rdm_exercice.md){:target="_blank"} |
+| [Descente de charges](./cours/ddc_cours.md){:target="_blank"} | [Exercices](./activites/ddc_exercices.md){:target="_blank"} |
+| [Résistance des matériaux](./cours/rdm_cours.md){:target="_blank"} |  [Exercices](./activites/rdm_exercices.md){:target="_blank"} |
 

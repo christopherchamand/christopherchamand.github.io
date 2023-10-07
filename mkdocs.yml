@@ -9,7 +9,7 @@ nav:
     - index.md
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D":
     - "Présentation" : STI2D/index_sti2d.md
-    - "Les formules" : STI2D/les_formules.md 
+    - "Les formules" : STI2D/formules/les_formules.md 
     - "Première" :
       - "I2D" : 
         - "Présentation" : STI2D/I2D/index_i2d.md
