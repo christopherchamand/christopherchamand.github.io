@@ -20,7 +20,7 @@
 | [Présentation interface SKETCHUP](./seance2/cours_interface-SKETCHUP_v2017.pdf){:target="_blank"} | [TD1_SKETCHUP_2D](./seance2/TD1_SKETCHUP_2D.pdf){:target="_blank"} <br/> [TD2_SKETCHUP_3D](./seance2/TD2_SKETCHUP_3D.pdf){:target="_blank"} <br/> [TD3_SKETCHUP_Projet](./seance2/TD3_SKETCHUP_Projet.pdf){:target="_blank"}| [plan1.png](./seance2/ressources/plan1.png){:target="_blank"} <br/> [plan2.jpg](./seance2/ressources/plan2.jpg){:target="_blank"} <br/> [maison.zip](./seance2/ressources/maison.zip){:target="_blank"} |
 
 ??? danger "ÉVALUATION""
-<!-- 
+ 
     ^^**Consigne :**^^ Vous devez concevoir une maison.   
     ^^**Durée :**^^ 4 heures.    
     ^^**Caractéristique de la maison :**^^
@@ -48,7 +48,7 @@
     | Texture et aspect | 2 pts |
 
     À la fin de l'épreuve, vous devez m'envoyer votre fichier sketchup, qui doit être nommé "**eval1_NOM_Prénom.skp**", par mail.
--->
+
 
 
 <!-- 
