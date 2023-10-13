@@ -1,10 +1,13 @@
-# Chapitre 1: Le WEB
+# CHAPITRE 1: LE WEB
 
-* [Introduction au langage HTML](./ressources/Act1-introduction-au-html.pdf){:target="_blank"}    
-* [Introduction aux feuille de style avec CSS](.ressources/Act2-feuille-de-style-CSS.pdf){:target="_blank"}   
-* [Découverte des tableaux en HTML](./ressources/Act3-HTML-tableau.pdf){:target="_blank"}   
 
-Pour réaliser les activités de ce chapitre, veuillez utiliser ce [__lien__](https://codebetter.lucaswillems.com/){:target="_blank"}  
+## PROGRAMMATION
+
+* [TD1 - Introduction au langage HTML](./ressources/Act1-introduction-au-html.pdf){:target="_blank"}    
+* [TD2 - Introduction aux feuille de style avec CSS](.ressources/Act2-feuille-de-style-CSS.pdf){:target="_blank"}   
+* [TD3 - Découverte des tableaux en HTML](./ressources/Act3-HTML-tableau.pdf){:target="_blank"}   
+
+Pour réaliser les activités de ce chapitre, veuillez utiliser ce [**lien**](https://codebetter.lucaswillems.com/){:target="_blank"}  
 
 ??? abstract "Correction"   
 
@@ -24,3 +27,21 @@ Pour réaliser les activités de ce chapitre, veuillez utiliser ce [__lien__](ht
         * Le thème : 30 secondes 
         * Le code + le site : 3 minutes
         * Conclusion (difficultés rencontrées, remarques...etc ) : 1 minute
+
+## DECOUVERTE
+
+### Activité 1 - Le WEB vs Internet
+
+* Télécharger le document [**Le_WEB.pdf**](./ressources/Le_WEB.pdf).
+* Sur le document, plusieurs liens menant vers des vidéos, seront à visionner pour pouvoir répondre aux différentes questions du même document.
+
+### Activité 2 - Les cookies
+
+* Télécharger le document [**Les_cookies.pdf**](./ressources/Les_cookies.pdf).
+* Vous devez répondre aux questions du document en visionnant la vidéo suivante:
+![j_ai_attrape_un_cookie.mp4](./ressources/j_ai_attrape_un_cookie.mp4)
+
+## SYNTHESE
+
+Voici la synthèse:
+[**Synthèse_La-page-WEB.pdf**](./ressources/Synthèse_La-page-WEB.pdf)
