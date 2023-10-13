@@ -38,8 +38,10 @@ Pour réaliser les activités de ce chapitre, veuillez utiliser ce [**lien**](ht
 ### Activité 2 - Les cookies
 
 * Télécharger le document [**Les_cookies.pdf**](./ressources/Les_cookies.pdf).
-* Vous devez répondre aux questions du document en visionnant la vidéo suivante:
-![j_ai_attrape_un_cookie.mp4](./ressources/j_ai_attrape_un_cookie.mp4)
+* Vous devez répondre aux questions du document en visionnant la vidéo suivante (cliquer sur la vidéo pour la visionner):
+
+
+[![Vidéo act2](./ressources/j_ai_attrape_un_cookie.jpg){:width=30%}](./ressources/j_ai_attrape_un_cookie.mp4 "j'ai attrapé un cookie")
 
 ## SYNTHESE
 

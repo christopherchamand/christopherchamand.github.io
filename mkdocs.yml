@@ -27,7 +27,7 @@ nav:
         - "Séquence 1: L'analyse des structures" : STI2D/AC/Seq1/ac_seq1.md
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT" : 
     - "Présentation" : SNT/index_snt.md
-    - "Chapitre 1 : Le WEB" : SNT/web/web.md
+    - "Chapitre 1 : Le WEB" : SNT/web/index_web.md
 
 
     #- "ETLV 1ère" : STI2D/ETLV/index_ETLV-P.md
