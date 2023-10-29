@@ -13,3 +13,10 @@ L'objectif est de :
     | Activité | Documents techniques | Ressources | Aide |
     | -- | -- | -- | -- |
     | [Activité 1: ACV Agrafeuse](./activite1/acv_agrafeuses.md){:target="_blank"} |  | []() | []() |
+
+
+??? abstract "ACTIVITÉ 2: ACV TERRAIN DE FOOT"
+
+    | Activité | Documents techniques | Ressources | Aide |
+    | -- | -- | -- | -- |
+    | [Activité 2: ACV Terrain de Foot](./activite2/EC-%20ACV_FOOT/index.html){:target="_blank"} |  | []() | []() |
