@@ -79,13 +79,16 @@ Elles comprennent les charges d'exploitation et les charges climatiques.
 
 ### Autres types de charges
 * Les charges thermiques : 
-    Une variation de la température entraîne systématiquement une dilatation (ou contraction) des matériaux. Le changement de longueur d'une poutre de longueur L en fonction de la température est donné par la relation : AL = a.L.AT avec :
-        * α (alpha): le coefficient de dilatation thermique linéaire du matériau
-        * L : la longueur initiale
-        * ΔT : l'écart de température
+    Une variation de la température entraîne systématiquement une dilatation (ou contraction) des matériaux. Le changement de longueur d'une poutre de longueur L en fonction de la température est donné par la relation :    
+    
+    AL = a.L.AT avec :    
+        - α (alpha): le coefficient de dilatation thermique linéaire du matériau    
+        - L : la longueur initiale      
+        - ΔT : l'écart de température   
+           
     Il sera important de tenir compte de ce phénomène dans une structure.
 
-* Les charges sismiques :
+* Les charges sismiques : 
     Un séisme provoque des vibrations qui se propagent à travers les différentes couches de sol. Le sol subit donc des accélérations qui se traduisent par des efforts horizontaux.
 
 * Vibrations dues aux machines tournantes : 

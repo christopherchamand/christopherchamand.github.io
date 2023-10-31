@@ -19,4 +19,4 @@ L'objectif est de :
 
     | Activité | Documents techniques | Ressources | Aide |
     | -- | -- | -- | -- |
-    | [Activité 2: ACV Terrain de Foot](./activite2/EC-ACV_FOOT/index.html){:target="_blank"} |  | []() | []() |
+    | [Activité 2: ACV Terrain de Foot](./activite2/acv_foot.md){:target="_blank"} |  | []() | []() |

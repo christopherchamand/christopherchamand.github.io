@@ -30,30 +30,42 @@ La solive est simplement appuyée à ses extrémités et a pour portée L = 5,18
 
 ![Plan](./img/ddc-app1.png){:width=100%}
 
-<!--
 ??? abstract "CORRECTION"
 
-    $P = (G \times \frac{4}{3}) + (Q \times \frac{3}{2})$   
-    $P = (0.8 \times \frac{4}{3}) + (1.5 \times \frac{3}{2})$
-    $P = 3.32 kN/m^{2}$   
+    ^^**Méthode par déduction mathématique:**^^    
+    $P = (G \times \frac{4}{3}) + (Q \times \frac{3}{2})$      
+    $P = (0.8 \times \frac{4}{3}) + (1.5 \times \frac{3}{2})$     
+    $P = 3.32 kN/m^{2}$    
 
-    Surface = (5.2 * 4) * (12)
-    Surface = 249.6 m2
+    Surface concerné = $(5.2 \times 12)$    
+    Surface concerné = 62.4 m2    
 
-    P = 3.32 / 249.6
-    Ptot = 0.013 kN/m2
+    P$_{surface concerné} = $3.32 \times 62.4$    
+    P$_{surface concerné}$ = 207.168 kN/m$^{2}$    
 
-    Surface1 = 5.2 *12
-    Surface1 = 62.4 m2
+    On divise par le nombre de solive:    
+    P$_{solive}= \frac{207.168}{20}$    
+    P$_{solive}$ = 10.3584 kN    
 
-    Psurface1 = 0.013 * 62.4
-    Psurface1 = 0.8112 kN
+    P$_{solive} = \frac{10.3584}{5.185}$    
+    P$_{solive}$ = 1.99 kN/m$^{2}$    
 
-    Ps = (Ptot / 4) / 20
-    Ps = (826.682 / 4) / 20
-    Ps = 0.0415 kN/
 
--->
+    ^^**Méthode experte:**^^    
+    On souhaite connaitre la charge sur 1 mètre linéaire de la solive A.    
+    On détermine la surface répartie sur la solive A:   
+    $\frac{Longeur de la surface concerné}{Nombre de solives} = \frac{12}{20} = 0.6 m^{2}$   
+
+    Nous cherchons maintenant la surface sur 1 mètre linéaire:
+    $0.6 \times 1 = 0.6 m^{2}$
+
+    Nous appliquons maintenant la charge P à cette surface:
+    $P_{solive} = 0.6 \times 3.32 = 1.99 kN/m^{2}$ 
+
+    
+
+
+
 
 ---
 ## **EXERCICE 2:** 
@@ -88,6 +100,8 @@ c/ **Déterminer** la charge G en kN/ml de la solive du ^^CAS 1^^.
 d/ **Déterminer** la charge G en kN/ml de la solive du ^^CAS 2^^.   
 e/ **Déterminer** la charge Q en kN/ml de la solive ^^CAS 1^^.   
 f/ **Déterminer** la charge Q en kN/ml de la solive ^^CAS 2^^.   
+
+
 
 ---
 ## EXERCICE 3
