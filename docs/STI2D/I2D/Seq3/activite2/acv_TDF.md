@@ -35,4 +35,5 @@ Cette étude prend en compte les étapes de cycle de vie suivantes :
 
 ## LES RESULTATS
 
-![ACV Resultats](./img/acv_resultats.png){:width=100%}
+![ACV Resultats1](./img/acv_resultats1.png){:width=50%}
+![ACV Resultats2](./img/acv_resultats2.png){:width=100%}
