@@ -20,7 +20,7 @@ Vous avez, à votre disposition :
 
 ### Introduction et présentation du système
 
-![Présentation BigBelly](./img/presentation_bigbelly.png){:width=100%}
+![Présentation BigBelly](./img/presentation_bigbelly.png){:width=50%}
 
 La société américaine Big Belly Solar, située à Newton dans le Massachusetts a conçu un système de compactage des déchets qui permet à une corbeille de rue de contenir cinq fois plus de déchets pour un même volume ainsi réduisant les corvées liées
 au ramassage, les débordements disgracieux d’ordures ainsi que l’impact polluant de collectes inutiles.
@@ -34,9 +34,9 @@ L’appareil prend autant de place qu’une poubelle classique mais sa capacité
 2. **Compléter** les éléments manquants du diagramme des cas d’utilisation ci-dessous.
 3. A partir du diagramme des cas d’utilisation (SYSML), **indiquer** la procédure avec les acteurs intervenants lorsque la poubelle est pleine.
 
-![Big_Belly Case Use](./ressources/bigbelly/Diagramme%20cas%20d'utilisation%20big%20belly.png){:width=100%}
+![Big_Belly Case Use](./ressources/bigbelly/bigbelly_uc.png){:width=100%}
 
-4. Sur le document réponse, repérer les éléments suivants : trappe, belier, porte, panneau photovoltaique, bac.
+4. Sur le [document réponse](./ressources/bigbelly/S3A1_BigBelly.pdf), repérer les éléments suivants : trappe, belier, porte, panneau photovoltaique, bac.
 
 ![Big_Belly Détails](./ressources/bigbelly/bigbelly_details.png){:width=100%}
 
@@ -44,9 +44,9 @@ L’appareil prend autant de place qu’une poubelle classique mais sa capacité
 
 ### Analyse comportementale : Diagramme de blocs internes (IDB).
 
-Le diagramme de bloc interne (Internal Bloc Diagram-IDB) est l'un des diagrammes du modèle SYSML permettant de représenter un système.
+Le diagramme de bloc interne (Internal Bloc Diagram-IDB) est l'un des diagrammes du modèle SYSML permettant de représenter un système.    
 
-![Big_Belly sysml](./img/bigbelly_sysml.png){:width=100%}
+![Big_Belly sysml](./img/bigbelly_sysml.png){:width=50%}
 
 Ce diagramme permet de représenter les flux (Flows) entre les constituants internes du système, appelés "Blocks".
 Ces flux peuvent être de 3 natures :

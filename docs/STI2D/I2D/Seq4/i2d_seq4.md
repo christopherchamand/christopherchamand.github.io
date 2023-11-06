@@ -4,7 +4,7 @@
 
     | Activité | Documents techniques | Ressources | Aide |
     | -- | -- | -- | -- |
-    | [BigBelly](./activite1/act1-bigbelly.md){:target="_blank"} |  | []() | []() |
+    | [BigBelly](./activite1/act1-bigbelly.md){:target="_blank"} | [Doc BigBelly](./activite1/ressources/bigbelly/BigBelly_DossierTechnique.pdf) | [Document réponse](./activite1/ressources/bigbelly/S3A1_BigBelly.pdf) |
     | [PortailSet](./activite1/act1-portailset.md){:target="_blank"} |  | []() | []() |
 
 <!--
