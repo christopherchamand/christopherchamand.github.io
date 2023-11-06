@@ -20,7 +20,7 @@ Vous avez, à votre disposition :
 
 ### Introduction et présentation du système
 
-![Présentation BigBelly](./img/presentation_bigbilly.png){:width=100%}
+![Présentation BigBelly](./img/presentation_bigbelly.png){:width=100%}
 
 La société américaine Big Belly Solar, située à Newton dans le Massachusetts a conçu un système de compactage des déchets qui permet à une corbeille de rue de contenir cinq fois plus de déchets pour un même volume ainsi réduisant les corvées liées
 au ramassage, les débordements disgracieux d’ordures ainsi que l’impact polluant de collectes inutiles.
@@ -34,13 +34,13 @@ L’appareil prend autant de place qu’une poubelle classique mais sa capacité
 2. **Compléter** les éléments manquants du diagramme des cas d’utilisation ci-dessous.
 3. A partir du diagramme des cas d’utilisation (SYSML), **indiquer** la procédure avec les acteurs intervenants lorsque la poubelle est pleine.
 
-![Big_Belly Case Use](./ressources/bigbelly/Diagramme cas d'utilisation.png){:width=100%}
+![Big_Belly Case Use](./ressources/bigbelly/Diagramme%20cas%20d'utilisation%20big%20belly.png){:width=100%}
 
 4. Sur le document réponse, repérer les éléments suivants : trappe, belier, porte, panneau photovoltaique, bac.
 
 ![Big_Belly Détails](./ressources/bigbelly/bigbelly_details.png){:width=100%}
 
-5. Indiquer comment sont "simuléq" les détritus.
+5. Indiquer comment sont "simulés" les détritus. 
 
 ### Analyse comportementale : Diagramme de blocs internes (IDB).
 
@@ -62,7 +62,7 @@ Les blocks disposent de ports de flux (Flow Port) : ils peuvent être de nature 
 
 Sur le document réponse, répondre aux questions suivantes :
 
-1. Sur le document réponse, Compléter le digramme IBD avec les éléments suivants électrique (*2), énergie mécanique de rotation (*2), Batterie, énergie mécanique de translation, photovoltaïque.
+1. Sur le document réponse, Compléter le digramme IBD avec les éléments suivants électrique ($\times$2), énergie mécanique de rotation ($\times$2), Batterie, énergie mécanique de translation, photovoltaïque.
 2. A partir du diagramme IBD du compacteur BigBelly ci-dessous, déterminer les éléments extérieurs au système, entourer les Flows ports correspondants.
 3. Tracer en bleu le flux d’énergie principal, depuis la batterie jusqu'aux déchets.
 4. Tracer en bleu pointillé le flux d’énergie de charge, depuis le soleil jusqu’à la batterie.
