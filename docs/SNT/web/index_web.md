@@ -4,7 +4,7 @@
 ## PROGRAMMATION
 
 * [TD1 - Introduction au langage HTML](./ressources/Act1-introduction-au-html.pdf){:target="_blank"}    
-* [TD2 - Introduction aux feuille de style avec CSS](.ressources/Act2-feuille-de-style-CSS.pdf){:target="_blank"}   
+* [TD2 - Introduction aux feuille de style avec CSS](./ressources/Act2-feuille-de-style-CSS.pdf){:target="_blank"}   
 * [TD3 - Découverte des tableaux en HTML](./ressources/Act3-HTML-tableau.pdf){:target="_blank"}   
 
 Pour réaliser les activités de ce chapitre, veuillez utiliser ce [**lien**](https://codebetter.lucaswillems.com/){:target="_blank"}  
