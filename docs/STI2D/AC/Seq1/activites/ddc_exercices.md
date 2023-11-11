@@ -33,37 +33,34 @@ La solive est simplement appuyée à ses extrémités et a pour portée L = 5,18
 ??? abstract "CORRECTION"
 
     ^^**Méthode par déduction mathématique:**^^    
-    $P = (G \times \frac{4}{3}) + (Q \times \frac{3}{2})$      
-    $P = (0.8 \times \frac{4}{3}) + (1.5 \times \frac{3}{2})$     
-    $P = 3.32 kN/m^{2}$    
+    P = (G $\times \frac{4}{3}$) + (Q $\times \frac{3}{2}$)      
+    P = (0.8 $\times \frac{4}{3}$) + (1.5 $\times \frac{3}{2}$)     
+    P = 3.32 kN/m$^{2}$    
 
-    Surface concerné = $(5.2 \times 12)$    
-    Surface concerné = 62.4 m2    
+    Surface concerné = (5.2 $\times$ 12)    
+    Surface concerné = 62.4 m$^{2}$    
 
-    P$_{surface concerné} = $3.32 \times 62.4$    
+    P$_{surface concerné}$ = 3.32 $\times$ 62.4    
     P$_{surface concerné}$ = 207.168 kN/m$^{2}$    
 
     On divise par le nombre de solive:    
-    P$_{solive}= \frac{207.168}{20}$    
+    P$_{solive} = \frac{207.168}{20}$    
     P$_{solive}$ = 10.3584 kN    
 
     P$_{solive} = \frac{10.3584}{5.185}$    
-    P$_{solive}$ = 1.99 kN/m$^{2}$    
+    P$_{solive}$ = 1.99 kN/m$^{2}$     
 
 
     ^^**Méthode experte:**^^    
     On souhaite connaitre la charge sur 1 mètre linéaire de la solive A.    
     On détermine la surface répartie sur la solive A:   
-    $\frac{Longeur de la surface concerné}{Nombre de solives} = \frac{12}{20} = 0.6 m^{2}$   
+    $\frac{Longeur de la surface concerné}{Nombre de solives}$ = $\frac{12}{20}$ = 0.6 m$^{2}$   
 
     Nous cherchons maintenant la surface sur 1 mètre linéaire:
-    $0.6 \times 1 = 0.6 m^{2}$
+    0.6  $\times$ 1 = 0.6 m$^{2}$
 
     Nous appliquons maintenant la charge P à cette surface:
-    $P_{solive} = 0.6 \times 3.32 = 1.99 kN/m^{2}$ 
-
-    
-
+    P$_{solive}$ = 0.6 $\times$ 3.32 = 1.99 kN/m$^{2}$ 
 
 
 
