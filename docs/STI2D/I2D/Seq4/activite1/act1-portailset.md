@@ -39,7 +39,7 @@ Le système pédagogique proposé par la société SET s’appuis sur un produit
 
  ![PortailSet package](./ressources/portailset/portail_details.png){:width=50%}
 
- 1.6. Indiquer comment sont « simulés » les détritus.
+ 1.6. Indiquer comment sont « simulés » les véhicules.
 
 
 ### 2. Analyse comportementale : Diagramme de blocs internes (IBD).
