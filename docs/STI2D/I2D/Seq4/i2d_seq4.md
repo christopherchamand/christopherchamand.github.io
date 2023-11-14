@@ -14,11 +14,9 @@
     | -- | -- | -- | -- |
     | [Act2_BigBelly](./activite2/ressources/S3A2_BigBelly.pdf){:target="_blank"} |  | [DrawIO](./activite2/ressources/S3A2_IBD-BigBelly.drawio){:target="_blank"} <br/> [Simulation](./activite2/ressources/simulation_CP_compacteur.slx){:target="_blank"} | [Vidéo1](./activite2/ressources/Video%201-Bigbelly%20Smart%20Waste%20&%20Recycling%20System.mp4){:target="_blank"} <br/> [Vidéo](./activite2/ressources/Video%202-BigBelly%20Solar%20Overview%20-%20Solar%20Powered%20Trash.mp4){:target="_blank"} |
 
-<!--
+
 ??? abstract "Mini-Projet"
 
     | Activité | Documents techniques | Ressources | Aide |
     | -- | -- | -- | -- |
-    | [Xplorer](./mini-projet/xplorer.md){:target="_blank"} |  | []() | []() |
-
--->
+    | [Act_Xplorer](./mini-projet/ressources/S2A3-MiniProjet_Xplorer.pdf){:target="_blank"} |  | [DrawnIO](./mini-projet/ressources/IBD_Xplorer.drawio){:target="_blank"} <br/> [IDB_Xplorer](./mini-projet/ressources/IBD_Desert_Xplorer.vsdx){:target="_blank"} <br/> [Tableau de critères](./mini-projet/ressources/Tableaux%20de%20critères.docx){:target="_blank"} | []() |
