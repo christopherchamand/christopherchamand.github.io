@@ -40,7 +40,7 @@ Au cours de cette activité, vous serez amené à présenter le fonctionnement d
 * Respect du temps impartit
 
 Vous serez évalué à partir du fichier suivant:  
-[Seq1_Évaluation](./evaluation/Seq01_Evaluation_Oral.xlsx)
+![Download](../../../../icones/download-solid.svg){:width=3%} [Seq1_Évaluation](./evaluation/Seq01_Evaluation_Oral.xlsx){:target="_blank"}
 
 ## TRAVAIL DEMANDÉ
 

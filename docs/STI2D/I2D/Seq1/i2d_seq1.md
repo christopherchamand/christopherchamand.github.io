@@ -8,6 +8,6 @@ Dans cette activité, nous allons tenter de comprendre le fonctionnement un syst
 
     | Activité | Documents techniques | Documents réponses | Aide |
     | -- | -- | -- | -- |
-    | [Activité1](./S1_Act1.md){:target="_blank" } | [DT Scootelec](./ressources/DT/DT%20Scootelec.pdf){:target="_blank" } | DR Scootelec: A faire vous même | [Fiche SysML](./ressources/Fiche%20sysml.pdf){:target="_blank" } |
-    |  | [DT Sympact](./ressources/DT/DT%20sympact.pdf){:target="_blank" } | [DR Sympact](./ressources/DR/DR%20sympact.doc) | <!-- [Mode Opératoire](./ressources/Mode%20opératoire.docx)--> |
-    |  | [DT Portail Automatisé](./ressources/DT/Portail_Automatisé.pdf){:target="_blank" } | [DR Portail Automatisé](./ressources/DR/DR%20portail.docx) |  |
+    | ![Download](../../../../icones/download-solid.svg){:width=7%} [Activité1](./S1_Act1.md){:target="_blank" } | ![Download](../../../../icones/download-solid.svg){:width=7%} [DT Scootelec](./ressources/DT/DT%20Scootelec.pdf){:target="_blank" } | DR Scootelec: A faire vous même | ![Download](../../../../icones/download-solid.svg){:width=7%} [Fiche SysML](./ressources/Fiche%20sysml.pdf){:target="_blank" } |
+    |  | ![Download](../../../../icones/download-solid.svg){:width=7%} [DT Sympact](./ressources/DT/DT%20sympact.pdf){:target="_blank" } | ![Download](../../../../icones/download-solid.svg){:width=7%} [DR Sympact](./ressources/DR/DR%20sympact.doc) | <!-- ![Download](../../../../icones/download-solid.svg){:width=7%} [Mode Opératoire](./ressources/Mode%20opératoire.docx){:target="_blank"}--> |
+    |  | ![Download](../../../../icones/download-solid.svg){:width=7%} [DT Portail Automatisé](./ressources/DT/Portail_Automatisé.pdf){:target="_blank" } | ![Download](../../../../icones/download-solid.svg){:width=7%} [DR Portail Automatisé](./ressources/DR/DR%20portail.docx) |  |

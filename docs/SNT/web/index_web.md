@@ -11,9 +11,9 @@ Pour réaliser les activités de ce chapitre, veuillez utiliser ce [**lien**](ht
 
 ??? abstract "Correction"   
 
-    [PoemeMusset.html (Partie1)](./ressources/poemeMusset.html){:target="_blank"}   
-    [Image Alfred de Musset](./ressources/ADM.png){:target="_blank"}   
-    [style.css](./ressources/style.css){:target="_blank"}   
+    ![Download](../../icones/download-solid.svg){:width=3%}[PoemeMusset.html (Partie1)](./ressources/poemeMusset.html){:target="_blank"}   
+    ![Download](../../icones/download-solid.svg){:width=3%}[Image Alfred de Musset](./ressources/ADM.png){:target="_blank"}   
+    ![Download](../../icones/download-solid.svg){:width=3%}[style.css](./ressources/style.css){:target="_blank"}   
     <!--[Tableaux](./ressources/tableaux/Act3.zip){:target="_blank"} -->  
 
 ??? danger "EVALUATION"
@@ -32,18 +32,18 @@ Pour réaliser les activités de ce chapitre, veuillez utiliser ce [**lien**](ht
 
 ### Activité 1 - Le WEB vs Internet
 
-* Télécharger le document [**Le_WEB.pdf**](./ressources/Le_WEB.pdf).
+* Télécharger le document ![Download](../../icones/download-solid.svg){:width=3%}[**Le_WEB.pdf**](./ressources/Le_WEB.pdf){:target="_blank"}.
 * Sur le document, plusieurs liens menant vers des vidéos, seront à visionner pour pouvoir répondre aux différentes questions du même document.
 
 ### Activité 2 - Les cookies
 
-* Télécharger le document [**Les_cookies.pdf**](./ressources/Les_cookies.pdf).
+* Télécharger le document ![Download](../../icones/download-solid.svg){:width=3%}[**Les_cookies.pdf**](./ressources/Les_cookies.pdf){:target="_blank"}.
 * Vous devez répondre aux questions du document en visionnant la vidéo suivante (cliquer sur la vidéo pour la visionner):
 
 
-[![Vidéo act2](./ressources/j_ai_attrape_un_cookie.jpg){:width=30%}](./ressources/j_ai_attrape_un_cookie.mp4 "j'ai attrapé un cookie")
+[![Vidéo act2](./ressources/j_ai_attrape_un_cookie.jpg){:width=30%}](./ressources/j_ai_attrape_un_cookie.mp4 "j'ai attrapé un cookie"){:target="_blank"}
 
 ## SYNTHESE
 
 Voici la synthèse:
-[**Synthèse_La-page-WEB.pdf**](./ressources/Synthèse_La-page-WEB.pdf)
+![Download](../../icones/download-solid.svg){:width=3%}[**Synthèse_La-page-WEB.pdf**](./ressources/Synthèse_La-page-WEB.pdf){:target="_blank"}

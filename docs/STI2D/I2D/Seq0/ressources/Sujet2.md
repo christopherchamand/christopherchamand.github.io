@@ -1,6 +1,6 @@
 # Sujet 2 - Est-il possible de n’utiliser que de l’électricité issue de sources renouvelables ?
 
-![Sujet 2 - Lancement](./images/Sujet2_lancement.png){width=400px}
+![Sujet 2 - Lancement](../images/Sujet2_lancement.png){width=400px}
 
 ## QUESTIONS:
 
@@ -14,5 +14,5 @@
 
 ## RESSOURCES:
 
-[Vincent Boulanger : Transition énergétique : Comment fait l’Allemagne ? p. 63-79.](http://sti2d-erembert.fr/i2d/seq1/expose/boulanger.pdf)
+![Download](../../../../icones/download-solid.svg){:width=3%} [Vincent Boulanger : Transition énergétique : Comment fait l’Allemagne ? p. 63-79.](http://sti2d-erembert.fr/i2d/seq1/expose/boulanger.pdf){:target="_blank"}
 

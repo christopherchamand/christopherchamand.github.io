@@ -7,9 +7,9 @@ Les éoliennes et les panneaux photovoltaïques permettent de convertir l’éne
 
 ## RESSOURCES:
 
-[Panneaux solaires : quel impact sur l’environnement ?](https://www.actu-environnement.com/ae/pdt/panneaux-solaires-impact-environnement-edf-enr-667.php4)
+![Download](../../../../icones/download-solid.svg){:width=3%} [Panneaux solaires : quel impact sur l’environnement ?](https://www.actu-environnement.com/ae/pdt/panneaux-solaires-impact-environnement-edf-enr-667.php4){:target="_blank"}
 
-[L’éolien signe la fracture entre deux visions de l’écologie](https://reporterre.net/L-eolien-signe-la-fracture-entre-deux-visions-de-l-ecologie)
+![Download](../../../../icones/download-solid.svg){:width=3%} [L’éolien signe la fracture entre deux visions de l’écologie](https://reporterre.net/L-eolien-signe-la-fracture-entre-deux-visions-de-l-ecologie){:target="_blank"}
 
 
 ## MOTS CLÉS:

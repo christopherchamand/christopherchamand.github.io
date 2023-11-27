@@ -1,6 +1,6 @@
 ## PRÉSENTATION DES OBJECTIFS DE LA SÉQUENCE
 
-![Sujet - présentation](./images/Sujet_presentation.png){width=400px} 
+![Sujet - présentation](../images/Sujet_presentation.png){width=400px} 
 
 ## ORGANISATION:
 
@@ -34,7 +34,7 @@
 * Vocabulaire précis, expression orale.
 
 Vous serez évalué à partir du fichier suivant:  
-[Seq1_Évaluation](./Evaluation/Seq00_Evaluation_Oral.xlsx)
+![Download](../../../../icones/download-solid.svg){:width=3%} [Seq1_Évaluation](./Evaluation/Seq00_Evaluation_Oral.xlsx){:target="_blank"}
 
 ## LES SUJETS :
 

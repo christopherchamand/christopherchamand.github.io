@@ -1,6 +1,6 @@
 # Sujet 5 - Qu’est-ce que l’obsolescence programmée ?
 
-![Sujet 5 - Lancement](./images/Sujet5_lancement.png){width=400px}
+![Sujet 5 - Lancement](../images/Sujet5_lancement.png){width=400px}
 
 ## QUESTIONS:
 
