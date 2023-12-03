@@ -4,5 +4,5 @@
 
 | Cours | Activités |
 | -- | -- |
-| [Descente de charges](./Cours/ddc_cours.md){:target="_blank"} | [Exercices](./activites/ddc_exercices.md){:target="_blank"} |
-| [Résistance des matériaux](./Cours/rdm_cours.md){:target="_blank"} |  [Exercices](./activites/rdm_exercices.md){:target="_blank"} |
+| [Descente de charges](./cours/ddc_cours.md){:target="_blank"} | [Exercices](./activites/ddc_exercices.md){:target="_blank"} |
+| [Résistance des matériaux](./cours/rdm_cours.md){:target="_blank"} |  [Exercices](./activites/rdm_exercices.md){:target="_blank"} |
