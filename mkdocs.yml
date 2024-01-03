@@ -25,7 +25,13 @@ nav:
       - "AC" : 
         - "Présentation" : STI2D/AC/index_ac.md
         - "Séquence 0: Découverte" : STI2D/AC/Seq0/ac_seq0.md
-        - "Séquence 1: L'analyse des structures" : STI2D/AC/Seq1/ac_seq1.md
+        - "Séquence 1: La descente de charges" : STI2D/AC/Seq1/ac_seq1.md
+        - "Séquence 2: La résistance des matériaux" : STI2D/AC/Seq2/ac_seq2.md
+        - "Séquence 3: Modélisation des systèmes" : STI2D/AC/Seq3/ac_seq3.md
+        - "Séquence 4: Confort thermique" : STI2D/AC/Seq4/ac_seq4.md
+        - "Séquence 5: Confort acoustique" : STI2D/AC/Seq5/ac_seq5.md
+        - "Séquence 6: Confort visuel" : STI2D/AC/Seq6/ac_seq6.md
+        - "Séquence 7: Automatisation dans l'habitat" : STI2D/AC/Seq7/ac_seq7.md
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT" : 
     - "Présentation" : SNT/index_snt.md
     - "Chapitre 1 : Le WEB" : SNT/web/index_web.md
