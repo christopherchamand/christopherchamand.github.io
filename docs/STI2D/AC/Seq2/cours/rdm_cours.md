@@ -280,3 +280,54 @@ un seul moment fléchissant (autour de l'axe G$_{z}$ par exemple) M$_{z}$ :
 
 Torseur des efforts internes de cohésion : $\begin{Bmatrix}\tau_{(2/1)} \end{Bmatrix} = \begin{Bmatrix} 0 & 0 \\ 0 & 0 \\ 0 & M_{z}(x) \end{Bmatrix}_{G}$
 
+#### 2/ Essai de flexion
+
+![Essai de flexion](./img/rdm-flexion-essai.png){: width=100%} 
+
+Entre C et D, on peut étudier les effets du moment fléchissant seul.
+
+L'expérience montre qu'entre les points C et D, les fibres de la poutre soumise au chargement décrit précédemment, se déforment selon des arcs de cercles parallèles (on parle de **flexion circulaire**) : 
+
+![Essai de flexion2](./img/rdm-flexion-essai2.png){: width=100%}
+
+* la ligne moyenne GG' et le plan Gxz correspondant ne subissent aucune déformation: on parlera donc de fibre neutre et de plan neutre.    
+* les fibres situées au dessus du plan neutre raccourcissent : elles sont comprimées    
+* les fibres situées en dessous du plan neutre s'allongent: elles sont tendues     
+
+#### 3/ Contrainte de flexion
+
+| Formule |
+| -- |
+| $\sigma_{x} = - \frac{M_{z}}{I_{Gz}}y$ |
+
+* $\sigma_{x}$ est proportionnel à l'ordonnée y du point considéré,
+* $\sigma_{x}$ = 0 pour y = 0 : (G, x, z) est le plan neutre et (G, z) est l'axe neutre.
+
+![Contrainte de flexion](./img/rdm-flexion-contrainte.png){: width=100%}
+
+* si le moment M, est positif:
+  * $\sigma_{x}$ > 0 si y < O (traction dans les fibres situées sous l'axe neutre), 
+  * $\sigma_{x}$ < 0 si y > 0 (compression dans les fibres situées au-dessus l'axe neutre), et réciproquement si Mz est négatif.
+
+![Contrainte de flexion2](./img/rdm-flexion-contrainte2.png){: width=100%}
+
+
+#### 4/ Déformée remarquable
+
+Poutre sur deux appuis chargée uniformément:    
+![Déformée remarquable](./img/rdm-deformee-remarquable.png){: width=50%}
+
+
+Equation du moment: $M(x) = - \frac{qx^{2}}{2} + \frac{qlx}{2}$    
+![Déformée remarquable2](./img/rdm-deformee-remarquable2.png){: width=50%}
+
+
+Allure de la déformée :    
+![Déformée remarquable3](./img/rdm-deformee-remarquable3.png){: width=50%}
+
+
+^^Remarque :^^ l'allure de la déformée $\approx$ - l'allure du moment.
+
+| Formule |
+| -- |
+| $V_{max} = - \frac{5ql^{4}}{384EI}y$ |
