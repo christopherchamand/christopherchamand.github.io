@@ -89,4 +89,23 @@ La résistance pratique (ou admissible) au cisaillement du matériau de l'axe es
 **Déterminer** le diamètre d de l'axe 3.    
 **Indiquer** la (ou les) section(s) cisaillée(s).
 
+## FLEXION
 
+### Étude d'une poutre métallique « U »
+
+Une passerelle est constituée de deux poutrelles métalliques en « U » supportant un platelage en bois et des gardes corps, de 1,20m de largeur et d'une travée de 4m, elle est essentiellement utilisée pour le passage des piétons.    
+Pour assurer la stabilité et la dilatation de la structure, le bureau étude technique a opté pour un appui glissant à une extrémité et liaison articulée de l'autre.    
+
+![Etude poutre](./img/flexion-etude.png){: width=100%}
+
+1/ On propose l'étude d'une de ces deux poutres « Poutre 1 » :
+
+La charge lineique totale (permanente et d'exploitation) appliquée sur chacun des profilés est de P = 3,50 kN/ml.
+
+![Etude poutre2](./img/flexion-etude2.png){: width=70%} ![Etude poutre3](./img/flexion-etude3.png){: width=29%}
+
+Acier S235 ; Flèche limite L/200
+
+* **Vérifier** les conditions de rupture ?
+* **Vérifier** les conditions de déformation ?
+* **Conclure** sur l'évolution des contraintes dans la poutre AB ?
