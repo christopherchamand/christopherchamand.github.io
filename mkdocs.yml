@@ -19,6 +19,7 @@ nav:
         - "Séquence 3 : Éco-Conception" : STI2D/I2D/Seq3/i2d_seq3.md
         - "Séquence 4 : Les flux" : STI2D/I2D/Seq4/i2d_seq4.md
         - "Séquence 5 : Typologie de l'information, de l'énergie et des liaisons" : STI2D/I2D/Seq5/i2d_seq5.md
+        - "Séquence 6 : Lecture de plan architectural" : STI2D/I2D/Seq6/i2d_seq6.md
       #- "IT à venir..." : ..#
     #- "Terminale" :
       #- "2I2D à venir..." : ..#
@@ -31,8 +32,6 @@ nav:
         - "Séquence 3: Modélisation des systèmes" : STI2D/AC/Seq3/ac_seq3.md
         - "Séquence 4: Confort thermique" : STI2D/AC/Seq4/ac_seq4.md
         - "Séquence 5: Confort acoustique" : STI2D/AC/Seq5/ac_seq5.md
-        - "Séquence 6: Confort visuel" : STI2D/AC/Seq6/ac_seq6.md
-        - "Séquence 7: Automatisation dans l'habitat" : STI2D/AC/Seq7/ac_seq7.md
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT" : 
     - "Présentation" : SNT/index_snt.md
     - "Chapitre 1 : Le WEB" : SNT/web/index_web.md
