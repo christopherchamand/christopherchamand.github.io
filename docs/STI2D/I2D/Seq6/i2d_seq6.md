@@ -36,7 +36,7 @@ Partie N°2 : Mise en oeuvre d'une représentation 3D d'un batiment.
 | -- | -- |
 | ![Download](../../../icones/download-solid.svg){:width=5%} [TD1_SKETCHUP_2D](./seance2/TD1_SKETCHUP_2D.pdf){:target="_blank"} <br/> ![Download](../../../icones/download-solid.svg){:width=5%} [TD2_SKETCHUP_3D](./seance2/TD2_SKETCHUP_3D.pdf){:target="_blank"} <br/> ![Download](../../../icones/download-solid.svg){:width=5%} [TD3_SKETCHUP_Projet](./seance2/TD3_SKETCHUP_Projet.pdf){:target="_blank"}| ![Download](../../../icones/download-solid.svg){:width=5%} [Présentation interface SKETCHUP](./seance2/cours_interface-SKETCHUP_v2017.pdf){:target="_blank"} <br/> ![Download](../../../icones/download-solid.svg){:width=5%} [plan1.png](./seance2/ressources/plan1.png){:target="_blank"} <br/> ![Download](../../../icones/download-solid.svg){:width=5%} [plan2.jpg](./seance2/ressources/plan2.jpg){:target="_blank"} <br/> ![Download](../../../icones/download-solid.svg){:width=5%} [maison.zip](./seance2/ressources/maison.zip){:target="_blank"} |
 
-<!--
+
 ??? danger "ÉVALUATION""
  
     ^^**Consigne :**^^ Vous devez concevoir une maison.   
@@ -66,5 +66,3 @@ Partie N°2 : Mise en oeuvre d'une représentation 3D d'un batiment.
     | Texture et aspect | 2 pts |
 
     À la fin de l'épreuve, vous devez m'envoyer votre fichier sketchup, qui doit être nommé "**eval1_NOM_Prénom.skp**", par mail.
-
--->
