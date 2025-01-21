@@ -25,16 +25,16 @@ Visualiser les câbles sous-marins : [**https://www.submarinecablemap.com**](htt
 
 | Nom |	Symbole | Valeur |
 | -- | -- | -- |
-| kilooctet | ko | 103 |
-| mégaoctet | Mo | 106 |
-| gigaoctet | Go | 109 |
-| téraoctet | To | 1012 |
-| pétaoctet | Po | 1015 |
-| exaoctet | Eo | 1018 |
-| zettaoctet | Zo | 1021 |
-| yottaoctet | Yo | 1024 |
-| ronnaoctet | Ro | 1027 |
-| quettaoctet | Qo | 1030 |
+| kilooctet | ko | $10^{3}$ |
+| mégaoctet | Mo | $10^{6}$ |
+| gigaoctet | Go | $10^{9}$ |
+| téraoctet | To | $10^{12}$ |
+| pétaoctet | Po | $10^{15}$ |
+| exaoctet | Eo | $10^{18}$ |
+| zettaoctet | Zo | $10^{21}$ |
+| yottaoctet | Yo | $10^{24}$ |
+| ronnaoctet | Ro | $10^{27}$ |
+| quettaoctet | Qo | $10^{30}$ |
 
 Un bit est une information élémentaire 0, ou 1. Un octet est constitué de 8 bits. Le débit d'une transmission de données est la vitesse à laquelle ces données sont transmises sur le réseau. Il est exprimé en bits par seconde noté b/s (ou kilobits par seconde (kb/s), mégabits par seconde (Mb/s), gigabits par seconde (Gb/s)…). Il se calcule avec la formule : 
 
@@ -49,72 +49,27 @@ $débit = \frac{taille (en bits)}{temps (en secondes)}$
 ### Le trafic
 
 Application mobile:
+
 ![Download](./img/mobile.jpeg){:width=70%}
 
 Types de données:
+
 ![Download](./img/videos.jpg){:width=70%}
 
 ??? abstract "Exercice" 
     * Quel est le type de données majoritairement échangé sur internet ?
 
 Trafic internet: 
+
 ![Download](./img/trafic.png){:width=70%}
 
 ??? abstract "Exercice" 
     * En considérant qu’un film en haute définition peut être stocké sur 4 Go, évaluer l’équivalent en nombre de films par mois du trafic internet mensuel actuel.
 
 Croissance du volume de données : 
+
 ![Download](./img/croissance.png){:width=70%}
 
 ??? abstract "Exercice" 
     * Commenter l'évolution de la croissance d'internet
 
-<!--
-## PROGRAMMATION
-
-* [TD1 - Introduction au langage HTML](./ressources/Act1-introduction-au-html.pdf){:target="_blank"}    
-* [TD2 - Introduction aux feuille de style avec CSS](./ressources/Act2-feuille-de-style-CSS.pdf){:target="_blank"}   
-* [TD3 - Découverte des tableaux en HTML](./ressources/Act3-HTML-tableau.pdf){:target="_blank"}   
-
-Pour réaliser les activités de ce chapitre, veuillez utiliser ce [**lien**](https://codebetter.lucaswillems.com/){:target="_blank"}  
-
-??? abstract "Correction"   
-
-    ![Download](../../icones/download-solid.svg){:width=3%}[PoemeMusset.html (Partie1)](./ressources/poemeMusset.html){:target="_blank"}   
-    ![Download](../../icones/download-solid.svg){:width=3%}[Image Alfred de Musset](./ressources/ADM.png){:target="_blank"}   
-    ![Download](../../icones/download-solid.svg){:width=3%}[style.css](./ressources/style.css){:target="_blank"}   
-    <!--[Tableaux](./ressources/tableaux/Act3.zip){:target="_blank"} -->  
-<!-- 
-??? danger "EVALUATION"
-
-    Vous devez programmer un site WEB en utilisant les connaissance acquise lors des 3 TDs effectués en classe sur le HTML et CSS.    
-    Votre site portera sur le thème de votre choix (Mangas, livres, Films, Musique...etc).
-    A la date indiqué, vous devrez présenter votre production à l'oral suivant les critères suivants:
-    
-    * Durée de la présentation : 5 minutes
-        * Présentation: 30 secondes
-        * Le thème : 30 secondes 
-        * Le code + le site : 3 minutes
-        * Conclusion (difficultés rencontrées, remarques...etc ) : 1 minute
-
-## DECOUVERTE
-
-### Activité 1 - Le WEB vs Internet
-
-* Télécharger le document ![Download](../../icones/download-solid.svg){:width=3%}[**Le_WEB.pdf**](./ressources/Le_WEB.pdf){:target="_blank"}.
-* Sur le document, plusieurs liens menant vers des vidéos, seront à visionner pour pouvoir répondre aux différentes questions du même document.
-
-### Activité 2 - Les cookies
-
-* Télécharger le document ![Download](../../icones/download-solid.svg){:width=3%}[**Les_cookies.pdf**](./ressources/Les_cookies.pdf){:target="_blank"}.
-* Vous devez répondre aux questions du document en visionnant la vidéo suivante (cliquer sur la vidéo pour la visionner):
-
-
-[![Vidéo act2](./ressources/j_ai_attrape_un_cookie.jpg){:width=30%}](./ressources/j_ai_attrape_un_cookie.mp4 "j'ai attrapé un cookie"){:target="_blank"}
-
-## SYNTHESE
-
-Voici la synthèse:
-![Download](../../icones/download-solid.svg){:width=3%}[**Synthèse_La-page-WEB.pdf**](./ressources/Synthèse_La-page-WEB.pdf){:target="_blank"}
-
--->
