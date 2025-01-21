@@ -38,7 +38,6 @@ Visualiser les câbles sous-marins : [**https://www.submarinecablemap.com**](htt
 
 Un bit est une information élémentaire 0, ou 1. Un octet est constitué de 8 bits. Le débit d'une transmission de données est la vitesse à laquelle ces données sont transmises sur le réseau. Il est exprimé en bits par seconde noté b/s (ou kilobits par seconde (kb/s), mégabits par seconde (Mb/s), gigabits par seconde (Gb/s)…). Il se calcule avec la formule : 
 
-débit = taille (en bits) / temps (en seconde)
 $débit = \frac{taille (en bits)}{temps (en secondes)}$
 
 ??? abstract "Exercice" 
