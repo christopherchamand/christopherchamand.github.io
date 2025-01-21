@@ -37,6 +37,7 @@ nav:
     - "Présentation" : SNT/index_snt.md
     - "Chapitre 1 : Le WEB" : SNT/web/index_web.md
     - "Chapitre 2 : Python" : SNT/python/index_python.md
+    - "Chapitre 2 : Internet" : SNT/internet/index_internet.md
 
 
     #- "ETLV 1ère" : STI2D/ETLV/index_ETLV-P.md
