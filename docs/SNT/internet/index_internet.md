@@ -39,6 +39,7 @@ Visualiser les câbles sous-marins : [**https://www.submarinecablemap.com**](htt
 Un bit est une information élémentaire 0, ou 1. Un octet est constitué de 8 bits. Le débit d'une transmission de données est la vitesse à laquelle ces données sont transmises sur le réseau. Il est exprimé en bits par seconde noté b/s (ou kilobits par seconde (kb/s), mégabits par seconde (Mb/s), gigabits par seconde (Gb/s)…). Il se calcule avec la formule : 
 
 débit = taille (en bits) / temps (en seconde)
+$débit = \frac{taille (en bits)}{temps (en secondes)}$
 
 ??? abstract "Exercice" 
     *  Un fichier de 2 Mo se télécharge en 17 secondes. Calculer le débit de cette transmission.
@@ -49,22 +50,22 @@ débit = taille (en bits) / temps (en seconde)
 ### Le trafic
 
 Application mobile:
-![Download](./img/mobile.jpeg){:width=10%}
+![Download](./img/mobile.jpeg){:width=70%}
 
 Types de données:
-![Download](./img/videos.jpg){:width=10%}
+![Download](./img/videos.jpg){:width=70%}
 
 ??? abstract "Exercice" 
     * Quel est le type de données majoritairement échangé sur internet ?
 
 Trafic internet: 
-![Download](./img/trafic.png){:width=10%}
+![Download](./img/trafic.png){:width=70%}
 
 ??? abstract "Exercice" 
     * En considérant qu’un film en haute définition peut être stocké sur 4 Go, évaluer l’équivalent en nombre de films par mois du trafic internet mensuel actuel.
 
 Croissance du volume de données : 
-![Download](./img/croissance.png){:width=10%}
+![Download](./img/croissance.png){:width=70%}
 
 ??? abstract "Exercice" 
     * Commenter l'évolution de la croissance d'internet
