@@ -24,7 +24,7 @@ Visualiser les câbles sous-marins : [**https://www.submarinecablemap.com**](htt
 #### Multiples de l'octet
 
 | Nom |	Symbole | Valeur |
-| -- | -- | -- | -- |
+| -- | -- | -- |
 | kilooctet | ko | 103 |
 | mégaoctet | Mo | 106 |
 | gigaoctet | Go | 109 |
