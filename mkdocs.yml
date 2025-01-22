@@ -35,10 +35,15 @@ nav:
         - "Séquence 5: Confort acoustique" : STI2D/AC/Seq5/ac_seq5.md
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT" : 
     - "Présentation" : SNT/index_snt.md
-    - "Chapitre 1 : Le WEB" : SNT/web/index_web.md
-    - "Chapitre 2 : Python" : SNT/python/index_python.md
-    - "Chapitre 3 : Internet" : SNT/internet/index_internet.md
-
+    - "Chapitre 1 : Python" : SNT/python/index_python.md
+    - "Chapitre 2 : Internet" : SNT/internet/index_internet.md
+    - "Chapitre 3 : WEB" : SNT/web/index_web.md
+    - "Chapitre 4 : Réseaux Sociaux" : SNT/internet/index_internet.md
+    - "Chapitre 5 : Données structurées" : SNT/internet/index_internet.md
+    - "Chapitre 6 : Localisation, Cartographie et mobilité" : SNT/internet/index_internet.md
+    - "Chapitre 7 : Systèmes embarqués" : SNT/internet/index_internet.md
+    - "Chapitre 8 : Photographie numérique" : SNT/internet/index_internet.md
+    
 
     #- "ETLV 1ère" : STI2D/ETLV/index_ETLV-P.md
     #- "ETLV Tle" : STI2D/ETLV/index_ETLV-T.md
