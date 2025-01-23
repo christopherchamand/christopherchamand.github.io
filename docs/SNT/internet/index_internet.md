@@ -87,7 +87,7 @@
     !!! question "Exercice 4" 
         * **Commenter** l'évolution de la croissance d'internet
 
-
+<!--
 
 ??? abstract "Le protocole TCP/IP ?" 
 
@@ -124,7 +124,7 @@
     ## L'encapsulation
     L'encapsulation, en informatique, est un procédé consistant à inclure les données d'un protocole dans un autre protocole.
 
-    La trame suivante vous montre comment sont encapsulé les différentes couches:
+    La trame suivante vous montre comment sont encapsulées les différentes couches:
 
     ![Trame](./img/frame-paquets-segment-protocole-IP.webp)
 
