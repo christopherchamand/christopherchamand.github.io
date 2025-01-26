@@ -1,17 +1,42 @@
-# INITIATION À PYTHON
+# THEMATIQUE : PYTHON
 
-Cette initiation se décompose en 7 parties.
-Dans cette initation à python, vous devrez utiliser la partie "NOTEBOOK"le site internet "**[BASTHON](https://notebook.basthon.fr/){:target="_blank"}**" **[CLIQUER SUR LE LIEN]
+## Objectifs pédagogiques:
 
-Vous téléchargerez ![Download](../../icones/download-solid.svg){:width=3%} donc les fichiers correspondant à chaque partie et vous l'ouvrirez sur le site.
+1. Découvrir un langage de programmation accessible :
 
-Chaque fichier, nommé "Notebook", vous guidera dans l'apprentissage du langage python.
+    * Python est simple d'utilisation, lisible et adapté aux débutants, ce qui facilite l'initiation à la programmation.
 
-* ![Download](../../icones/download-solid.svg){:width=3%} **[Notebook 1](./ressources/1.Print-Variables.ipynb){:target="_blank"}** : `print` pour afficher dans le terminale, notion de variable.
-* ![Download](../../icones/download-solid.svg){:width=3%} **[Notebook 2](./ressources/2.Input-Types.ipynb){:target="_blank"}** : `input` pour demander une valeur, type des variables.
-* ![Download](../../icones/download-solid.svg){:width=3%} **[Notebook 3](./ressources/3.InstructionsConditionnelles.ipynb){:target="_blank"}** : A la découverte des instructions conditionnelles.
-* ![Download](../../icones/download-solid.svg){:width=3%} **[Notebook 4](./ressources/4.Boucles.ipynb){:target="_blank"}** : Les boucles `for` et `while`.
-* ![Download](../../icones/download-solid.svg){:width=3%} **[Notebook 5](./ressources/5.Fonctions.ipynb){:target="_blank"}** : Les fonctions et l'instruction `return`.
-* ![Download](../../icones/download-solid.svg){:width=3%} **[Notebook 7](./ressources/6.Liste-1.ipynb){:target="_blank"}** : A la découverte des listes (partie 1)
-* ![Download](../../icones/download-solid.svg){:width=3%} **[Notebook 7](./ressources/6.Liste-2.ipynb){:target="_blank"}** : A la découverte des listes (partie 2)
+2. Comprendre les bases de la programmation :
 
+    * Savoir utiliser les variables, les types de données (entiers, chaînes de caractères, listes, etc.), et les structures de contrôle (conditions, boucles).
+    * Comprendre les concepts fondamentaux comme les fonctions et les modules.
+
+3. Résoudre des problèmes simples par l’algorithme :    
+    
+    *Apprendre à décomposer un problème en étapes logiques et à concevoir un programme pour le résoudre.
+
+4. Manipuler les données :
+
+    * Acquérir les bases du traitement et de l’analyse des données à travers des outils simples de Python (listes, dictionnaires, etc.). * Travailler avec des jeux de données pour extraire des informations.
+
+5. Automatiser des tâches répétitives :
+
+    * Utiliser Python pour écrire des scripts capables d’effectuer des tâches répétitives et de simplifier le travail numérique.
+
+6. Découvrir des applications concrètes :
+
+    * Apprendre à travers des projets liés aux thématiques SNT, comme :
+        * Les réseaux sociaux : analyser des messages ou générer du contenu.
+        * Le Big Data : explorer des données simples.
+        * Les objets connectés : comprendre des scénarios automatisés.
+
+7. Favoriser la créativité et la collaboration :
+
+    * Permettre aux élèves de concevoir leurs propres projets (jeux, petits programmes) en travaillant en groupe.
+
+8. Se familiariser avec l’environnement numérique :
+
+    * Apprendre à coder dans des environnements simples (IDLE, Jupyter Notebook, ou IDE adaptés).
+    * Comprendre les bases de la logique informatique et leur lien avec les systèmes numériques.
+
+Ces objectifs permettent de développer des compétences clés en programmation et de comprendre les enjeux du numérique dans le monde actuel.

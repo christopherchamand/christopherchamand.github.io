@@ -35,8 +35,16 @@ nav:
         - "Séquence 5: Confort acoustique" : STI2D/AC/Seq5/ac_seq5.md
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT" : 
     - "Présentation" : SNT/index_snt.md
-    - "Chapitre 1 : Python" : SNT/python/index_python.md
-    - "Chapitre 2 : Internet" : SNT/internet/index_internet.md
+    - "Chapitre 1 : Python" : 
+      - "Objectifs" : SNT/python/index_python.md
+      - "Initiation à Python" : SNT/python/initiation_python.md
+      - "Pour aller plus loin" : SNT/python/aller_plus_loin.md
+    - "Chapitre 2 : Internet" : 
+      - "Objectifs" : SNT/internet/index_internet.md
+      - "Les réseaux physiques" : SNT/internet/reseaux_physique.md
+      - "Le protocole TPC/IP" : 
+        - "Cours" : SNT/internet/protocole_tcpip.md
+        - "Exercices 1 (QCM)" : SNT/internet/protocole_tpcip_QCM.md
     #- "Chapitre 3 : WEB" : SNT/web/index_web.md
     #- "Chapitre 4 : Réseaux Sociaux" : SNT/internet/index_internet.md
     #- "Chapitre 5 : Données structurées" : SNT/internet/index_internet.md
@@ -58,6 +66,7 @@ theme:
     #logo: fontawesome/solid/jedi
     #logo: fontawesome/brands/mandalorian
     #logo: fontawesome/solid/dragon
+  font: false
   
   name: material
   language: fr
@@ -65,7 +74,7 @@ theme:
   features:
       - navigation.tabs
       - navigation.tabs.sticky
-      - navigation.sections
+      #- navigation.sections
       - navigation.top
       #- navigation.expand
       #- navigation.instant
@@ -166,6 +175,7 @@ extra_javascript:
 
 extra_css:
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css
+  - stylesheets/extra.css
 
 copyright: |
   &copy; 2023 <a href="" target="_blank" rel="noopener">Christopher CHAMAND</a>
