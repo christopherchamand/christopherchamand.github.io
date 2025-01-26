@@ -15,7 +15,7 @@ Internet est un réseau mondial de réseaux informatiques qui repose sur une gra
 
 ### Les câbles sous-marins d'internet
 
-<iframe width="80%" height="400" src="https://www.youtube.com/embed/MzcKHQyDL5o?si=QCwOnbsyeS68GufL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<center><iframe width="80%" height="400" src="https://www.youtube.com/embed/MzcKHQyDL5o?si=QCwOnbsyeS68GufL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
 D’un seul câble transatlantique en 1858 et d’une vingtaine en 2015, on passe à plus de 450 câbles sous-marins aujourd’hui qui s’étendent sur presque 1,3 millions de kilomètres au fond des océans. Ces liaisons à fibres optiques supportent plus de 99% du trafic internet mondial. Leur nombre augmente chaque année pour faire face à l’augmentation du flux de données.
 
