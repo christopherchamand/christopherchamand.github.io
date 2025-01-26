@@ -13,7 +13,7 @@ De nature logicielle, internet s’appuie sur une grande variété de réseaux p
 
 <iframe width="80%" height="400 px" src="https://www.youtube.com/embed/aX3z3JoVEdE?si=jgwzKquTVDe1B357" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-| Après avoir regardé la vidéo: <br/> **tester** ses connaissances en répondant au QCM et <br/> **faire** une capture d'écran de votre score en renommant le fichier par votre nom_prenom_classe et  <br/> me **l'envoyer** :  |
+| Après avoir regardé la vidéo: <br/> **tester** ses connaissances en répondant au QCM et <br/> **faire** une capture d'écran de votre score <br/> en renommant le fichier par votre "nom_prenom_classe" et  <br/> me **l'envoyer** :  |
 | -- | 
 | <center>*Cliquer sur le pictogramme* <br/> [![Auto évaluation](./img/picto_autoeval.jpg){ width=10%}]([Lien vers le test](https://numeres.net/9782206103389/res/9782206103389-ht5-snt-03/index.html))</center> |
 
