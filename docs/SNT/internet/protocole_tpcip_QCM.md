@@ -3,6 +3,8 @@
 
 ## QCM sur le protocole TCP/IP
 
+**Lien vers la version téléchargeable :** [QCM_protocole_tcpip](./fichiers/protocole_tcpip_QCM.pdf){ target="_blank"}
+
 ### Question 1 : **Qu'est-ce que le protocole IP ?**  
 - [A] Un protocole qui vérifie la connexion entre deux appareils.  
 - [B] Un protocole qui identifie et adresse les appareils sur un réseau.  

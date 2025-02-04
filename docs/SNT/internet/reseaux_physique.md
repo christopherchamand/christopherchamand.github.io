@@ -17,6 +17,8 @@ Internet est un réseau mondial de réseaux informatiques qui repose sur une gra
 
 <center><iframe width="80%" height="400" src="https://www.youtube.com/embed/MzcKHQyDL5o?si=QCwOnbsyeS68GufL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></center>
 
+<center>Lien de la vidéo : [_**Câbles sous marins, la guerre invisible**_](https://www.youtube.com/watch?v=MzcKHQyDL5o){:target="_blank"}</center>
+
 D’un seul câble transatlantique en 1858 et d’une vingtaine en 2015, on passe à plus de 450 câbles sous-marins aujourd’hui qui s’étendent sur presque 1,3 millions de kilomètres au fond des océans. Ces liaisons à fibres optiques supportent plus de 99% du trafic internet mondial. Leur nombre augmente chaque année pour faire face à l’augmentation du flux de données.
 
 Visualiser les câbles sous-marins : [**https://www.submarinecablemap.com**](https://www.submarinecablemap.com/){:target="_blank"}
@@ -70,7 +72,7 @@ Visualiser les câbles sous-marins : [**https://www.submarinecablemap.com**](htt
 ![Download](./img/trafic.png){:width=100%}
 
 !!! question "Exercice 3" 
-    * En considérant qu’un film en haute définition peut être stocké sur 4 Go, **évaluer** l’équivalent en nombre de films par mois du trafic internet mensuel actuel.
+    * En considérant qu’un film en haute définition peut être stocké sur 4 Go, **évaluer** l’équivalent en nombre de films par mois du trafic internet mensuel pour l'année 2022.
 
 #### Doc 4. Croissance du volume de données : 
 
