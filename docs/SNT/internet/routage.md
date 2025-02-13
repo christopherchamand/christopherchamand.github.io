@@ -27,7 +27,7 @@ Donc parfois le rond point est celui qui nous menera vers notre destination, par
 
 <center>![Schéma réseau](./img/schemas_reseau_fleche.png){ width=100%}</center>
 
-!!! question "Exercice 1 : Observez le schéma ci-dessous et répondez aux questions."
+!!! question "Exercice 1 : Observez le schéma ci-dessus et répondez aux questions."
 
     * **Nommer** l'emmeteur et le récepteur du message ?
     * **Lister** les périphériques du schéma ?
