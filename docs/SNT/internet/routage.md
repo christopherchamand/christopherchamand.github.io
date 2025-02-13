@@ -6,6 +6,23 @@
 * Découvrir le rôle des adresses IP, des routeurs et des tables de routage.
 * Introduire la notion de sauts entre les équipements du réseau.
 
+## Analogie du réseau avec la route.
+
+Lorsque nous prenons la route, nous nous dirigeons grâce au panneau.
+Pour comprendre comment fonctionne un réseau informatique, nous pouvons faire un paralèlle avec le fonctionnement des ronds-points.
+Lorsque nous arrivons sur un rond point, celui-ci nous indique (par un panneau) la sortie à prendre en fonction du lieu où nous souhaitons nous rendre.
+Mais parfois la sortie indiquée nous oriente vers le prochain rond point qui nous indiquera (a son tour) par des panneaux la sortie qui nous intéresse.
+
+<center>![Ronds points](./img/rondspoints.png){width=70%}</center>
+
+Donc parfois le rond point est celui qui nous menera vers notre destination, parfois il est une étape sur notre trajet qui nous dirigera vers un autre rond point qui est la dernière étape de notre trajet.
+
+**Le réseau fonctionne de la même manière** où :
+
+* les ronds points sont des routeurs, 
+* la route représente les câbles, les switchs ...etc.
+* les ordinateurs, serveurs et autres périphériques représentent les lieux où nous souhaitons nous rendre.
+
 ## Comprendre un schéma réseau
 
 <center>![Schéma réseau](./img/schemas_reseau_fleche.png){ width=100%}</center>
@@ -32,86 +49,32 @@
 
 Voici l'adressage de notre réseau:
 
-| Désignation | Adresse IP |  |
+| Désignation | Adresse IP | Adresse IP 2 |
 | -- | -- | -- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| Server0 | 192.168.1.1 | - |
+| PC0 | 192.168.1.10 | - |
+| PC1 | 192.168.1.20 | - |
+| PC3 | 192.168.3.10 | - |
+| PC4 | 192.168.3.11 | - |
+| Printer0 | 192.168.3.20 | - |
+| Router0 | 192.168.1.254 | 192.168.2.254 |
+| Router1 | 192.168.2.253 | 192.168.3.254 |
 
-Un message doit être envoyé de 192.168.1.10 (Client) vers 8.8.8.8 (Serveur). 
+Un message doit être envoyé de 192.168.1.10 (Client - PC1) vers 192.168.3.20 (Printer0). 
 
 Voici les routes possibles :
 
-| Routeur | Destination connue | Prochain saut |
+| Routeur | Destination | Prochain saut |
 | -- | -- | -- | 
-| R1 | 8.8.8.8 | R3 | 
-| R2 | 8.8.8.8 | R4 | 
-| R3 | 8.8.8.8 | Serveur | 
-| R4 | 8.8.8.8 | Serveur | 
+| Router0 | 192.168.1.0 | Router0 | 
+| Router0 | 192.168.2.0 | Router0 | 
+| Router0 | 192.168.3.0 | Router1 | 
+| Router1 | 192.168.1.0 | Router0 | 
+| Router1 | 192.168.2.0 | Router1 | 
+| Router1 | 192.168.3.0 | Router1 | 
 
 !!! question "Exercice 3"
 
     * En suivant la table, quel chemin suivra le message ?
     * Que se passe-t-il si R3 tombe en panne ?
-
-!!! abstract "Jeu de rôle"
-
-    ## Jeu du Routage Humain 🖧🎲
-
-    ### Objectif du jeu
-
-    Ce jeu permet de comprendre comment les données circulent sur Internet en simulant le rôle des routeurs et des paquets. Les élèves incarneront des routeurs, des clients et un serveur, et devront faire transiter des messages en respectant une table de routage.
-    Les élèves seront des routeurs.
-    Les messages devront suivre un chemin défini.
-    Ils devront consulter une table de routage comme dans l’exercice.
-    
-    ### Matériel nécessaire
-
-    ✅ Cartes rôles (Client, Routeur, Serveur)    
-    ✅ Cartes Message (symbolisant des paquets de données)   
-    ✅ Table de routage (simplifiée, affichée au tableau)    
-    ✅ Ficelle ou ruban adhésif (optionnel pour représenter les chemins si l’espace le permet)    
-    
-    ## Règles du jeu
-
-    1. Mise en place
-
-    * Répartition des rôles :
-
-        * 2 élèves seront les Clients (expéditeurs des messages).
-        * 2 élèves seront les Serveurs (récepteurs des messages).
-        * Les autres élèves seront des routeurs.
-    
-    * Disposition dans la salle :
-
-        * Si la salle est grande, les élèves peuvent se déplacer.
-        * Si la salle est petite, les élèves restent assis et lèvent la main pour transmettre un paquet au routeur suivant. Une table de routage est affichée au tableau et indique quel routeur doit transmettre à qui.
-
-    2. Déroulement du jeu
-
-    * Envoi d'un message 📩 : 
-
-        * Le client rédige un message court (ex. "Salut !") sur une Carte Message et l’envoie à un routeur proche.
-
-    * Transmission des paquets 🔀: 
-
-        * Chaque routeur doit consulter la table de routage pour savoir à qui transmettre le message.
-        * Il passe la carte message au routeur suivant (en marchant s'il y a de l’espace, en levant la main sinon).
-
-    * Arrivée au serveur 🖥️
-
-        * Le serveur reçoit le message et le lit à voix haute pour vérifier s’il est bien arrivé intact.
-
-    3. Cas particuliers
-
-    * Si un routeur est "en panne" (choisi au hasard par l’enseignant) 🛑
-
-        * Les autres routeurs doivent trouver un autre chemin en respectant la table de routage.
-
-    * Si un paquet est perdu (mauvaise transmission) ❌
-
-        *Le client doit renvoyer un nouveau paquet.
 
