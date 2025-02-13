@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "author": "Christopher CHAMAND",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-arduino-uno", "id": "uno", "top": 20, "left": 61.33, "attrs": {} },
+    {
+      "type": "wokwi-pushbutton",
+      "id": "btn1",
+      "top": 122.06,
+      "left": -1.99,
+      "rotate": 90,
+      "attrs": { "color": "green", "bounce": "1" }
+    },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": 84.25, "left": 354.77, "attrs": {} }
+  ],
+  "connections": [
+    [ "btn1:1.r", "uno:5V", "green", [ "v63.34", "h178.32" ] ],
+    [ "btn1:2.l", "uno:5", "green", [ "v-106.33", "h245.32" ] ],
+    [ "pot1:VCC", "uno:5V", "red", [ "v90.75", "h-182.44" ] ],
+    [ "pot1:SIG", "uno:A0", "green", [ "v86.17", "h-124.44" ] ],
+    [ "pot1:GND", "uno:GND.2", "black", [ "v81.59", "h-152.94" ] ]
+  ],
+  "dependencies": {}
+}
