@@ -2,12 +2,13 @@
 
 
 ## PROGRAMMATION
-
+<!--
 * [TD1 - Introduction au langage HTML](./ressources/Act1-introduction-au-html.pdf){:target="_blank"}    
 * [TD2 - Introduction aux feuille de style avec CSS](./ressources/Act2-feuille-de-style-CSS.pdf){:target="_blank"}   
 * [TD3 - Découverte des tableaux en HTML](./ressources/Act3-HTML-tableau.pdf){:target="_blank"}   
 
 Pour réaliser les activités de ce chapitre, veuillez utiliser ce [**lien**](https://codebetter.lucaswillems.com/){:target="_blank"}  
+-->
 <!--
 ??? abstract "Correction"   
 
@@ -16,7 +17,7 @@ Pour réaliser les activités de ce chapitre, veuillez utiliser ce [**lien**](ht
     ![Download](../../icones/download-solid.svg){:width=3%}[style.css](./ressources/style.css){:target="_blank"}   
     <!--[Tableaux](./ressources/tableaux/Act3.zip){:target="_blank"} -->  
     -->
-
+<!--
 ??? danger "EVALUATION"
 
     Vous devez programmer un site WEB en utilisant les connaissance acquise lors des 3 TDs effectués en classe sur le HTML et CSS.    
@@ -28,7 +29,7 @@ Pour réaliser les activités de ce chapitre, veuillez utiliser ce [**lien**](ht
         * Le thème : 30 secondes 
         * Le code + le site : 3 minutes
         * Conclusion (difficultés rencontrées, remarques...etc ) : 1 minute
-
+-->
 ## DECOUVERTE
 
 ### Activité 1 - Le WEB vs Internet
