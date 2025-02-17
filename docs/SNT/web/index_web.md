@@ -8,13 +8,14 @@
 * [TD3 - Découverte des tableaux en HTML](./ressources/Act3-HTML-tableau.pdf){:target="_blank"}   
 
 Pour réaliser les activités de ce chapitre, veuillez utiliser ce [**lien**](https://codebetter.lucaswillems.com/){:target="_blank"}  
-
+<!--
 ??? abstract "Correction"   
 
     ![Download](../../icones/download-solid.svg){:width=3%}[PoemeMusset.html (Partie1)](./ressources/poemeMusset.html){:target="_blank"}   
     ![Download](../../icones/download-solid.svg){:width=3%}[Image Alfred de Musset](./ressources/ADM.png){:target="_blank"}   
     ![Download](../../icones/download-solid.svg){:width=3%}[style.css](./ressources/style.css){:target="_blank"}   
     <!--[Tableaux](./ressources/tableaux/Act3.zip){:target="_blank"} -->  
+    -->
 
 ??? danger "EVALUATION"
 
