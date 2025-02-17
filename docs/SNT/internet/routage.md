@@ -60,7 +60,7 @@ Voici l'adressage de notre réseau:
 | Router0 | 192.168.1.254 | 192.168.2.254 |
 | Router1 | 192.168.2.253 | 192.168.3.254 |
 
-Un message doit être envoyé de 192.168.1.10 (Client - PC1) vers 192.168.3.20 (Printer0). 
+Un message doit être envoyé de 192.168.1.10 (Client - PC0) vers 192.168.3.20 (Printer0). 
 
 Voici les routes possibles :
 
@@ -75,6 +75,6 @@ Voici les routes possibles :
 
 !!! question "Exercice 3"
 
-    * En suivant la table, quel chemin suivra le message ?
-    * Que se passe-t-il si R3 tombe en panne ?
+    * En suivant la table de routage, quel chemin suivra le message ?
+    * Que se passe-t-il si Router1 tombe en panne ?
 
