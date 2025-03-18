@@ -48,7 +48,11 @@ nav:
       - "Le routage" : 
         - "Activité 1" : SNT/internet/routage.md
         - "Activité 2 (jouons au routage)" : SNT/internet/jeu_du_routage.md
-    - "Chapitre 3 : WEB" : SNT/web/index_web.md
+    - "Chapitre 3 : WEB" : 
+      - "Découverte" : SNT/web/decouverte.md
+      - "Programmation" : 
+        - "Initiation" : SNT/web/initiation_html.md
+        - "Activité 1" : SNT/web/html_act1.md
     #- "Chapitre 4 : Réseaux Sociaux" : SNT/internet/index_internet.md
     #- "Chapitre 5 : Données structurées" : SNT/internet/index_internet.md
     #- "Chapitre 6 : Localisation, Cartographie et mobilité" : SNT/internet/index_internet.md
