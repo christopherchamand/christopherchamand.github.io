@@ -1,3 +1,20 @@
+# Internet - Le routage 
+
+## Activité 2 :
+
+L'objectif de la séance est de créer un jeu de société.
+La thématique vous est imposée: Nous travaillons sur le chapitre "_Internet_", donc vous devez donc utiliser les notions vu durant ce chapitre pour la création de votre jeu.
+**Inpirez**-vous de vos connaissances et **appuyez**-vous sur votre créativité pour proposer une jeu fun et qui permettent de **comprendre comment circule les informations sur internet**.
+
+Une fois votre jeux créé, vous devrez faire un diaporama de présentation qui vous servira pour passer à l'oral afin de présenter vos créations à l'ensemble de la classe.
+
+Vous serez évalué comme suit:
+
+| Critères | note |
+| -- | -- |
+|  |  |
+
+Voici un extrait d'une règle de jeu qui ne servira quque comme exemple afin de comprendre comment mettre en oeuvre cette consigne.
 !!! abstract "Jeu de rôle"
 
     ## Jeu du Routage Humain 🖧🎲
