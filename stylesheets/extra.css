@@ -1,0 +1,10 @@
+/* Styles de base pour une lecture agréable */
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Polices standard disponibles partout */
+    font-size: 16px; /* Taille de texte agréable à la lecture */
+    line-height: 1.6; /* Espacement entre les lignes pour améliorer la lisibilité */    margin: 0; /* Supprime les marges par défaut */
+  }
+
+  p, ul, ol, table, a, th, tr {
+    font-size: 16px; /* Taille de texte agréable à la lecture */
+  }

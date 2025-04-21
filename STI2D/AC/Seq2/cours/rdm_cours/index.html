@@ -1,0 +1,2506 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Cours de STI2D">
+      
+      
+        <meta name="author" content="Christopher CHAMAND">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../../../icones/icons8-prof-64.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>LA RÉSISTANCE DES MATÉRIAUX - LAB's Cr0wth</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#la-resistance-des-materiaux" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../../../../.." title="LAB&#39;s Cr0wth" class="md-header__button md-logo" aria-label="LAB's Cr0wth" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 64a192 192 0 1 1 0 384 192 192 0 1 1 0-384m0 448a256 256 0 1 0 0-512 256 256 0 1 0 0 512m-56-256c0-20.7 11.3-38.8 28-48.5l-36-62.3c-8.8-15.3-28.7-20.8-42-9-25.6 22.6-43.9 53.3-50.9 88.1-3.4 17.2 11.2 31.7 28.9 31.7zm28 48.5-36 62.4c-8.8 15.3-3.6 35.2 13.1 40.8 16 5.4 33.1 8.3 50.9 8.3s34.9-2.9 50.9-8.3c16.7-5.6 21.9-25.5 13.1-40.8l-36-62.4c-8.2 4.8-17.8 7.5-28 7.5s-19.8-2.7-28-7.5m84-48.5h72c17.7 0 32.3-14.5 28.8-31.8-7-34.8-25.3-65.5-50.9-88.1-13.2-11.7-33.1-6.3-42 9l-36 62.3c16.7 9.7 28 27.8 28 48.5zm-56 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB's Cr0wth
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              LA RÉSISTANCE DES MATÉRIAUX
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber"  aria-label="Darkmode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Darkmode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Lightmode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Lightmode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  <img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../index_sti2d/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../SNT/index_snt/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="LAB&#39;s Cr0wth" class="md-nav__button md-logo" aria-label="LAB's Cr0wth" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 64a192 192 0 1 1 0 384 192 192 0 1 1 0-384m0 448a256 256 0 1 0 0-512 256 256 0 1 0 0 512m-56-256c0-20.7 11.3-38.8 28-48.5l-36-62.3c-8.8-15.3-28.7-20.8-42-9-25.6 22.6-43.9 53.3-50.9 88.1-3.4 17.2 11.2 31.7 28.9 31.7zm28 48.5-36 62.4c-8.8 15.3-3.6 35.2 13.1 40.8 16 5.4 33.1 8.3 50.9 8.3s34.9-2.9 50.9-8.3c16.7-5.6 21.9-25.5 13.1-40.8l-36-62.4c-8.2 4.8-17.8 7.5-28 7.5s-19.8-2.7-28-7.5m84-48.5h72c17.7 0 32.3-14.5 28.8-31.8-7-34.8-25.3-65.5-50.9-88.1-13.2-11.7-33.1-6.3-42 9l-36 62.3c16.7 9.7 28 27.8 28 48.5zm-56 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64"/></svg>
+
+    </a>
+    LAB's Cr0wth
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    <img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            <img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../index_sti2d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../formules/les_formules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Les formules
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Première
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Première
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3_1" id="__nav_2_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    I2D
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            I2D
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/index_i2d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq0/i2d_seq0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 0 : Découverte du Développement Durable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq1/i2d_seq1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 1 : Ingénierie système
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq2/i2d_seq2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 2 : Signaux et Information
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq3/i2d_seq3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 3 : Éco-Conception
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq4/i2d_seq4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 4 : Les flux
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq5/i2d_seq5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 5 : Typologie de l'information, de l'énergie et des liaisons
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq6/i2d_seq6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 6 : Notion d'architecture et construction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq7/i2d_seq7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 7 : Programmation web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    ENS. SPÉCIFIQUE
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            ENS. SPÉCIFIQUE
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4_1" id="__nav_2_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    AC
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            AC
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../index_ac/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq0/ac_seq0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 0: Découverte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq1/ac_seq1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 1: La descente de charges
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ac_seq2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 2: La résistance des matériaux
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq3/ac_seq3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 3: Modélisation des systèmes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq4/ac_seq4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 4: Confort thermique
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq5/ac_seq5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 5: Confort acoustique
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/index_snt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 1 : Python
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chapitre 1 : Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/python/index_python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Objectifs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/python/initiation_python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Initiation à Python
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/python/aller_plus_loin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pour aller plus loin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 2 : Internet
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Chapitre 2 : Internet
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/index_internet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Objectifs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/reseaux_physique/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Les réseaux physiques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_3" id="__nav_3_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Le protocole TPC/IP
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Le protocole TPC/IP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/protocole_tcpip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cours
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/protocole_tpcip_QCM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Exercices 1 (QCM)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_4" id="__nav_3_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Le routage
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Le routage
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/routage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/jeu_du_routage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 2 (jouons au routage)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 3 : WEB
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapitre 3 : WEB
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/decouverte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Découverte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Programmation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Programmation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/initiation_html/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Initiation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/html_act1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/html_act2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#la-theorie-des-poutres" class="md-nav__link">
+    <span class="md-ellipsis">
+      LA THÉORIE DES POUTRES
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LA THÉORIE DES POUTRES">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-definition" class="md-nav__link">
+    <span class="md-ellipsis">
+      1) Définition
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-hypotheses-fondamentale-de-la-theorie-des-poutres" class="md-nav__link">
+    <span class="md-ellipsis">
+      2) Hypothèses fondamentale de la théorie des poutres
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2) Hypothèses fondamentale de la théorie des poutres">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-hypotheses-sur-la-geometrie-des-poutres" class="md-nav__link">
+    <span class="md-ellipsis">
+      1/ Hypothèses sur la géométrie des poutres
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-hypotheses-sur-le-materiau" class="md-nav__link">
+    <span class="md-ellipsis">
+      2/ Hypothèses sur le matériau
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-hypotheses-sur-les-deformations" class="md-nav__link">
+    <span class="md-ellipsis">
+      3/ Hypothèses sur les déformations
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-hypotheses-sur-les-actions-exterieures" class="md-nav__link">
+    <span class="md-ellipsis">
+      4/ Hypothèses sur les actions extérieures
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#torseur-de-cohesion" class="md-nav__link">
+    <span class="md-ellipsis">
+      TORSEUR DE COHÉSION
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="TORSEUR DE COHÉSION">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-efforts-internes" class="md-nav__link">
+    <span class="md-ellipsis">
+      1) Efforts Internes
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-notions-de-coupures" class="md-nav__link">
+    <span class="md-ellipsis">
+      2) Notions de coupures
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#les-sollicitations-ou-composes" class="md-nav__link">
+    <span class="md-ellipsis">
+      LES SOLLICITATIONS OU COMPOSÉS
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="LES SOLLICITATIONS OU COMPOSÉS">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-traction-compression" class="md-nav__link">
+    <span class="md-ellipsis">
+      1) Traction / Compression
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1) Traction / Compression">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#effort-normal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Effort normal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loi-de-comportement-des-materiaux" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loi de comportement des matériaux
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Loi de comportement des matériaux">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#courbe-contrainte-deformation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Courbe contrainte / déformation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#loi-de-hooke" class="md-nav__link">
+    <span class="md-ellipsis">
+      Loi de HOOKE
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#notion-de-contrainte" class="md-nav__link">
+    <span class="md-ellipsis">
+      Notion de contrainte
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contrainte-due-a-leffort-normal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contrainte due à l'effort normal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#deformations-dues-a-leffort-normal" class="md-nav__link">
+    <span class="md-ellipsis">
+      Déformations dues à l'effort normal
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dimensionnement" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dimensionnement
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Dimensionnement">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-condition-de-resistance" class="md-nav__link">
+    <span class="md-ellipsis">
+      1/ Condition de résistance
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-condition-de-deformation" class="md-nav__link">
+    <span class="md-ellipsis">
+      2/ Condition de déformation
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-cisaillement-simple" class="md-nav__link">
+    <span class="md-ellipsis">
+      2) Cisaillement simple
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2) Cisaillement simple">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#effort-tranchant" class="md-nav__link">
+    <span class="md-ellipsis">
+      Effort tranchant
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#contrainte-de-cisaillement-simple" class="md-nav__link">
+    <span class="md-ellipsis">
+      Contrainte de cisaillement simple
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-flexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      3) Flexion
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3) Flexion">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#1-sollicitation-etudiee-moment-flechissant" class="md-nav__link">
+    <span class="md-ellipsis">
+      1/ Sollicitation étudiée : Moment fléchissant
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#2-essai-de-flexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      2/ Essai de flexion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#3-contrainte-de-flexion" class="md-nav__link">
+    <span class="md-ellipsis">
+      3/ Contrainte de flexion
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#4-deformee-remarquable" class="md-nav__link">
+    <span class="md-ellipsis">
+      4/ Déformée remarquable
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="la-resistance-des-materiaux">LA RÉSISTANCE DES MATÉRIAUX</h1>
+<h2 id="la-theorie-des-poutres">LA THÉORIE DES POUTRES</h2>
+<h3 id="1-definition">1) Définition</h3>
+<p>On appelle <em><strong>poutre</strong></em> un solide engendré par une aire plane (<strong>S</strong>) dont le centre de gravité <strong>G</strong> décrit une courbe (G<span class="arithmatex">\(_{0}\)</span> G<span class="arithmatex">\(_{1}\)</span>). <br />
+Le plan de (<strong>S</strong>) restant perpendiculaire à cette courbe.     </p>
+<p><img alt="Poutre définition" src="../img/rdm-poutre-def.png" width="500" />     </p>
+<p>avec :     </p>
+<ul>
+<li>(<strong>S</strong>) appelée <em><strong>section droite</strong></em>,</li>
+<li>(S<span class="arithmatex">\(_{0}\)</span>) section origine,</li>
+<li>(S<span class="arithmatex">\(_{1}\)</span>) section extrémité,</li>
+<li>(<strong>G<span class="arithmatex">\(_{0}\)</span> G<span class="arithmatex">\(_{1}\)</span></strong>) est la <em><strong>fibre moyenne</strong></em> de la poutre <strong>G<span class="arithmatex">\(_{0}\)</span> G G<span class="arithmatex">\(_{1}\)</span></strong> S<span class="arithmatex">\(_{0}\)</span> S S<span class="arithmatex">\(_{1}\)</span></li>
+</ul>
+<h3 id="2-hypotheses-fondamentale-de-la-theorie-des-poutres">2) Hypothèses fondamentale de la théorie des poutres</h3>
+<h4 id="1-hypotheses-sur-la-geometrie-des-poutres">1/ Hypothèses sur la géométrie des poutres</h4>
+<p>Trois hypothèses sur la géométrie des poutres:</p>
+<ul>
+<li>le rayon de courbure de la fibre moyenne est grand par rapport aux dimensions des sections  droites,</li>
+<li>la longueur de la fibre moyenne est grande devant les dimensions des sections droites (longueur supérieure à 10 fois la plus grande dimensions transversale), on parle de <strong>solide élancé</strong>,</li>
+<li>les éventuelles variations de l'aire de la section droite sont faibles et progressives.</li>
+</ul>
+<h4 id="2-hypotheses-sur-le-materiau">2/ Hypothèses sur le matériau</h4>
+<p>Les matériaux envisagés sont supposés:</p>
+<ul>
+<li><strong>homogènes</strong> : tous les éléments du matériau, aussi petits soient-ils, ont une structure identique,</li>
+<li><strong>isotropes</strong> : les propriétés mécaniques sont les mêmes en tous points et dans toutes les directions,</li>
+<li><strong>continus</strong> : les propriétés varient de manière continue d'un point à l'autre,</li>
+<li>utilisés dans le <strong>domaine élastique</strong> : les relations entre les contraintes et déformations sont linéaires = <em><strong>loi de HOOKE</strong></em></li>
+</ul>
+<h4 id="3-hypotheses-sur-les-deformations">3/ Hypothèses sur les déformations</h4>
+<p><em><strong>Hypothèse de NAVIER-BERNOULLI</strong></em> : "les sections planes normales aux fibres avant déformation restent planes et normales aux fibres pendant et après la déformation."</p>
+<h4 id="4-hypotheses-sur-les-actions-exterieures">4/ Hypothèses sur les actions extérieures</h4>
+<p><em><strong>Hypothèse de SAINT-VENANT</strong></em> : les résultats de la résistance des matériaux ne s'appliquent valablement qu'à une distance suffisamment éloignée de la région où sont appliqués les efforts concentrés.</p>
+<h2 id="torseur-de-cohesion">TORSEUR DE COHÉSION</h2>
+<h3 id="1-efforts-internes">1) Efforts Internes</h3>
+<p>Nous allons, dans ce paragraphe, déterminer quels sont les efforts qui se développent à l'intérieur de la matière.</p>
+<ul>
+<li>Appelés efforts intérieurs, <em><strong>efforts internes</strong></em> ou encore <em><strong>efforts de cohésion</strong></em> </li>
+<li>ils assurent la cohésion (la liaison) entre les particules constitutives du matériau.</li>
+</ul>
+<h3 id="2-notions-de-coupures">2) Notions de coupures</h3>
+<p>Soit une poutre droite en équilibre soumises à des actions extérieures quelconques Fi et à des actions de liaisons quelconques Ri.</p>
+<p><img alt="Poutre définition" src="../img/rdm-poutre-description.png" width="500" />  </p>
+<p>Pour connaître ce qui se passe à l'intérieur de la poutre, on effectue par la pensée à l'abscisse x, une coupure fictive au droit d'une section notée S(x).</p>
+<p>Isolons le tronçon de poutre situé à gauche de la section S(x). Ce tronçon est en équilibre sous l'action :</p>
+<ul>
+<li>des forces extérieures qui lui sont appliquées <span class="arithmatex">\(\underset{Fi}{\rightarrow}\)</span>,</li>
+<li>des actions de liaisons <span class="arithmatex">\(\underset{Ri}{\rightarrow}\)</span>,</li>
+<li>des forces que le tronçon de droite (2) exerce sur le tronçon de gauche (1). Ces forces se développent à l'intérieur du matériau.</li>
+</ul>
+<p>On peut exprimer ces "efforts internes" sous la forme d'un torseur pris au centre de gravité de la section S(x).</p>
+<p>Tronçon de gauche (1) isolé : </p>
+<p><img alt="Poutre tronçon gauche" src="../img/rdm-poutre-troncongauche.png" width="500" /> </p>
+<p>Action du tronçon de droite (2) sur le tronçon de gauche (1) = torseur des efforts internes de cohésion : </p>
+<p><span class="arithmatex">\(\begin{Bmatrix}\tau_{(2/1)} \end{Bmatrix} = \begin{Bmatrix}\overrightarrow{R_{2/1}(X)}
+\\ \overrightarrow{M_{G2/1}(X)}
+\end{Bmatrix}_{G}\)</span></p>
+<p>Le torseur des efforts internes de cohésion s'écrit alors : </p>
+<p><span class="arithmatex">\(\begin{Bmatrix}\tau_{(2/1)} \end{Bmatrix} = \begin{Bmatrix}\overrightarrow{R_{2/1}(X)}
+\\ \overrightarrow{M_{G2/1}(X)}
+\end{Bmatrix}_{G} = \begin{Bmatrix} N(x) &amp; T(x) \\ V_{y}(x) &amp; M_{fy}(x) \\ V_{z}(x) &amp; M_{fz}(x)\end{Bmatrix} _{G}\)</span>   </p>
+<p><span class="arithmatex">\(\overrightarrow{R_{2/1}(X)} = N(x).\vec{x} + V_{y}(x).\vec{y} + V_{z}(x) . \vec{z}\)</span></p>
+<p><span class="arithmatex">\(\overrightarrow{M_{G2/1}(X)} = T(x).\vec{x} + M_{fy}(x).\vec{y} + M_{fz}(x) . \vec{z}\)</span></p>
+<p>Ce torseur correspond à un torseur d'encastrement.</p>
+<p><strong>REMARQUE :</strong> les problème que nous sommes amenés à traités sont des problèmes plan, tous les efforts extérieurs étant situés dans le plan (O, x, y). Dans ces conditions, les seules composantes non nulles du torseur des sollicitations sont: </p>
+<ul>
+<li>l'effort normal N(x),</li>
+<li>l'effort tranchant suivant y, V<span class="arithmatex">\(_{y}\)</span>(x), que nous noterons V(x),</li>
+<li>le moment fléchissant suivant z, M<span class="arithmatex">\(_(fz)\)</span>(x), que nous noterons M(x), représentés de la façon suivante :  <br />
+<img alt="Moment fléchissant" src="../img/rdm-moment-flechissant.png" width="50%" /> </li>
+</ul>
+<h2 id="les-sollicitations-ou-composes">LES SOLLICITATIONS OU COMPOSÉS</h2>
+<p><img alt="Poutre sollicitation" src="../img/rdm_sollicitations.png" width="100%" /> </p>
+<h3 id="1-traction-compression">1) Traction / Compression</h3>
+<h4 id="effort-normal">Effort normal</h4>
+<p>On considérera qu'une poutre est sollicitée en traction simple ou en compression simple lorsque les éléments de réduction du torseur des efforts internes de cohésion se ramène à un seul effort normal N :</p>
+<table>
+<thead>
+<tr>
+<th>Schémas</th>
+<th>Sollicitation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Poutre traction" src="../img/rdm-poutre-traction.png" width="50%" /></td>
+<td><span class="arithmatex">\(N(x) \neq 0\)</span> <span class="arithmatex">\(T(x)=0\)</span> <br/> <span class="arithmatex">\(V_{y}(x)=0\)</span> <span class="arithmatex">\(M_{fy}(x)=0\)</span> <br/> <span class="arithmatex">\(V_{z}(x)=0\)</span> <span class="arithmatex">\(M_{fz}(x)=0\)</span> <br/><br/> N(x)&gt;0 : traction simple, <br/> N(x)&lt;0 : compression simple</td>
+</tr>
+</tbody>
+</table>
+<p>Torseur des efforts internes de cohésion : <span class="arithmatex">\(\begin{Bmatrix}\tau_{(2/1)} \end{Bmatrix} = \begin{Bmatrix} N(x) &amp; 0 \\ 0 &amp; 0 \\ 0 &amp; 0 \end{Bmatrix}_{G}\)</span></p>
+<h4 id="loi-de-comportement-des-materiaux">Loi de comportement des matériaux</h4>
+<p>Essai de traction sur une éprouvette en acier doux</p>
+<p>Considérons une barre d'acier doux de longueur initiale L<span class="arithmatex">\(_{O}\)</span> et dont la section initiale S<span class="arithmatex">\(_{0}\)</span> est constante sur la longueur L<span class="arithmatex">\(_{0}\)</span>.</p>
+<p>Soumettons cette barre à une sollicitation de traction en lui appliquant à chaque extrémité un effort F :</p>
+<p><img alt="Poutre sollicitation" src="../img/rdm-poutre-sollicitation.png" width="50%" /> </p>
+<p>On peut enregistrer à l'aide de comparateurs l'allongement <span class="arithmatex">\(\Delta\)</span>L est appelé l'<strong>allongement absolu</strong>.</p>
+<p>Pour pouvoir comparer les caractéristiques mécaniques des matériaux, celles-ci doivent être établies indépendamment des sections S<span class="arithmatex">\(_{0}\)</span> et longueur L<span class="arithmatex">\(_{0}\)</span> des éprouvettes.</p>
+<p>Ainsi, on reporte sur un graphique :</p>
+<ul>
+<li>en abscisse : l'allongement relatif <span class="arithmatex">\(\varepsilon_{x} = \frac{\Delta L}{L_{0}}\)</span> (<span class="arithmatex">\(\varepsilon  =\)</span> lettre grecque "epsilon"),   <br />
+<span class="arithmatex">\(\varepsilon\)</span> est sans unité puisque c'est le rapport de deux longueurs,</li>
+<li>en ordonnée : la contrainte <span class="arithmatex">\(\sigma = \frac{F}{S_{0}}\)</span> (<span class="arithmatex">\(\sigma =\)</span> lettre grecque "sigma").   <br />
+<span class="arithmatex">\(\sigma\)</span> est l'effort par unité de surface en N/mm<span class="arithmatex">\(^{2}\)</span>, ou MPa.</li>
+</ul>
+<h5 id="courbe-contrainte-deformation">Courbe contrainte / déformation</h5>
+<p>On obtient alors la "courbe contrainte - déformation" du matériau de l'essai qui a l'allure suivante :</p>
+<p><img alt="courbe contrainte" src="../img/rdm-courbe-contrainte.png" width="100%" /> </p>
+<h5 id="loi-de-hooke">Loi de HOOKE</h5>
+<ul>
+<li>
+<p><ins>Partie OA :</ins> la courbe est sensiblement <strong>rectiligne</strong>, ce qui signifie que la <strong>déformation est proportionnelle à l'effort</strong> exercé (ou que <strong>l'allongement relatif est proportionnel à la contrainte</strong>). (OA = droite de pente E)
+    Dans cette zone, si on décharge l'éprouvette, elle revient à sa longueur initiale, comme un ressort. On dit que le matériau a, dans cette phase, un comportement élastique linéaire.</p>
+<p>Ceci se traduit par la loi de Hooke : <span class="arithmatex">\(\frac{F}{S} = E \times \frac{\Delta L}{L}\)</span> ou <span class="arithmatex">\(\sigma = E \times \varepsilon\)</span></p>
+<p>E est le module d'Young, ou <strong>module d'élasticité longitudinal (<span class="arithmatex">\(E_{x}\)</span>)</strong>, du matériau et caractérise la rigidité du matériau.
+E s'exprime en MPa</p>
+<p>Le point A marque la fin de la zone élastique de la courbe. La contrainte <span class="arithmatex">\(\sigma_{e} = \frac{F_{e}}{S}\)</span> correspondante est appelée la <strong>limite d'élasticité</strong>.</p>
+</li>
+<li>
+<p><ins>Partie AD :</ins> au-delà du point A, on rentre dans le domaine des grandes déformations, le <strong>domaine plastique</strong>, où les allongements ne sont plus proportionnels aux efforts. A ce stade, si on décharge l'éprouvette, celle-ci ne retrouve pas sa longueur initiale, on constate un <strong>allongement résiduel</strong>, c'est-à-dire une déformation permanente.</p>
+</li>
+<li><ins>Entre A et B :</ins> l'éprouvette s'allonge alors que l'intensité de la charge ne varie pratiquement pas, cette partie de la courbe est appelée « <strong>palier plastique</strong> ».</li>
+<li><ins>Au-delà de B :</ins> on observe un allongement important pour une faible augmentation de la contrainte. La courbe se relève jusqu'à un maximum C qui correspond à la limite de rupture <span class="arithmatex">\(\sigma_{r}\)</span>. A ce stade, on observe une diminution de la section de la barre dans la zone où va se produire la rupture, c'est le <strong>phénomène de striction</strong>. Puis la rupture intervient (point D).</li>
+</ul>
+<p><em><strong>Généralisation :</strong></em></p>
+<p>Pour définir les caractéristiques mécaniques des matériaux, on réalise des essais sur des éprouvettes : </p>
+<ul>
+<li>traction directe sur les métaux,</li>
+<li>traction par flexion, par fendage ou directe pour les mortiers et les bétons,</li>
+<li>compression sur les bétons,</li>
+<li>traction, compression, flexion sur les bois.</li>
+</ul>
+<p>Tous ces essais font apparaître deux phases :</p>
+<ul>
+<li><strong>une phase de déformation élastique</strong> linéaire pour laquelle s'applique la loi de Hooke et où les déformations sont réversibles,</li>
+<li><strong>une phase de déformation plastique</strong> où les déformations sont partiellement permanentes.</li>
+</ul>
+<h4 id="notion-de-contrainte">Notion de contrainte</h4>
+<p>Dans une section de poutre, les sollicitations sont les éléments de réduction des forces internes de cohésion au centre de gravité de la section. Elles permettent de savoir quelle est la section la plus sollicitée mais ne donnent aucune indication sur ce qu'il se passe en chaque point section. Pour cela, il faut introduire la notion de contraintes.</p>
+<p><img alt="Notion de coupure" src="../img/rdm-notion-coupure.png" width="100%" /> </p>
+<p>Le vecteur contrainte est donc le rapport d'une force à une surface : l'intensité d'une contrainte est homogène à une pression et s'exprime en Pa.</p>
+<h4 id="contrainte-due-a-leffort-normal">Contrainte due à l'effort normal</h4>
+<p>Sur une section droite S (facette perpendiculaires à la fibre moyenne), suffisamment éloigné des points d'application des charges extérieures, on peut considérer que l'action de l'effort normal est une répartition uniforme de contrainte normales :</p>
+<p><img alt="Contrainte effort normal" src="../img/rdm-contrainte-eff-normal.png" width="100%" /> </p>
+<p>Le signe de N est défini par rapport à l'orientation de l'axe (G,x) :</p>
+<ul>
+<li>si N &gt; 0 : effort normal de <strong>traction</strong>, <span class="arithmatex">\(\sigma\)</span>&gt;0,</li>
+<li>si N &lt; 0 : effort normal de <strong>compression</strong>, <span class="arithmatex">\(\sigma\)</span>&lt;0,</li>
+</ul>
+<h4 id="deformations-dues-a-leffort-normal">Déformations dues à l'effort normal</h4>
+<p>Isolons un tronçon élémentaire de poutre de longueur dx. Ce tronçon est compris en tre les sections S<span class="arithmatex">\(_{i}\)</span> et S<span class="arithmatex">\(_{i+1}\)</span>.</p>
+<p>Sous l'effet de l'effort normal, chaque fibre du tronçon subit une déformation <span class="arithmatex">\(\Delta dx\)</span>.</p>
+<p>Chaque fibre de poutre étant considérée indépendamment l'une de l'autre, on leur applique la loi de Hooke : <span class="arithmatex">\(\sigma = E \times \varepsilon_{x}\)</span> ou <span class="arithmatex">\(\frac{N(x)}{S} = E \times \frac{\Delta dx}{dx}\)</span></p>
+<p>Tous les tronçon de fibres de longueurs dx subissent une déformation : <span class="arithmatex">\(\Delta dx = \frac{N(x)}{SE}dx\)</span></p>
+<p>Ce qui signifie que la section se déplace parallèlement à sa position d'origine. Cela est conforme à l'hypothèse de Bernoulli selon laquelle les sections droites restent droites après déformations.</p>
+<ul>
+<li><span class="arithmatex">\(\Delta dx\)</span> correspond à un allongement si N(x) &gt; 0 (Traction),</li>
+<li><span class="arithmatex">\(\Delta dx\)</span> correspond à un raccourcissement si N(x) &lt; 0 (Compression),</li>
+</ul>
+<h4 id="dimensionnement">Dimensionnement</h4>
+<h5 id="1-condition-de-resistance">1/ Condition de résistance</h5>
+<p>Dans les conditions normales d'utilisation, on doit vérifier que la contrainte maximale <span class="arithmatex">\(\sigma_{max}\)</span> dans la section la plus sollicitée de la poutre reste inférieure à une valeur <span class="arithmatex">\(\bar{\varepsilon}\)</span> (contrainte admissible) fixée expérimentalement ou règlementairement.</p>
+<p>Souvent, <span class="arithmatex">\(\bar{\varepsilon}\)</span> est calculée à partir de la limite d'elasticité <span class="arithmatex">\(\varepsilon_{e}\)</span> :</p>
+<p><span class="arithmatex">\(\sigma_{max} = \frac{N_{max}}{S} \leq \bar{\varepsilon} = \frac{\sigma_{e}}{\gamma}\)</span></p>
+<p>Avec <span class="arithmatex">\(\gamma\)</span> (<span class="arithmatex">\(\gamma =\)</span> lettre grecque "gamma") un <strong>coefficient de sécurité</strong>.</p>
+<p><ins><em><strong>Attention :</strong></em></ins> pour les <strong>poutres élancées</strong> soumises à de la <strong>compression</strong>, la vérification de la condition de résistance ne suffit pas, il faut se mettre à l'abris d'une ruine par flambement, phénomène d'instabilité de forme qui peut intervenir pour des efforts inférieurs à ceux que peut supporter le matériau (voir chapitre sur le flambement).</p>
+<h5 id="2-condition-de-deformation">2/ Condition de déformation</h5>
+<p>En fonction du type d'éléments, l'allongement ou le raccourcissement ne doit pas dépasser une limite admissible, qui, si elle était dépassée, compromettrait l'utilisation de l'ouvrage :   <br />
+<span class="arithmatex">\(\Delta L \leq\)</span> valeur fixée</p>
+<h3 id="2-cisaillement-simple">2) Cisaillement simple</h3>
+<h4 id="effort-tranchant">Effort tranchant</h4>
+<p><strong>Sollicitation étudiée : l'effort tranchant</strong></p>
+<p>On considère qu'une section droite de poutre est soumise à un effort tranchant lorsque les éléments de réduction des efforts internes de cohésion se ramènent à la seule sollicitation V/</p>
+<p><img alt="Sollicitation effort tranchant" src="../img/rdm-sollicitation-eff-tranch.png" width="100%" /> </p>
+<p>Torseur des efforts internes de cohésion : $\begin{Bmatrix}\tau_{(2/1)} \end{Bmatrix} = \begin{Bmatrix} 0 &amp; 0 \ V_{y}(x) &amp; 0 \ V_{z}(x) &amp; 0 \end{Bmatrix}_{G}</p>
+<p><ins><em>Exemples d'éléments soumis à un effort tranchant :</em></ins></p>
+<p><span class="arithmatex">\(\Rightarrow\)</span> Fil de fer que l'on tente de sectionner</p>
+<p><img alt="Fil de fer" src="../img/rdm-fildefer.png" width="50%" /> </p>
+<p><span class="arithmatex">\(\Rightarrow\)</span> Poutre appuyée sur un corbeau</p>
+<p><img alt="Poutre corbeau" src="../img/rdm-poutre-corbeau.png" width="50%" /> </p>
+<h4 id="contrainte-de-cisaillement-simple">Contrainte de cisaillement simple</h4>
+<p><strong>Définition</strong></p>
+<p>Soit une section droite par laquelle nous isolons la partie gauche d'une poutre. Supposons que la seule sollicitation à laquelle soit soumise cette section droite est un effort tranchant V<span class="arithmatex">\(_{y}\)</span>.</p>
+<p><img alt="Effort tranchant" src="../img/rdm-effort-tranche.png" width="100%" /> </p>
+<p>Chaque surface élémentaire dS subit une force d'intensité df due à l'action du tronçon de droite sur le tronçon de gauche.</p>
+<p>Les forces <span class="arithmatex">\(\overrightarrow{df_{i}}\)</span> sont tangentes à S étant donné que la section n'est soumise qu'à un effort de cisaillement (il n'y a pas de force normale à S, donc pas de contrainte normale <span class="arithmatex">\(\sigma\)</span>).</p>
+<p>Chaque force qui s'applique sur une surface dS permet de définir une contrainte tangentielle
+ou contrainte de cisaillement : <span class="arithmatex">\(\tau = \frac{df_{i}}{dS}\)</span> en MPa.</p>
+<p>En cisaillement simple, on peut considérer que la répartition des contraintes de cisaillement est uniforme dans la section : <span class="arithmatex">\(\tau = \frac{V}{S}\)</span></p>
+<p><ins><em>Attention :</em></ins> <strong>ce n'est pas le cas en cosaillement de flexion</strong> (effort tranchant concomitant à un moment fléchissant). C'est ce que nous allons voir dans la suite du chapitre.</p>
+<h3 id="3-flexion">3) Flexion</h3>
+<h4 id="1-sollicitation-etudiee-moment-flechissant">1/ Sollicitation étudiée : Moment fléchissant</h4>
+<p>On considérera qu'une poutre (on se limite à l'étude des poutres droites) est soumise à de la flexion pure lorsque les éléments de réduction des efforts internes de cohésion se ramènent à
+un seul moment fléchissant (autour de l'axe G<span class="arithmatex">\(_{z}\)</span> par exemple) M<span class="arithmatex">\(_{z}\)</span> :</p>
+<p><img alt="Moment fléchissant" src="../img/rdm-mom-fle.png" width="100%" /> </p>
+<p>Torseur des efforts internes de cohésion : <span class="arithmatex">\(\begin{Bmatrix}\tau_{(2/1)} \end{Bmatrix} = \begin{Bmatrix} 0 &amp; 0 \\ 0 &amp; 0 \\ 0 &amp; M_{z}(x) \end{Bmatrix}_{G}\)</span></p>
+<h4 id="2-essai-de-flexion">2/ Essai de flexion</h4>
+<p><img alt="Essai de flexion" src="../img/rdm-flexion-essai.png" width="100%" /> </p>
+<p>Entre C et D, on peut étudier les effets du moment fléchissant seul.</p>
+<p>L'expérience montre qu'entre les points C et D, les fibres de la poutre soumise au chargement décrit précédemment, se déforment selon des arcs de cercles parallèles (on parle de <strong>flexion circulaire</strong>) : </p>
+<p><img alt="Essai de flexion2" src="../img/rdm-flexion-essai2.png" width="100%" /></p>
+<ul>
+<li>la ligne moyenne GG' et le plan Gxz correspondant ne subissent aucune déformation: on parlera donc de fibre neutre et de plan neutre.    </li>
+<li>les fibres situées au dessus du plan neutre raccourcissent : elles sont comprimées    </li>
+<li>les fibres situées en dessous du plan neutre s'allongent: elles sont tendues     </li>
+</ul>
+<h4 id="3-contrainte-de-flexion">3/ Contrainte de flexion</h4>
+<table>
+<thead>
+<tr>
+<th>Formule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(\sigma_{x} = - \frac{M_{z}}{I_{Gz}}y\)</span></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><span class="arithmatex">\(\sigma_{x}\)</span> est proportionnel à l'ordonnée y du point considéré,</li>
+<li><span class="arithmatex">\(\sigma_{x}\)</span> = 0 pour y = 0 : (G, x, z) est le plan neutre et (G, z) est l'axe neutre.</li>
+</ul>
+<p><img alt="Contrainte de flexion" src="../img/rdm-flexion-contrainte.png" width="100%" /></p>
+<ul>
+<li>si le moment M, est positif:</li>
+<li><span class="arithmatex">\(\sigma_{x}\)</span> &gt; 0 si y &lt; O (traction dans les fibres situées sous l'axe neutre), </li>
+<li><span class="arithmatex">\(\sigma_{x}\)</span> &lt; 0 si y &gt; 0 (compression dans les fibres situées au-dessus l'axe neutre), et réciproquement si Mz est négatif.</li>
+</ul>
+<p><img alt="Contrainte de flexion2" src="../img/rdm-flexion-contrainte2.png" width="100%" /></p>
+<h4 id="4-deformee-remarquable">4/ Déformée remarquable</h4>
+<p>Poutre sur deux appuis chargée uniformément:  <br />
+<img alt="Déformée remarquable" src="../img/rdm-deformee-remarquable.png" width="50%" /></p>
+<p>Equation du moment: <span class="arithmatex">\(M(x) = - \frac{qx^{2}}{2} + \frac{qlx}{2}\)</span>  <br />
+<img alt="Déformée remarquable2" src="../img/rdm-deformee-remarquable2.png" width="50%" /></p>
+<p>Allure de la déformée :  <br />
+<img alt="Déformée remarquable3" src="../img/rdm-deformee-remarquable3.png" width="50%" /></p>
+<p><ins>Remarque :</ins> l'allure de la déformée <span class="arithmatex">\(\approx\)</span> - l'allure du moment.</p>
+<table>
+<thead>
+<tr>
+<th>Formule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(V_{max} = - \frac{5ql^{4}}{384EI}y\)</span></td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href="" target="_blank" rel="noopener">Christopher CHAMAND</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/cr0wth/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.path", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.annotate"], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../../../../javascripts/katex.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

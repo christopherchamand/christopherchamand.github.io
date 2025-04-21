@@ -1,0 +1,2247 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Cours de STI2D">
+      
+      
+        <meta name="author" content="Christopher CHAMAND">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../../../icones/icons8-prof-64.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>CONFORT THERMIQUE - EXERCICES - LAB's Cr0wth</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#confort-thermique-exercices" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../../../../.." title="LAB&#39;s Cr0wth" class="md-header__button md-logo" aria-label="LAB's Cr0wth" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 64a192 192 0 1 1 0 384 192 192 0 1 1 0-384m0 448a256 256 0 1 0 0-512 256 256 0 1 0 0 512m-56-256c0-20.7 11.3-38.8 28-48.5l-36-62.3c-8.8-15.3-28.7-20.8-42-9-25.6 22.6-43.9 53.3-50.9 88.1-3.4 17.2 11.2 31.7 28.9 31.7zm28 48.5-36 62.4c-8.8 15.3-3.6 35.2 13.1 40.8 16 5.4 33.1 8.3 50.9 8.3s34.9-2.9 50.9-8.3c16.7-5.6 21.9-25.5 13.1-40.8l-36-62.4c-8.2 4.8-17.8 7.5-28 7.5s-19.8-2.7-28-7.5m84-48.5h72c17.7 0 32.3-14.5 28.8-31.8-7-34.8-25.3-65.5-50.9-88.1-13.2-11.7-33.1-6.3-42 9l-36 62.3c16.7 9.7 28 27.8 28 48.5zm-56 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB's Cr0wth
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              CONFORT THERMIQUE - EXERCICES
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber"  aria-label="Darkmode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Darkmode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Lightmode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Lightmode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  <img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../index_sti2d/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../SNT/index_snt/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="LAB&#39;s Cr0wth" class="md-nav__button md-logo" aria-label="LAB's Cr0wth" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 64a192 192 0 1 1 0 384 192 192 0 1 1 0-384m0 448a256 256 0 1 0 0-512 256 256 0 1 0 0 512m-56-256c0-20.7 11.3-38.8 28-48.5l-36-62.3c-8.8-15.3-28.7-20.8-42-9-25.6 22.6-43.9 53.3-50.9 88.1-3.4 17.2 11.2 31.7 28.9 31.7zm28 48.5-36 62.4c-8.8 15.3-3.6 35.2 13.1 40.8 16 5.4 33.1 8.3 50.9 8.3s34.9-2.9 50.9-8.3c16.7-5.6 21.9-25.5 13.1-40.8l-36-62.4c-8.2 4.8-17.8 7.5-28 7.5s-19.8-2.7-28-7.5m84-48.5h72c17.7 0 32.3-14.5 28.8-31.8-7-34.8-25.3-65.5-50.9-88.1-13.2-11.7-33.1-6.3-42 9l-36 62.3c16.7 9.7 28 27.8 28 48.5zm-56 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64"/></svg>
+
+    </a>
+    LAB's Cr0wth
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    <img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            <img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../index_sti2d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../formules/les_formules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Les formules
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Première
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Première
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3_1" id="__nav_2_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    I2D
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            I2D
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/index_i2d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq0/i2d_seq0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 0 : Découverte du Développement Durable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq1/i2d_seq1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 1 : Ingénierie système
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq2/i2d_seq2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 2 : Signaux et Information
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq3/i2d_seq3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 3 : Éco-Conception
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq4/i2d_seq4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 4 : Les flux
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq5/i2d_seq5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 5 : Typologie de l'information, de l'énergie et des liaisons
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq6/i2d_seq6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 6 : Notion d'architecture et construction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../I2D/Seq7/i2d_seq7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 7 : Programmation web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    ENS. SPÉCIFIQUE
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            ENS. SPÉCIFIQUE
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4_1" id="__nav_2_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    AC
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            AC
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../index_ac/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq0/ac_seq0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 0: Découverte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq1/ac_seq1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 1: La descente de charges
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq2/ac_seq2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 2: La résistance des matériaux
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq3/ac_seq3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 3: Modélisation des systèmes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../ac_seq4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 4: Confort thermique
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq5/ac_seq5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 5: Confort acoustique
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/index_snt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 1 : Python
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chapitre 1 : Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/python/index_python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Objectifs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/python/initiation_python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Initiation à Python
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/python/aller_plus_loin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pour aller plus loin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 2 : Internet
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Chapitre 2 : Internet
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/index_internet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Objectifs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/reseaux_physique/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Les réseaux physiques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_3" id="__nav_3_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Le protocole TPC/IP
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Le protocole TPC/IP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/protocole_tcpip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cours
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/protocole_tpcip_QCM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Exercices 1 (QCM)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_4" id="__nav_3_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Le routage
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Le routage
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/routage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/jeu_du_routage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 2 (jouons au routage)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 3 : WEB
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapitre 3 : WEB
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/decouverte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Découverte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Programmation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Programmation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/initiation_html/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Initiation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/html_act1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/html_act2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-1-chauffage-dune-masse-deau" class="md-nav__link">
+    <span class="md-ellipsis">
+      EXERCICE 1 : Chauffage d'une masse d'eau
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-2-radiateur" class="md-nav__link">
+    <span class="md-ellipsis">
+      EXERCICE 2 : Radiateur
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-3-chauffe-eau-solaire" class="md-nav__link">
+    <span class="md-ellipsis">
+      EXERCICE 3 : Chauffe eau solaire
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-4-chauffe-eau-electrique" class="md-nav__link">
+    <span class="md-ellipsis">
+      EXERCICE 4 : Chauffe eau électrique
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-5-simple-double-vitrage" class="md-nav__link">
+    <span class="md-ellipsis">
+      EXERCICE 5 : Simple / double vitrage
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-6-isolation-dun-mur" class="md-nav__link">
+    <span class="md-ellipsis">
+      EXERCICE 6 : Isolation d’un mur
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#exercice-7-etude-de-la-consommation-dune-automobile" class="md-nav__link">
+    <span class="md-ellipsis">
+      EXERCICE 7: Étude de la consommation d’une automobile
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="confort-thermique-exercices">CONFORT THERMIQUE - EXERCICES</h1>
+<h2 id="exercice-1-chauffage-dune-masse-deau">EXERCICE 1 : Chauffage d'une masse d'eau</h2>
+<p><img alt="Exercice 1" src="../img/exo1.png" width="30%" />  </p>
+<p>L’eau d’une piscine d’un volume de 600 m<span class="arithmatex">\(^{3}\)</span> est à une température de 12°C.  <br />
+Pour pourvoir se baigner on doit chauffer l’eau à 28°C.  <br />
+On dispose pour cela d’une chaudière de 400kW.   </p>
+<table>
+<thead>
+<tr>
+<th>Données</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Capacité thermique massique de l'eau</td>
+<td><span class="arithmatex">\(C_{eau}\)</span> = 4185J.Kg<span class="arithmatex">\(^{-1}\)</span>.K<span class="arithmatex">\(^{-1}\)</span></td>
+</tr>
+<tr>
+<td>Masse volumique de l’eau</td>
+<td><span class="arithmatex">\(\rho_{eau}\)</span> = 1000kg.m<span class="arithmatex">\(^{-3}\)</span></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li><strong>Calculer</strong> l’énergie nécessaire pour chauffer la piscine.    </li>
+<li>En combien de temps l’eau sera-t-elle à la bonne température ?</li>
+</ol>
+<h2 id="exercice-2-radiateur">EXERCICE 2 : Radiateur</h2>
+<p><img alt="Exercice 2" src="../img/exo2.png" width="30%" /> </p>
+<p>Le débit d'eau dans un radiateur est noté <span class="arithmatex">\(q'_{v}\)</span>. L'eau chaude pénètre dans le radiateur à la température <span class="arithmatex">\(\theta_{1}\)</span>.   <br />
+Elle ressort à la température <span class="arithmatex">\(\theta_{2}\)</span>. L'installation comporte dix radiateurs.   <br />
+La chaudière récupère l'eau ,provenant des radiateurs, à la température <span class="arithmatex">\(\theta_{3}\)</span> et la réchauffe à la température <span class="arithmatex">\(\theta_{4}\)</span>.     </p>
+<table>
+<thead>
+<tr>
+<th>Données</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(q'_{v}\)</span></td>
+<td>0,035L.s<span class="arithmatex">\(^{-1}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\theta_{4}\)</span></td>
+<td>75°C</td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\theta_{3}\)</span></td>
+<td>55°C</td>
+</tr>
+<tr>
+<td>C</td>
+<td>4185J.kg<span class="arithmatex">\(^{-1}\)</span>.°C<span class="arithmatex">\(^{-1}\)</span></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li><strong>Calculer</strong> la masse d’eau traversant les 10 radiateurs en 1 minute    </li>
+<li><strong>Calculer</strong> la quantité de chaleur Q dégagée par les 10 radiateurs en une minute.    </li>
+<li><strong>Calculer</strong> la puissance d’un radiateur.    </li>
+<li>La chaudière utilise comme combustible du gaz. Le rendement de la combustion est de 80%. La chaleur de combustion de ce gaz est 890kJ.mol<span class="arithmatex">\(^{-1}\)</span>. Le volume molaire de ce gaz, mesuré dans les conditions de combustion est 24L.mol<span class="arithmatex">\(^{-1}\)</span>.   <br />
+<strong>Calculer</strong> le volume du gaz brûlé.</li>
+</ol>
+<h2 id="exercice-3-chauffe-eau-solaire">EXERCICE 3 : Chauffe eau solaire</h2>
+<p><img alt="Exercice 3a" src="../img/exo3a.png" width="30%" /> </p>
+<p>Notre capteur solaire est constitué de tubes peints en noir, placé derrière une vitre.  <br />
+Un essai d'utilisation de cet appareil, pendant une période ensoleillée, a donné les résultats suivants :</p>
+<table>
+<thead>
+<tr>
+<th>Données</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Débit de l'eau circulant dans le capteur</td>
+<td>20L.h<span class="arithmatex">\(^{-1}\)</span></td>
+</tr>
+<tr>
+<td>Température d'entrée de l'eau</td>
+<td>15°C</td>
+</tr>
+<tr>
+<td>Température de sortie de l'eau</td>
+<td>40°C</td>
+</tr>
+</tbody>
+</table>
+<p>On se propose de résoudre l’exercice en utilisant 2 méthodes:   <br />
+- une en partant de la formule d’énergie Q= …   <br />
+- l’autre en utilisant la formule de puissance P=…</p>
+<p><img alt="Exercice 3b" src="../img/exo3b.png" width="50%" /> </p>
+<ol>
+<li>
+<p>Méthode 1 : <strong>calculer</strong> la masse d’eau circulant en une heure dans le capteur.   <br />
+<strong>En déduire</strong> l’énergie reçue (chaleur) en une heure par le capteur (exprimer le résultat en kJ et en kW.h)</p>
+</li>
+<li>
+<p>Méthode 2 : <strong>calculer</strong> la puissance thermique du chauffe-eau lors de cet essai (attention aux unités).   <br />
+<strong>Calculer</strong> la quantité de chaleur absorbée par l'eau circulant dans le capteur pendant une heure (exprimer le résultat en kJ et en kW.h).</p>
+</li>
+<li>
+<p><strong>Calculer</strong> l'énergie solaire reçue en une heure par le capteur de 2 m<span class="arithmatex">\(^{2}\)</span> sachant que la puissance solaire disponible pendant la période d'essai est de 800W.m<span class="arithmatex">\(^{-2}\)</span></p>
+</li>
+<li>
+<p><strong>Calculer</strong> le rendement du capteur solaire (on travaillera avec les énergies).   <br />
+   Qu’en pensez-vous ?</p>
+</li>
+</ol>
+<h2 id="exercice-4-chauffe-eau-electrique">EXERCICE 4 : Chauffe eau électrique</h2>
+<p>Un ballon d'eau chaude électrique a une capacité de 240L.   <br />
+Le réchauffage de l'eau s'effectue en tarif de nuit de 22H30 à 6H30.   <br />
+L'eau est portée de 10°C à 85°C.    </p>
+<table>
+<thead>
+<tr>
+<th>Données</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Capacité thermique massique de l'eau</td>
+<td><span class="arithmatex">\(C_{eau}\)</span> = 4186J.kg<span class="arithmatex">\(^{-1}\)</span>.K<span class="arithmatex">\(^{-1}\)</span></td>
+</tr>
+<tr>
+<td>Masse volumique de l’eau</td>
+<td><span class="arithmatex">\(\rho_{eau}\)</span> = 1000kg.m<span class="arithmatex">\(^{-3}\)</span></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>Quelle est l'énergie nécessaire au chauffage du ballon ?</li>
+<li>Quelle est la puissance électrique minimum du chauffe eau ?</li>
+<li><strong>Calculer</strong> le coût si le kWh est facturé 0,08934 Euro TTC.</li>
+<li>À 6H30, on effectue un premier puisage de 80L. Le remplissage se fait avec de l'eau à 10°C.  <br />
+<strong>Calculer</strong> la température finale de l'eau du ballon.</li>
+<li>À 12h30, on mesure la température de l'eau à 57°C. 
+   En déduire l’énergie perdue et la puissance moyenne perdue.</li>
+</ol>
+<h2 id="exercice-5-simple-double-vitrage">EXERCICE 5 : Simple / double vitrage</h2>
+<p>Certaines fenêtres à double vitrage possèdent deux vitres parallèles séparées par un gaz tel que l'argon. Elles permettent de mieux isoler les pièces d'une maison. La conduction est le mode prépondérant de transfert d'énergie à travers un double vitrage.  <br />
+On précise que dans le cas d'une paroi composite, c'est à dire formée de plusieurs couches de matériaux différents, la résistance thermique totale est la somme des résistances des différentes couches.</p>
+<p><img alt="Exercice 5" src="../img/exo5.png" width="30%" /> </p>
+<table>
+<thead>
+<tr>
+<th>Conductivités thermiques</th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span class="arithmatex">\(\lambda\)</span> (air)</td>
+<td>0,026W.m<span class="arithmatex">\(^{-1}\)</span>.K<span class="arithmatex">\(^{-1}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\lambda\)</span> (argon)</td>
+<td>0,017W.m<span class="arithmatex">\(^{-1}\)</span>.K<span class="arithmatex">\(^{-1}\)</span></td>
+</tr>
+<tr>
+<td><span class="arithmatex">\(\lambda\)</span> (verre)</td>
+<td>1,2W.m<span class="arithmatex">\(^{-1}\)</span>.K<span class="arithmatex">\(^{-1}\)</span></td>
+</tr>
+<tr>
+<td>Température intérieure</td>
+<td>20°C</td>
+</tr>
+<tr>
+<td>Température extérieure</td>
+<td>5°C</td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li>En considérant une surface vitrée de 1 m<span class="arithmatex">\(^{2}\)</span>, <strong>calculer</strong> la résistance thermique de chacune des 3 parois composant le double vitrage.</li>
+<li><strong>Déterminer</strong> la résistance totale du double vitrage.</li>
+<li>Quelle est la valeur du flux thermique qui le traverse ?</li>
+<li><strong>Comparer</strong> cette valeur avec celle du flux traversant un simple vitrage d'épaisseur 8mm.</li>
+<li><strong>Dégager</strong> l'intérêt du double vitrage par rapport au simple vitrage.</li>
+<li>Pourquoi utilise-t-on de l’argon plutôt que de l’air ?</li>
+</ol>
+<h2 id="exercice-6-isolation-dun-mur">EXERCICE 6 : Isolation d’un mur</h2>
+<p><img alt="Exercice 6" src="../img/exo6.png" width="30%" /> </p>
+<p>Le mur extérieur d'une maison est constitué de briques. Il est sans ouverture et mesure 6 mètres de hauteur, 10 mètres de longueur et 20 centimètres d’épaisseur.</p>
+<ol>
+<li>La conductivité thermique de la brique est λ = 0,67W.m<span class="arithmatex">\(^{-1}\)</span>.K<span class="arithmatex">\(^{-1}\)</span>.   <br />
+<strong>Calculer</strong> la résistance thermique du mur et le flux thermique lorsque la température extérieure est de 0°C, celle de la maison étant maintenue à 20°C.</li>
+<li>Pour diminuer les déperditions thermiques, on isole le mur par 45 millimètres de polystyrène de conductivité thermique <span class="arithmatex">\(\lambda'\)</span> = 0,029W.m<span class="arithmatex">\(^{-1}\)</span>.K<span class="arithmatex">\(^{-1}\)</span>.   <br />
+<strong>Calculer</strong> le nouveau flux thermique.</li>
+<li>Quel serait ce flux thermique, si le mur était constitué de deux parois en brique, de 8 centimètres d'épaisseur chacune, séparées par une couche d'air de 4 centimètres ?   <br />
+   La conductivité thermique de l'air est λ air = 0,026 W.m<span class="arithmatex">\(^{-1}\)</span>.K<span class="arithmatex">\(^{-1}\)</span>.   <br />
+<strong>Conclure</strong>.</li>
+</ol>
+<h2 id="exercice-7-etude-de-la-consommation-dune-automobile">EXERCICE 7: Étude de la consommation d’une automobile</h2>
+<p>Le plein d’une automobile est considéré comme correspondant à une énergie de 400kW.h. La combustion est traditionnelle (PCI).</p>
+<ol>
+<li><strong>Compléter</strong> le tableau de combustible nécessaire pour avoir un plein complet (en donnant des exemples de calcul):</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th style="text-align: center;">Combustible</th>
+<th style="text-align: center;">Masse <br/>(kg)</th>
+<th style="text-align: center;">Volume <br/>(L)</th>
+<th style="text-align: center;">Masse de CO2 <br/> émisse durant <br/> la combustion <br/> (kg.GJ<span class="arithmatex">\(^{-1}\)</span>)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: center;">Gaz naturel</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Essence</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Gazole</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;"> Granulés de bois</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr>
+<td style="text-align: center;">Charbon</td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<ol>
+<li><strong>Analyser</strong> les résultats en termes de masse et de volume.</li>
+<li><strong>Analyser</strong> les résultats en termes de CO<span class="arithmatex">\(^{2}\)</span> émis.</li>
+<li>Sachant qu’en moyenne une automobile fait 700km par plein, <strong>calculer</strong> l’énergie que consomme notre voiture par km (kwh/km)</li>
+<li>Sachant qu’une voiture parcoure 14000km par an en moyenne et qu’il y a 36 millions d’automobiles en France, <strong>calculer</strong> l’énergie totale nécessaire en France pour alimenter les automobiles.</li>
+<li>Sachant qu’une tranche de centrale nucléaire fournit annuellement 6 millions MWh, combien faudrait-il construire de centrales nucléaires (tranches) pour électrifier l’ensemble des automobiles françaises ?</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href="" target="_blank" rel="noopener">Christopher CHAMAND</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/cr0wth/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.path", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.annotate"], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../../../../javascripts/katex.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2410 @@
+
+<!doctype html>
+<html lang="fr" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Cours de STI2D">
+      
+      
+        <meta name="author" content="Christopher CHAMAND">
+      
+      
+      
+      
+      
+      <link rel="icon" href="../../../../../icones/icons8-prof-64.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.12">
+    
+    
+      
+        <title>ANALYSE DU CYCLE DE VIE (ACV) AGRAFEUSES - LAB's Cr0wth</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.2afb09e1.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.06af60db.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+    
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.css">
+    
+      <link rel="stylesheet" href="../../../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#analyse-du-cycle-de-vie-acv-agrafeuses" class="md-skip">
+          Aller au contenu
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="En-tête">
+    <a href="../../../../.." title="LAB&#39;s Cr0wth" class="md-header__button md-logo" aria-label="LAB's Cr0wth" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 64a192 192 0 1 1 0 384 192 192 0 1 1 0-384m0 448a256 256 0 1 0 0-512 256 256 0 1 0 0 512m-56-256c0-20.7 11.3-38.8 28-48.5l-36-62.3c-8.8-15.3-28.7-20.8-42-9-25.6 22.6-43.9 53.3-50.9 88.1-3.4 17.2 11.2 31.7 28.9 31.7zm28 48.5-36 62.4c-8.8 15.3-3.6 35.2 13.1 40.8 16 5.4 33.1 8.3 50.9 8.3s34.9-2.9 50.9-8.3c16.7-5.6 21.9-25.5 13.1-40.8l-36-62.4c-8.2 4.8-17.8 7.5-28 7.5s-19.8-2.7-28-7.5m84-48.5h72c17.7 0 32.3-14.5 28.8-31.8-7-34.8-25.3-65.5-50.9-88.1-13.2-11.7-33.1-6.3-42 9l-36 62.3c16.7 9.7 28 27.8 28 48.5zm-56 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            LAB's Cr0wth
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              ANALYSE DU CYCLE DE VIE (ACV) AGRAFEUSES
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="teal" data-md-color-accent="amber"  aria-label="Darkmode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Darkmode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6m0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4M7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="teal" data-md-color-accent="lime"  aria-label="Lightmode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Lightmode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Rechercher" placeholder="Rechercher" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Recherche">
+        
+          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Partager" aria-label="Partager" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
+            
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+          </a>
+        
+        <button type="reset" class="md-search__icon md-icon" title="Effacer" aria-label="Effacer" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initialisation de la recherche
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+    
+      
+<nav class="md-tabs" aria-label="Onglets" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../.." class="md-tabs__link">
+          
+  
+  
+    
+  
+  <img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../index_sti2d/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../../../SNT/index_snt/" class="md-tabs__link">
+          
+  
+  
+    
+  
+  <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+    
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../../../.." title="LAB&#39;s Cr0wth" class="md-nav__button md-logo" aria-label="LAB's Cr0wth" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M256 64a192 192 0 1 1 0 384 192 192 0 1 1 0-384m0 448a256 256 0 1 0 0-512 256 256 0 1 0 0 512m-56-256c0-20.7 11.3-38.8 28-48.5l-36-62.3c-8.8-15.3-28.7-20.8-42-9-25.6 22.6-43.9 53.3-50.9 88.1-3.4 17.2 11.2 31.7 28.9 31.7zm28 48.5-36 62.4c-8.8 15.3-3.6 35.2 13.1 40.8 16 5.4 33.1 8.3 50.9 8.3s34.9-2.9 50.9-8.3c16.7-5.6 21.9-25.5 13.1-40.8l-36-62.4c-8.2 4.8-17.8 7.5-28 7.5s-19.8-2.7-28-7.5m84-48.5h72c17.7 0 32.3-14.5 28.8-31.8-7-34.8-25.3-65.5-50.9-88.1-13.2-11.7-33.1-6.3-42 9l-36 62.3c16.7 9.7 28 27.8 28 48.5zm-56 32a32 32 0 1 0 0-64 32 32 0 1 0 0 64"/></svg>
+
+    </a>
+    LAB's Cr0wth
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../../.." class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    <img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil
+    
+  </span>
+  
+
+            </a>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_1">
+            <span class="md-nav__icon md-icon"></span>
+            <img src='https://christopherchamand.github.io/icones/home.svg' width=16px height=16px>&thinsp; Accueil
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../index_sti2d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../formules/les_formules/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Les formules
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3" id="__nav_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Première
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            Première
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_3_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_3_1" id="__nav_2_3_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    I2D
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_3_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_3_1">
+            <span class="md-nav__icon md-icon"></span>
+            I2D
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../index_i2d/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq0/i2d_seq0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 0 : Découverte du Développement Durable
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq1/i2d_seq1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 1 : Ingénierie système
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq2/i2d_seq2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 2 : Signaux et Information
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../i2d_seq3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 3 : Éco-Conception
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq4/i2d_seq4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 4 : Les flux
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq5/i2d_seq5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 5 : Typologie de l'information, de l'énergie et des liaisons
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq6/i2d_seq6/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 6 : Notion d'architecture et construction
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../Seq7/i2d_seq7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 7 : Programmation web
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    ENS. SPÉCIFIQUE
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            ENS. SPÉCIFIQUE
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4_1" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_4_1" id="__nav_2_4_1_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    AC
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_4_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4_1">
+            <span class="md-nav__icon md-icon"></span>
+            AC
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../AC/index_ac/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../AC/Seq0/ac_seq0/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 0: Découverte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../AC/Seq1/ac_seq1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 1: La descente de charges
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../AC/Seq2/ac_seq2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 2: La résistance des matériaux
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../AC/Seq3/ac_seq3/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 3: Modélisation des systèmes
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../AC/Seq4/ac_seq4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 4: Confort thermique
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../AC/Seq5/ac_seq5/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Séquence 5: Confort acoustique
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            <img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/index_snt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Présentation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_2" id="__nav_3_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 1 : Python
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_2">
+            <span class="md-nav__icon md-icon"></span>
+            Chapitre 1 : Python
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/python/index_python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Objectifs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/python/initiation_python/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Initiation à Python
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/python/aller_plus_loin/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Pour aller plus loin
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3" id="__nav_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 2 : Internet
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Chapitre 2 : Internet
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/index_internet/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Objectifs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/reseaux_physique/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Les réseaux physiques
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_3" id="__nav_3_3_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Le protocole TPC/IP
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_3">
+            <span class="md-nav__icon md-icon"></span>
+            Le protocole TPC/IP
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/protocole_tcpip/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Cours
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/protocole_tpcip_QCM/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Exercices 1 (QCM)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_3_4" id="__nav_3_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Le routage
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Le routage
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/routage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/internet/jeu_du_routage/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 2 (jouons au routage)
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4" id="__nav_3_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Chapitre 3 : WEB
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_3_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4">
+            <span class="md-nav__icon md-icon"></span>
+            Chapitre 3 : WEB
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/decouverte/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Découverte
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3_4_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_3_4_2" id="__nav_3_4_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Programmation
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_3_4_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3_4_2">
+            <span class="md-nav__icon md-icon"></span>
+            Programmation
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/initiation_html/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Initiation
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/html_act1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 1
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../../SNT/web/html_act2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Activité 2
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table des matières">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table des matières
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#presentation" class="md-nav__link">
+    <span class="md-ellipsis">
+      PRÉSENTATION
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="PRÉSENTATION">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#objectifs" class="md-nav__link">
+    <span class="md-ellipsis">
+      OBJECTIFS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#modalites" class="md-nav__link">
+    <span class="md-ellipsis">
+      MODALITÉS
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ressources" class="md-nav__link">
+    <span class="md-ellipsis">
+      RESSOURCES
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#unite-fonctionnelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      UNITÉ FONCTIONNELLE
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="UNITÉ FONCTIONNELLE">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#les-solutions-dagrafage" class="md-nav__link">
+    <span class="md-ellipsis">
+      Les solutions d'agrafage
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#definition-dune-unite-fonctionnelle" class="md-nav__link">
+    <span class="md-ellipsis">
+      Définition d'une unité fonctionnelle
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scenario-dutilisation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scénario d'utilisation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caracteristiques" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caractéristiques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scenario-dutilisation_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scénario d'utilisation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caracteristiques_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caractéristiques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#scenario-dutilisation_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Scénario d'utilisation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caracteristiques_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caractéristiques
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#chaine-denergie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Chaîne d'énergie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alimener-en-energie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Alimener en énergie
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#caracteristiques-moteur" class="md-nav__link">
+    <span class="md-ellipsis">
+      Caractéristiques moteur
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#question-1" class="md-nav__link">
+    <span class="md-ellipsis">
+      Question 1 :
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#probleme-technique" class="md-nav__link">
+    <span class="md-ellipsis">
+      PROBLEME TECHNIQUE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impacts-environnementaux-de-lagrafeuse-green-emma" class="md-nav__link">
+    <span class="md-ellipsis">
+      IMPACTS ENVIRONNEMENTAUX DE L'AGRAFEUSE GREEN-EMMA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#preparation-etude-skrebbae" class="md-nav__link">
+    <span class="md-ellipsis">
+      PRÉPARATION ÉTUDE SKREBBAE
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impacts-environnementaux-de-lagrafeuse-skrebba" class="md-nav__link">
+    <span class="md-ellipsis">
+      IMPACTS ENVIRONNEMENTAUX DE L'AGRAFEUSE SKREBBA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#green-emma-vs-skrebba" class="md-nav__link">
+    <span class="md-ellipsis">
+      GREEN-EMMA VS SKREBBA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#impacts-environnementaux-de-lagrafeuse-rexel" class="md-nav__link">
+    <span class="md-ellipsis">
+      IMPACTS ENVIRONNEMENTAUX DE L'AGRAFEUSE REXEL
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#comparaison-des-impacts-des-4-agrafeuses" class="md-nav__link">
+    <span class="md-ellipsis">
+      COMPARAISON DES IMPACTS DES 4 AGRAFEUSES
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reconception-green-emma" class="md-nav__link">
+    <span class="md-ellipsis">
+      RECONCEPTION GREEN-EMMA
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#validation-de-la-reconception" class="md-nav__link">
+    <span class="md-ellipsis">
+      VALIDATION DE LA RECONCEPTION
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="analyse-du-cycle-de-vie-acv-agrafeuses">ANALYSE DU CYCLE DE VIE (ACV) AGRAFEUSES</h1>
+<h2 id="presentation">PRÉSENTATION</h2>
+<p><img alt="Agrafeuses" src="../img/EnTete_1.png" width="100%" /></p>
+<h3 id="objectifs">OBJECTIFS</h3>
+<ul>
+<li>Comprendre la notion d'Unité Fonctionnelle ;</li>
+<li>Déterminer les consommations (énergie, consommables) correspondant à l'unité fonctionnelle ;</li>
+<li>Estimer des impacts environnementaux, renseigner une feuille de calcul, s'appuyer sur une base de données ;</li>
+<li>Comparer des produits d'un point de vue environnemental pour une même phase du cycle de vie.</li>
+</ul>
+<h3 id="modalites">MODALITÉS</h3>
+<ul>
+<li>Durée: 12 heures</li>
+</ul>
+<h3 id="ressources">RESSOURCES</h3>
+<ul>
+<li>Données relatives aux différentes agrafeuses :<ul>
+<li>Lieu de fabrication ;</li>
+<li>Estimation de la durée de vie ;</li>
+<li>Consommables ;</li>
+<li>Fabrication ;</li>
+<li>Conditionnement ;</li>
+<li>Livraison ;</li>
+<li>Utilisation ;</li>
+<li>Fin de vie ;</li>
+</ul>
+</li>
+<li>Arocédure d'utilisation de « Bilan Produit » ;</li>
+<li>Manuel de référence du logiciel « Bilan Produit ».</li>
+</ul>
+<h2 id="unite-fonctionnelle">UNITÉ FONCTIONNELLE</h2>
+<p><strong>Consulter</strong> la <em>Mise en Situation</em> et les <em>Données relatives aux consommations des différentes agrafeuses</em> :</p>
+<details class="info">
+<summary>MISE EN SITUATION</summary>
+<h4 id="les-solutions-dagrafage">Les solutions d'agrafage</h4>
+<p>Un rapport affirme que l'agrafeuse sans agrafes « Green Emma » est plus impactante pour l'environnement que l'agrafeuse « Skrebba », qui nécessite pourtant l'usage d'agrafes.   </p>
+<p>Cette affirmation a mis la société productrice de l'agrafeuse Green Emma dans l'embarras, car le slogan pour cette entreprise est justement de réaliser des produit peu impactant.  </p>
+<p>De ce fait, la société vous demande d'étudier leur produit et d'envisager des pistes pour améliorer le bilan.   </p>
+<p>On souhaite réaliser une étude comparative d'impact environnemental concernant différentes solutions d'agrafage.   </p>
+<p>La fonction à réaliser est donc : « assembler des feuilles ».</p>
+<p>On choisit quatre modèles différents.   </p>
+<p><img alt="Agrafeuses" src="../img/EnTete_1.png" width="100%" /></p>
+<ul>
+<li>Le premier modèle est une agrafeuse sans agrafe : Green Emma (d'une durée de vie estimée à 1 000 agrafages).</li>
+<li>Le second modèle est une agrafeuse (majoritairement) en plastique : Skrebba (d'une durée de vie estimée à 2 000 agrafages).</li>
+<li>Le troisième modèle est une agrafeuse en acier : Regal (d'une durée de vie estimée à 6 000 agrafages).</li>
+<li>Le quatrième modèle est une agrafeuse électrique : Rexel (d'une durée de vie estimée à 10 000 agrafages).</li>
+</ul>
+<h4 id="definition-dune-unite-fonctionnelle">Définition d'une unité fonctionnelle</h4>
+<p>Pour pouvoir comparer des produits, ils doivent être évalués pour un même service rendu appelé unité fonctionnelle (UF).</p>
+<p>Toutes les consommations des produits étudiés devront donc être exprimées uniquement pour la réalisation de cette unité fonctionnelle.</p>
+<p>On va définir une UF correspondant à l'ensemble du cycle de vie des produits étudiés.</p>
+<p>Pour les produits étudiés elle peut par exemple être définie de la façon suivante :</p>
+<p><strong>UF = « agrafer des feuilles deux fois par jour, 5 jours par semaine, 47 semaines par an pendant 42 ans ».</strong></p>
+</details>
+<div class="admonition info">
+<p class="admonition-title">DONNÉES DE CONSOMMATIONS DES AGRAFEUSES</p>
+<details class="abstract">
+<summary>GREEN EMMA</summary>
+<p><img alt="Agrafeuse Green Emma" src="../img/acv_agrapheuse_greenemma.png" width="50%" /></p>
+<ul>
+<li>Lieu de fabrication : Allemagne (Lahr).</li>
+<li>Estimation de la durée de vie : 1000 agrafages.</li>
+<li>Consommables : aucun,</li>
+<li>Fabrication : Masse des éléments (donnée par le fabricant et déjà saisie dans le logiciel)</li>
+<li>Conditionnement : Emballage : Carton rigide blanchi.</li>
+<li>Livraison : idem à l'agrafeuse Skrebba</li>
+<li>Fin de vie : ordures ménagères.</li>
+</ul>
+<p><img alt="Fonctionnement agrafeuse Green Emma" src="../img/acv_green_emma_fonctionnement_1.png" width="100%" /></p>
+<table>
+<thead>
+<tr>
+<th>En image</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Fonctionnement agrafeuse Green Emma" src="../img/acv_agrapheuse_greenemma_carac.png" width="100%" /></td>
+<td>AGRAFEUSE SANS AGRAFES en PLASTIQUE RECYCLE marquée RRR <br/> - Un système de génie pour fixer jusqu'à 4 feuilles de 80g entre elles sans agrafes. <br/> - Plus jamais en panne d'agrafes. <br /> - Un déchet de moins <br/> - Fini les agrafes dans la poubelle papier <br/> - Passe sans problème au destructeur de document</td>
+</tr>
+</tbody>
+</table>
+<p><img alt="agrafeuse Green Emma pesée" src="../img/acv_agtrappheuse_greenemma_pesee.png" width="100%" /></p>
+</details>
+<details class="abstract">
+<summary>SKREBBA</summary>
+<p><img alt="Agrafeuse Skrebba" src="../img/acv_agrapheuse_skrebba.png" width="50%" /></p>
+<p>C'est une agrafeuse de bureau traditionnelle (avec cartérisation en plastique recyclé), fabriquée en Allemagne, d'une durée de vie estimée à 2000 agrafages.   </p>
+<h4 id="scenario-dutilisation">Scénario d'utilisation</h4>
+<p>Agrafeuse utilisée dans un bureau par une personne travaillant à temps complet pendant toute sa carrière (40 ans). En moyenne cette personne utilise son agrafeuse deux fois par jour, pendant 45 semaines par an avec 5 jours de travail par semaine.</p>
+<h4 id="caracteristiques">Caractéristiques</h4>
+<ul>
+<li>Lieu de fabrication : Allemagne (Lahr).</li>
+<li>Estimation de la durée de vie : 2000 agrafages.</li>
+<li>Consommables : boîte de 1000 agrafes,</li>
+<li>Poids total (emballage inclus) : ≈ 92 g.</li>
+<li>Fabrication :<ul>
+<li>Pièces métalliques (Socle, levier, guide ressort, matrice, guide levier, magasin à agrafes) : acier courant [emboutissage]</li>
+<li>Rivet (axe) : Alliage d'aluminium [Aluminium mix forgé européen]</li>
+<li>Ressorts (4 ressorts) : acier faiblement allié [laminage de profil acier].</li>
+<li>Pièces plastiques thermoplastiques : abs [injection].</li>
+</ul>
+</li>
+<li>Conditionnement : Emballage : Carton rigide blanchi.</li>
+<li>Livraison :<ul>
+<li>Site de production à entrepôt de logistique grande surface :<ul>
+<li>Camion 16t : Allemagne (Lahr) – France (Limoges) : distance 927 km</li>
+</ul>
+</li>
+<li>Entrepôt à magasin :<ul>
+<li>Camion 3,5t : Limoges – Magasins : distance 23 km</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Utilisation : L'agrafeuse Skrebba que nous étudions utilise des agrafes standard n°10.<ul>
+<li>Boite de 1000 agrafes fabriquées en Chine : transport transocéanique par voie maritime Chine (Shanghai)-France (Marseille) : 16218 km, puis camion 16t : Marseille-Limoges ( 600 km) et enfin camionnette Diesel Limoges - Magasin (23 km).</li>
+<li>Les 1000 agrafes sont en acier de masse : 24.2g</li>
+<li>le carton de masse 2.3g</li>
+</ul>
+</li>
+<li>Fin de vie : ordures ménagères.</li>
+</ul>
+<p><img alt="Agrafeuse Skrebba pesee" src="../img/acv_agrapheuse_skrebba_pesee.png" width="100%" /></p>
+</details>
+<details class="abstract">
+<summary>REGAL</summary>
+<p><img alt="Agrafeuse Regal" src="../img/acv_agrapheuse_regal.png" width="50%" /></p>
+<p>C'est une agrafeuse de bureau traditionnelle, fabriquée au Japon, d'une durée de vie estimée à 6000 agrafages.</p>
+<h4 id="scenario-dutilisation_1">Scénario d'utilisation</h4>
+<p>Agrafeuse utilisée dans un bureau par une personne travaillant à temps complet pendant toute sa carrière (40 ans). En moyenne cette personne utilise son agrafeuse deux fois par jour, pendant 45 semaines par an avec 5 jours de travail par semaine.</p>
+<h4 id="caracteristiques_1">Caractéristiques</h4>
+<ul>
+<li>Lieu de fabrication : Japon.</li>
+<li>Estimation de la durée de vie : 6000 agrafages.</li>
+<li>Consommables : boîte de 1000 agrafes,</li>
+<li>Poids total (emballage inclus) : ≈ 120 g.</li>
+<li>Fabrication : Son poids total est de 60g. Elle est composée d'acier plié, d'acier à ressort et de plastique injecté qui se répartissent dans différentes pièces :<ul>
+<li>bâti : 50g (acier courant) embouti (prendre forgeage si l'emboutissage n'est pas dans la banque de données),</li>
+<li>ressorts (lame+spirale) : 8g (acier faiblement allié),</li>
+<li>embouts : 2g (matière plastique injectée en ABS)</li>
+</ul>
+</li>
+<li>Conditionnement : Elle est conditionnée dans un blister individuel qui pèse 5g (PS thermo-formé).</li>
+<li>Livraison : la livraison se détaille comme suit :<ul>
+<li>Producteur grossiste : Transocéanique JAPON–FRANCE distance 15000km</li>
+<li>Grossiste distributeur : camion 16t : Marseille-Limoges 600 km.</li>
+<li>Distributeur consommateur : camionnette Diesel 23 km.</li>
+</ul>
+</li>
+<li>Utilisation : Les agrafes utilisées se vendent en boites de 1000 et sont en acier courant. 1 boîte pèse 50g répartis de la façon suivante : 45g pour les agrafes et 5g pour la boîte en carton.<ul>
+<li>Boite de 1000 agrafes fabriquées en Chine : transport transocéanique par voie maritime Chine (Shanghai)-France (Marseille) : 16218 km, puis camion 16t : Marseille-Limoges ( 600 km) et enfin camionnette Diesel Limoges - Magasin (23 km).</li>
+<li>Les 1000 agrafes sont en acier de masse : 45g</li>
+<li>le carton de masse 5g</li>
+</ul>
+</li>
+<li>Fin de vie : ordures ménagères.</li>
+</ul>
+</details>
+<details class="abstract">
+<summary>REXEL</summary>
+<p><img alt="Agrafeuse rexel" src="../img/acv_agrapheuse_rexel.png" width="50%" /></p>
+<p>C'est une agrafeuse électrique de bureau, semi automatisée fabriquée en Allemagne, d'une durée de vie estimée à 10 000 agrafages.</p>
+<p>Le fonctionnement ne nécessite qu'une seule main pour agrafer un paquet de feuilles.</p>
+<p>L'agrafeuse est capable d'agrafer un paquet de 12 feuilles de papier de 80 g/m² ; l'énergie électrique qu'elle utilise est fournie par 4 piles 1,5 Volts du type "AA" (LR6, qui permettent de réaliser au moins 3000 agrafages).</p>
+<hr />
+<h4 id="scenario-dutilisation_2">Scénario d'utilisation</h4>
+<p>Agrafeuse utilisée dans un bureau par une personne travaillant à temps complet pendant toute sa carrière (40 ans). En moyenne cette personne utilise son agrafeuse deux fois par jour, pendant 45 semaines par an avec 5 jours de travail par semaine.</p>
+<hr />
+<h4 id="caracteristiques_2">Caractéristiques</h4>
+<table>
+<thead>
+<tr>
+<th>En image</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="Fonctionnement agrafeuse Rexel" src="../img/acv_agrapheuse_rexel_fonctionnement.png" width="100%" /></td>
+<td>Insertion des agrafes : Appuyez sur le bouton au-dessus de l'agrafeuse. Le canal à agrafes se dégagera. Tirez le canal vers l'avant pour insérer jusqu'à 105 agrafes standard. Repoussez doucement le canal à agrafes jusqu'au déclic de mise en place. <br/><br/> Fonctionnement de l'agrafeuse : Pour faire fonctionner l'agrafeuse, insérer simplement le papier dans l'ouverture à l'avant de l'agrafeuse. Les documents sont agrafés automatiquement. Elle agrafera jusqu'à 12 feuilles de papier de 80 g / m².</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th>Description</th>
+<th>En image</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Comment dégager les blocages : Au cas où votre agrafeuse se bloquerait, appuyez sur le bouton au-dessus du système pour dégager le canal à agrafes. Tirez le canal vers l'avant et enlevez les agrafes qui posent problème. Repoussez le canal à agrafe jusqu'au déclic de mise en place. <br/> <br/> Comment éviter les blocages : N'essayer pas d'agrafer plus de 12 feuilles de papier de 80 g/m². Assurez-vous que l'agrafeuse termine son cycle avant de retirer le papier de la tête de l'agrafeuse. Utilisez des piles alcalines de qualité.</td>
+<td><img alt="Fonctionnement agrafeuse Rexel2" src="../img/acv_agrapheuse_rexel_fonctionnement2.png" width="100%" /></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h4 id="chaine-denergie">Chaîne d'énergie</h4>
+<p><img alt="Chaîne d'énergie Rexel" src="../img/acv_agrapheuse_rexel_C-NRJ.png" width="100%" /></p>
+<hr />
+<h4 id="alimener-en-energie">Alimener en énergie</h4>
+<p><img alt="Alimenté en énergie Rexel" src="../img/acv_agrapheuse_rexel_alim.png" width="100%" /></p>
+<hr />
+<h4 id="caracteristiques-moteur">Caractéristiques moteur</h4>
+<p><img alt="Caractéristique moteur Rexel1" src="../img/acv_agrapheuse_rexel_carac_mot1.png" width="100%" />
+<center><img alt="Caractéristique moteur Rexel2" src="../img/acv_agrapheuse_rexel_carac_mot2.png" width="50%" /></center></p>
+</details>
+</div>
+<h4 id="question-1"><ins>Question 1 :</ins></h4>
+<p><strong>Déterminer</strong> l'unité fonctionnelle pour chaque agrafeuse (compte tenu de la durée de vie propre à chaque agrafeuse), autrement dit le nombre d'agrafeuses nécessaires au cours d'une carrière.</p>
+<p><strong>UF = « agrafer des feuilles deux fois par jour, 5 jours par semaine, 42 semaines par an pendant 42 ans »</strong></p>
+<h2 id="probleme-technique"><strong><a href="../acv_agrafeuses_pb-tech/">PROBLEME TECHNIQUE</a></strong></h2>
+<h2 id="impacts-environnementaux-de-lagrafeuse-green-emma"><strong><a href="../acv_agrafeuses_impacts-greenemma/">IMPACTS ENVIRONNEMENTAUX DE L'AGRAFEUSE GREEN-EMMA</a></strong></h2>
+<h2 id="preparation-etude-skrebbae"><strong><a href="../acv_agrafeuses_skrebba/">PRÉPARATION ÉTUDE SKREBBAE</a></strong></h2>
+<h2 id="impacts-environnementaux-de-lagrafeuse-skrebba"><strong><a href="../acv_agrafeuses_impacts-skrebba/">IMPACTS ENVIRONNEMENTAUX DE L'AGRAFEUSE SKREBBA</a></strong></h2>
+<h2 id="green-emma-vs-skrebba"><strong><a href="../acv_agrafeuses_greenemma-vs-skrebba/">GREEN-EMMA VS SKREBBA</a></strong></h2>
+<h2 id="impacts-environnementaux-de-lagrafeuse-rexel"><strong><a href="../acv_agrafeuses_impacts-rexel/">IMPACTS ENVIRONNEMENTAUX DE L'AGRAFEUSE REXEL</a></strong></h2>
+<h2 id="comparaison-des-impacts-des-4-agrafeuses"><strong><a href="../acv_agrafeuses_vs-4-agrafeuses/">COMPARAISON DES IMPACTS DES 4 AGRAFEUSES</a></strong></h2>
+<h2 id="reconception-green-emma"><strong><a href="../acv_agrafeuses_reconception/">RECONCEPTION GREEN-EMMA</a></strong></h2>
+<h2 id="validation-de-la-reconception"><strong><a href="../acv_agrafeuses_valid-reconcept/">VALIDATION DE LA RECONCEPTION</a></strong></h2>
+<div class="footnote">
+<hr />
+<ol>
+<li id="fn:nbp">
+<p><a href="https://turgotlimoges.scenari-community.org/Ensil/01_ingenierie_analyse_systeme/TP_EcoConcAgrafeuse/co/module_TP_EcoConcAgrafeuse_v2_1.html">Source de l'activité</a>&#160;<a class="footnote-backref" href="#fnref:nbp" title="Jump back to footnote 1 in the text">&#8617;</a></p>
+</li>
+</ol>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Retour en haut de la page
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023 <a href="" target="_blank" rel="noopener">Christopher CHAMAND</a>
+    </div>
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="https://github.com/cr0wth/" target="_blank" rel="noopener" title="github.com" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 512"><!--! Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2024 Fonticons, Inc.--><path d="M186.1 328.7c0 20.9-10.9 55.1-36.7 55.1s-36.7-34.2-36.7-55.1 10.9-55.1 36.7-55.1 36.7 34.2 36.7 55.1M480 278.2c0 31.9-3.2 65.7-17.5 95-37.9 76.6-142.1 74.8-216.7 74.8-75.8 0-186.2 2.7-225.6-74.8-14.6-29-20.2-63.1-20.2-95 0-41.9 13.9-81.5 41.5-113.6-5.2-15.8-7.7-32.4-7.7-48.8 0-21.5 4.9-32.3 14.6-51.8 45.3 0 74.3 9 108.8 36 29-6.9 58.8-10 88.7-10 27 0 54.2 2.9 80.4 9.2 34-26.7 63-35.2 107.8-35.2 9.8 19.5 14.6 30.3 14.6 51.8 0 16.4-2.6 32.7-7.7 48.2 27.5 32.4 39 72.3 39 114.2m-64.3 50.5c0-43.9-26.7-82.6-73.5-82.6-18.9 0-37 3.4-56 6-14.9 2.3-29.8 3.2-45.1 3.2-15.2 0-30.1-.9-45.1-3.2-18.7-2.6-37-6-56-6-46.8 0-73.5 38.7-73.5 82.6 0 87.8 80.4 101.3 150.4 101.3h48.2c70.3 0 150.6-13.4 150.6-101.3m-82.6-55.1c-25.8 0-36.7 34.2-36.7 55.1s10.9 55.1 36.7 55.1 36.7-34.2 36.7-55.1-10.9-55.1-36.7-55.1"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.tabs", "navigation.tabs.sticky", "navigation.top", "navigation.path", "navigation.indexes", "search.suggest", "search.highlight", "search.share", "content.tabs.link", "content.code.annotation", "content.code.copy", "content.code.annotate"], "search": "../../../../../assets/javascripts/workers/search.f8cc74c7.min.js", "tags": null, "translations": {"clipboard.copied": "Copi\u00e9 dans le presse-papier", "clipboard.copy": "Copier dans le presse-papier", "search.result.more.one": "1 de plus sur cette page", "search.result.more.other": "# de plus sur cette page", "search.result.none": "Aucun document trouv\u00e9", "search.result.one": "1 document trouv\u00e9", "search.result.other": "# documents trouv\u00e9s", "search.result.placeholder": "Taper pour d\u00e9marrer la recherche", "search.result.term.missing": "Non trouv\u00e9", "select.version": "S\u00e9lectionner la version"}, "version": null}</script>
+    
+    
+      <script src="../../../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      
+        <script src="../../../../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+        <script src="../../../../../javascripts/katex.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js"></script>
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js"></script>
+      
+    
+  </body>
+</html>
