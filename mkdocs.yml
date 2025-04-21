@@ -53,7 +53,7 @@ nav:
       - "Programmation" : 
         - "Initiation" : SNT/web/initiation_html.md
         - "Activité 1" : SNT/web/html_act1.md
-        - "Activité 1" : SNT/web/html_act2.md
+        - "Activité 2" : SNT/web/html_act2.md
     #- "Chapitre 4 : Réseaux Sociaux" : SNT/internet/index_internet.md
     #- "Chapitre 5 : Données structurées" : SNT/internet/index_internet.md
     #- "Chapitre 6 : Localisation, Cartographie et mobilité" : SNT/internet/index_internet.md
