@@ -1,8 +1,5 @@
 # Le WEB - Activité 2
 
-A venir ...
-
-tt
 ## Exercice 2 :
 [TD2 - Introduction aux feuille de style avec CSS](./ressources/Act2-feuille-de-style-CSS.pdf){:target="_blank"}   
 
