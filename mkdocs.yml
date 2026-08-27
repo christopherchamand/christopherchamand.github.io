@@ -9,9 +9,9 @@ nav:
     - index.md
 - "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; STI2D":
     - "Présentation" : STI2D/index_sti2d.md
-    - "Les formules" : STI2D/formules/les_formules.md 
+    - "Les formules" : STI2D/formules/les_formules.md
     - "Première" :
-      - "I2D" : 
+      - "I2D" :
         - "Présentation" : STI2D/I2D/index_i2d.md
         - "Séquence 0 : Découverte du Développement Durable" : STI2D/I2D/Seq0/i2d_seq0.md
         - "Séquence 1 : Ingénierie système" : STI2D/I2D/Seq1/i2d_seq1.md
@@ -22,10 +22,12 @@ nav:
         - "Séquence 6 : Notion d'architecture et construction" : STI2D/I2D/Seq6/i2d_seq6.md
         - "Séquence 7 : Programmation web" : STI2D/I2D/Seq7/i2d_seq7.md
       #- "IT à venir..." : ..#
-    #- "Terminale" :
       #- "2I2D à venir..." : ..#
     - "ENS. SPÉCIFIQUE" :
-      - "AC" : 
+      - "SIN" :
+        - "Présentation" : STI2D/SIN/index_sin.md
+        - "Séquence 1 : Anatomie d'un produit communicant" : STI2D/SIN/Seq1/sin_seq1.md
+      - "AC" :
         - "Présentation" : STI2D/AC/index_ac.md
         - "Séquence 0: Découverte" : STI2D/AC/Seq0/ac_seq0.md
         - "Séquence 1: La descente de charges" : STI2D/AC/Seq1/ac_seq1.md
@@ -33,33 +35,34 @@ nav:
         - "Séquence 3: Modélisation des systèmes" : STI2D/AC/Seq3/ac_seq3.md
         - "Séquence 4: Confort thermique" : STI2D/AC/Seq4/ac_seq4.md
         - "Séquence 5: Confort acoustique" : STI2D/AC/Seq5/ac_seq5.md
-- "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT" : 
+- "<img src='https://christopherchamand.github.io/icones/list-unordered-16.svg' width=16px height=16px>&thinsp; SNT" :
     - "Présentation" : SNT/index_snt.md
-    - "Chapitre 1 : Python" : 
+    - "Chapitre 1 : Python" :
       - "Objectifs" : SNT/python/index_python.md
       - "Initiation à Python" : SNT/python/initiation_python.md
       - "Pour aller plus loin" : SNT/python/aller_plus_loin.md
-    - "Chapitre 2 : Internet" : 
+    - "Chapitre 2 : Internet" :
       - "Objectifs" : SNT/internet/index_internet.md
       - "Les réseaux physiques" : SNT/internet/reseaux_physique.md
-      - "Le protocole TPC/IP" : 
+      - "Le protocole TPC/IP" :
         - "Cours" : SNT/internet/protocole_tcpip.md
         - "Exercices 1 (QCM)" : SNT/internet/protocole_tpcip_QCM.md
-      - "Le routage" : 
+      - "Le routage" :
         - "Activité 1" : SNT/internet/routage.md
         - "Activité 2 (jouons au routage)" : SNT/internet/jeu_du_routage.md
-    - "Chapitre 3 : WEB" : 
+    - "Chapitre 3 : WEB" :
       - "Découverte" : SNT/web/decouverte.md
-      - "Programmation" : 
+      - "Programmation" :
         - "Initiation" : SNT/web/initiation_html.md
         - "Activité 1" : SNT/web/html_act1.md
+        - "Activité 1_v2" : SNT/web/html_act1_v2.md
         - "Activité 2" : SNT/web/html_act2.md
     #- "Chapitre 4 : Réseaux Sociaux" : SNT/internet/index_internet.md
     #- "Chapitre 5 : Données structurées" : SNT/internet/index_internet.md
     #- "Chapitre 6 : Localisation, Cartographie et mobilité" : SNT/internet/index_internet.md
     #- "Chapitre 7 : Systèmes embarqués" : SNT/internet/index_internet.md
     #- "Chapitre 8 : Photographie numérique" : SNT/internet/index_internet.md
-    
+
 
     #- "ETLV 1ère" : STI2D/ETLV/index_ETLV-P.md
     #- "ETLV Tle" : STI2D/ETLV/index_ETLV-T.md
@@ -75,7 +78,7 @@ theme:
     #logo: fontawesome/brands/mandalorian
     #logo: fontawesome/solid/dragon
   font: false
-  
+
   name: material
   language: fr
 
@@ -98,11 +101,11 @@ theme:
       - search.suggest
       - search.highlight
       - search.share
-      
+
       - content.tabs.link
       - content.code.annotation
       - content.code.copy
-      - content.code.annotate 
+      - content.code.annotate
 
   palette:
     - scheme: default
@@ -121,7 +124,7 @@ theme:
 extra:
   # consent:
   #   title: Cookie consent
-  #   description: >- 
+  #   description: >-
   #     We use cookies to recognize your repeated visits and preferences, as well
   #     as to measure the effectiveness of our documentation and whether users
   #     find what they're searching for. With your consent, you're helping us to
@@ -214,8 +217,8 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
-  - javascripts/katex.js 
-  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js  
+  - javascripts/katex.js
+  - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/katex.min.js
   - https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.16.7/contrib/auto-render.min.js
 
 extra_css:
@@ -223,4 +226,4 @@ extra_css:
   - stylesheets/extra.css
 
 copyright: |
-  &copy; 2023 <a href="" target="_blank" rel="noopener">Christopher CHAMAND</a>
+  &copy; 2023-2026 <a href="" target="_blank" rel="noopener">Christopher CHAMAND</a>

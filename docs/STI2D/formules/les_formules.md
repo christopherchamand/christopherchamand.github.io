@@ -9,7 +9,18 @@ En STI2D option AC (Architecture et Construction), il est important de maîtrise
 
 ## ^^Calcul du périmètre^^
 
-... A venir ...
+### Périmètre d'un **rectangle** :   
+| Formule | 
+| -- |
+| $P = 2 \times (longueur + largeur)$ |
+### Périmètre d'un **triangle** :   
+| Formule | 
+| -- |
+| $P = a + b + c$ |
+### Périmètre d'un **cercle** (circonférence) :   
+| Formule | 
+| -- |
+| $P = 2 \times \pi \times rayon$ |
 
 ## ^^Calcul de l'aire^^
 
