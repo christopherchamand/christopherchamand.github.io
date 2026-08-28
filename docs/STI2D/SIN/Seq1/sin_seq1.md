@@ -12,3 +12,9 @@
     | Annexe 5 — Portail solaire | [Télécharger](./Annexes/SEQ1_TD_annexe_5_portail_solaire.docx){:target="_blank" } |
     | Annexe 6 — Portail Arduino | [Télécharger](./Annexes/SEQ1_TD_annexe_6_portail_arduino.docx){:target="_blank" } |
     | Annexe 7 — Mini-serre | [Télécharger](./Annexes/SEQ1_TD_annexe_7_mini_serre.docx){:target="_blank" } |
+
+???+ abstract "TP : CONCEPTION D'UN RADIER"
+
+    | Document | Lien |
+    | -- | -- |
+    | Dossier élève | [Télécharger](./SEQ1_TP_conception_radier_dossier_eleve.docx){:target="_blank" } |
